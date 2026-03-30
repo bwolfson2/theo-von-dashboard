@@ -305,7 +305,7 @@
       <div class="section-header">
         <div class="section-num">8</div>
         <div><div class="section-title">Deep Analytics</div>
-        <div class="section-desc">Political spectrum, NLP insights, topic evolution, and guest demographics</div></div>
+        <div class="section-desc">Political spectrum, topic evolution, and guest demographics<br><span style="font-size:11px;color:var(--muted);font-style:italic">Note: Political analysis based on 104 classified political/public-figure episodes out of 535 total.</span></div></div>
       </div>
 
       <!-- Row 1: Political Spectrum + Episode Types -->
@@ -332,23 +332,11 @@
         </div>
       </div>
 
-      <!-- Row 3: Topics + Controversy -->
+      <!-- Row 3: Topics + Cross-partisan -->
       <div class="chart-grid">
         <div class="chart-card">
           <div class="chart-title">Topic Frequency</div>
           <div class="chart-wrap" style="height:340px"><canvas id="topicFreqChart"></canvas></div>
-        </div>
-        <div class="chart-card">
-          <div class="chart-title">Topic Controversy Index</div>
-          <div class="chart-wrap" style="height:340px"><canvas id="topicControChart"></canvas></div>
-        </div>
-      </div>
-
-      <!-- Row 4: Duration by Political Lean + Cross-partisan -->
-      <div class="chart-grid">
-        <div class="chart-card">
-          <div class="chart-title">Avg Duration by Political Lean (minutes)</div>
-          <div class="chart-wrap"><canvas id="durByLeanChart"></canvas></div>
         </div>
         <div class="chart-card">
           <div class="chart-title">Cross-Partisan Balance</div>
@@ -367,45 +355,22 @@
         </div>
       </div>
 
-      <!-- NLP Section Header -->
-      <div class="section-header" style="margin-top:32px;">
-        <div class="section-num">N</div>
-        <div><div class="section-title">NLP Insights</div>
-        <div class="section-desc">Sentiment, vocabulary, speaking pace, and linguistic patterns from 293K speaker segments</div></div>
-      </div>
-
-      <!-- Row 5: Sentiment Trend + Vocabulary -->
-      <div class="chart-grid">
-        <div class="chart-card full">
-          <div class="chart-title">Sentiment Trend (positive - negative tone per 1K words)</div>
-          <div class="chart-wrap"><canvas id="sentimentChart"></canvas></div>
-        </div>
-        <div class="chart-card">
-          <div class="chart-title">Vocabulary Richness Over Time (Guiraud Index)</div>
-          <div class="chart-wrap"><canvas id="vocabChart"></canvas></div>
-        </div>
-        <div class="chart-card">
-          <div class="chart-title">Speaking Pace: Theo vs Guests (WPM)</div>
-          <div class="chart-wrap"><canvas id="paceChart"></canvas></div>
-        </div>
-      </div>
-
-      <!-- Row 6: Top Phrases + Topic Evolution -->
-      <div class="chart-grid">
-        <div class="chart-card">
-          <div class="chart-title">Theo's Top Phrases</div>
-          <div id="phraseBars" style="max-height:360px;overflow-y:auto;"></div>
-        </div>
-        <div class="chart-card">
-          <div class="chart-title">Theo's Most Used Words</div>
-          <div id="wordBars" style="max-height:360px;overflow-y:auto;"></div>
-        </div>
-      </div>
-
       <!-- Topic Evolution Heatmap -->
       <div class="chart-card full" style="margin-bottom:16px;">
         <div class="chart-title">Topic Evolution Heatmap by Year</div>
         <div id="topicHeatmap" style="overflow-x:auto;"></div>
+      </div>
+
+      <!-- Viewership by Topic Over Time -->
+      <div class="chart-card full" style="margin-bottom:16px;">
+        <div class="chart-title">Episodes by Topic Over Time</div>
+        <div class="chart-wrap" style="height:400px"><canvas id="topicOverTimeChart"></canvas></div>
+      </div>
+
+      <!-- Top 5 Guests by Category -->
+      <div class="chart-card full" style="margin-bottom:16px;">
+        <div class="chart-title">Top 5 Guests by Category</div>
+        <div id="guestsByCat" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px;"></div>
       </div>
 
     </div>
@@ -629,7 +594,7 @@ function render(D, A, AN, NLP) {
 }
 
 function renderDeepAnalytics(AN, NLP) {
-  const polColors = { "far-left": "#dc2626", "left": "#f87171", "center-left": "#fb923c", "center": "#a3a3a3", "center-right": "#60a5fa", "right": "#3b82f6", "far-right": "#1d4ed8", "unclassified": "#374151" };
+  const polColors = { "far-left": "#1d4ed8", "left": "#3b82f6", "center-left": "#60a5fa", "center": "#a3a3a3", "center-right": "#fb923c", "right": "#f87171", "far-right": "#dc2626", "unclassified": "#374151" };
 
   // Political Spectrum Distribution
   const polDist = AN.politicalSpectrum.distribution;
@@ -661,9 +626,9 @@ function renderDeepAnalytics(AN, NLP) {
     data: {
       labels: timeline.map(t => t.year),
       datasets: [
-        { label: "Left", data: timeline.map(t => t.left), backgroundColor: "#f87171", stack: "s" },
+        { label: "Left", data: timeline.map(t => t.left), backgroundColor: "#3b82f6", stack: "s" },
         { label: "Center", data: timeline.map(t => t.center), backgroundColor: "#a3a3a3", stack: "s" },
-        { label: "Right", data: timeline.map(t => t.right), backgroundColor: "#60a5fa", stack: "s" },
+        { label: "Right", data: timeline.map(t => t.right), backgroundColor: "#f87171", stack: "s" },
       ]
     },
     options: { responsive: true, maintainAspectRatio: false, scales: { x: { stacked: true }, y: { stacked: true, beginAtZero: true } }, plugins: { legend: { position: "top", labels: { font: { size: 11 } } } } }
@@ -692,42 +657,13 @@ function renderDeepAnalytics(AN, NLP) {
     options: { responsive: true, maintainAspectRatio: false, indexAxis: "y", plugins: { legend: { display: false } }, scales: { x: { beginAtZero: true } } }
   });
 
-  // Topic Controversy Index
-  const contro = AN.topics.controversyIndex.slice(0, 12);
-  new Chart(document.getElementById("topicControChart"), {
-    type: "bar",
-    data: {
-      labels: contro.map(c => c.topic),
-      datasets: [
-        { label: "Avg Edge Score", data: contro.map(c => c.avgEdge), backgroundColor: "#ef4444", borderRadius: 4, yAxisID: "y" },
-        { label: "Episodes", data: contro.map(c => c.count), backgroundColor: "rgba(99,102,241,0.4)", borderRadius: 4, yAxisID: "y1" },
-      ]
-    },
-    options: {
-      responsive: true, maintainAspectRatio: false, indexAxis: "y",
-      plugins: { legend: { position: "top", labels: { font: { size: 10 } } } },
-      scales: { y: { display: true }, y1: { display: false }, x: { beginAtZero: true } }
-    }
-  });
-
-  // Duration by Political Lean
-  const durLean = AN.politicalSpectrum.avgDurationByLean;
-  new Chart(document.getElementById("durByLeanChart"), {
-    type: "bar",
-    data: {
-      labels: ["Left", "Center", "Right", "Unclassified"],
-      datasets: [{ data: [durLean.left, durLean.center, durLean.right, durLean.unclassified], backgroundColor: ["#f87171","#a3a3a3","#60a5fa","#374151"], borderRadius: 6 }]
-    },
-    options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { y: { beginAtZero: true } } }
-  });
-
   // Cross-Partisan Balance
   const crossP = AN.politicalSpectrum.crossPartisan;
   new Chart(document.getElementById("crossPartisanChart"), {
     type: "bar",
     data: {
       labels: ["Left-leaning Guests", "Right-leaning Guests"],
-      datasets: [{ data: [crossP.leftGuests.length, crossP.rightGuests.length], backgroundColor: ["#f87171","#60a5fa"], borderRadius: 6 }]
+      datasets: [{ data: [crossP.leftGuests.length, crossP.rightGuests.length], backgroundColor: ["#3b82f6","#f87171"], borderRadius: 6 }]
     },
     options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { y: { beginAtZero: true } } }
   });
@@ -735,80 +671,12 @@ function renderDeepAnalytics(AN, NLP) {
   // Notable Political Episodes Table
   const polEps = AN.politicalSpectrum.notableEpisodes;
   const leanBadge = (lean, score) => {
-    const bg = score < 0 ? "rgba(248,113,113,0.15)" : score > 0 ? "rgba(96,165,250,0.15)" : "rgba(163,163,163,0.15)";
-    const fg = score < 0 ? "#f87171" : score > 0 ? "#60a5fa" : "#a3a3a3";
+    const bg = score < 0 ? "rgba(59,130,246,0.15)" : score > 0 ? "rgba(248,113,113,0.15)" : "rgba(163,163,163,0.15)";
+    const fg = score < 0 ? "#3b82f6" : score > 0 ? "#f87171" : "#a3a3a3";
     return `<span style="padding:2px 8px;border-radius:4px;font-size:11px;font-weight:600;background:${bg};color:${fg}">${lean}</span>`;
   };
   document.getElementById("polEpBody").innerHTML = polEps.map(ep =>
     `<tr><td><strong>${ep.guest}</strong></td><td style="white-space:nowrap">${ep.date || "\u2014"}</td><td>${leanBadge(ep.lean, ep.score)}</td><td>${ep.score > 0 ? "+" : ""}${ep.score}</td><td>${ep.category}</td><td>${ep.duration}m</td><td style="font-size:11px;color:var(--muted)">${(ep.topics || []).join(", ")}</td></tr>`
-  ).join("");
-
-  // === NLP CHARTS ===
-
-  // Sentiment Trend
-  const sent = NLP.sentimentTrend;
-  new Chart(document.getElementById("sentimentChart"), {
-    type: "line",
-    data: {
-      labels: sent.map(s => s.month),
-      datasets: [{
-        data: sent.map(s => s.avgSentiment),
-        borderColor: "#22c55e",
-        backgroundColor: "rgba(34,197,94,0.15)",
-        fill: true, tension: 0.4, pointRadius: 2, borderWidth: 2
-      }]
-    },
-    options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { x: { ticks: { maxTicksLimit: 20 } }, y: { title: { display: true, text: "Net sentiment / 1K words" } } } }
-  });
-
-  // Vocabulary Richness
-  const vocab = NLP.vocabTrend;
-  new Chart(document.getElementById("vocabChart"), {
-    type: "line",
-    data: {
-      labels: vocab.map(v => v.month),
-      datasets: [{
-        data: vocab.map(v => v.avgRichness),
-        borderColor: "#8b5cf6",
-        backgroundColor: "rgba(139,92,246,0.15)",
-        fill: true, tension: 0.4, pointRadius: 2, borderWidth: 2
-      }]
-    },
-    options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { x: { ticks: { maxTicksLimit: 16 } } } }
-  });
-
-  // Speaking Pace: Theo vs Guests
-  const pace = NLP.paceTrend;
-  const gPace = NLP.guestPaceTrend;
-  // Align months
-  const allPaceMonths = [...new Set([...pace.map(p => p.month), ...gPace.map(p => p.month)])].sort();
-  const paceMap = Object.fromEntries(pace.map(p => [p.month, p.avgWPM]));
-  const gPaceMap = Object.fromEntries(gPace.map(p => [p.month, p.avgWPM]));
-  new Chart(document.getElementById("paceChart"), {
-    type: "line",
-    data: {
-      labels: allPaceMonths,
-      datasets: [
-        { label: "Theo WPM", data: allPaceMonths.map(m => paceMap[m] || null), borderColor: "#f59e0b", tension: 0.3, pointRadius: 2, borderWidth: 2, spanGaps: true },
-        { label: "Guest WPM", data: allPaceMonths.map(m => gPaceMap[m] || null), borderColor: "#6366f1", tension: 0.3, pointRadius: 2, borderWidth: 2, spanGaps: true },
-      ]
-    },
-    options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { position: "top", labels: { font: { size: 11 } } } }, scales: { x: { ticks: { maxTicksLimit: 16 } }, y: { title: { display: true, text: "Words per minute" } } } }
-  });
-
-  // Top Phrases (bar list)
-  const phrases = NLP.topNgrams.slice(0, 25);
-  const maxPhraseCount = phrases[0]?.count || 1;
-  const phrColors = ["#ec4899","#6366f1","#14b8a6","#f59e0b","#8b5cf6","#ef4444"];
-  document.getElementById("phraseBars").innerHTML = phrases.map((p, i) =>
-    `<div class="bar-row"><div class="bar-label">"${p.phrase}"</div><div style="flex:1"><div class="bar-fill" style="width:${(p.count/maxPhraseCount*100).toFixed(1)}%;background:${phrColors[i%6]}"></div></div><div class="bar-val">${p.count.toLocaleString()}x</div></div>`
-  ).join("");
-
-  // Top Words
-  const words = NLP.topWords.slice(0, 25);
-  const maxWordCount = words[0]?.count || 1;
-  document.getElementById("wordBars").innerHTML = words.map((w, i) =>
-    `<div class="bar-row"><div class="bar-label">${w.word}</div><div style="flex:1"><div class="bar-fill" style="width:${(w.count/maxWordCount*100).toFixed(1)}%;background:${phrColors[(i+2)%6]}"></div></div><div class="bar-val">${w.count.toLocaleString()}x</div></div>`
   ).join("");
 
   // Topic Evolution Heatmap
@@ -846,6 +714,73 @@ function renderDeepAnalytics(AN, NLP) {
   }
   heatHtml += `</tbody></table>`;
   document.getElementById("topicHeatmap").innerHTML = heatHtml;
+
+  // === Episodes by Topic Over Time (line chart) ===
+  // Build topic counts per year from analytics episodes
+  const topicByYear = {};
+  const allTopicNames = new Set();
+  for (const ep of AN.episodes) {
+    const yr = ep.published ? ep.published.slice(0, 4) : null;
+    if (!yr) continue;
+    if (!topicByYear[yr]) topicByYear[yr] = {};
+    for (const t of (ep.topics || [])) {
+      allTopicNames.add(t);
+      topicByYear[yr][t] = (topicByYear[yr][t] || 0) + 1;
+    }
+  }
+  const tYears = Object.keys(topicByYear).sort();
+  // Pick top 8 topics by total count
+  const topicTotals = {};
+  for (const t of allTopicNames) {
+    topicTotals[t] = tYears.reduce((s, y) => s + (topicByYear[y]?.[t] || 0), 0);
+  }
+  const top8Topics = Object.entries(topicTotals).sort((a,b) => b[1]-a[1]).slice(0,8).map(e => e[0]);
+  const topicLineColors = ["#6366f1","#ec4899","#14b8a6","#f59e0b","#8b5cf6","#22c55e","#ef4444","#06b6d4"];
+  new Chart(document.getElementById("topicOverTimeChart"), {
+    type: "line",
+    data: {
+      labels: tYears,
+      datasets: top8Topics.map((t, i) => ({
+        label: t,
+        data: tYears.map(y => topicByYear[y]?.[t] || 0),
+        borderColor: topicLineColors[i],
+        backgroundColor: topicLineColors[i] + "22",
+        tension: 0.3, pointRadius: 3, borderWidth: 2, fill: false
+      }))
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: { legend: { position: "bottom", labels: { font: { size: 11 }, usePointStyle: true, padding: 12 } } },
+      scales: { y: { beginAtZero: true, title: { display: true, text: "Episodes" } } }
+    }
+  });
+
+  // === Top 5 Guests by Category ===
+  const catGuests = {};
+  for (const ep of AN.episodes) {
+    const cat = ep.political?.category;
+    const guest = ep.guest;
+    if (!cat || !guest) continue;
+    if (!catGuests[cat]) catGuests[cat] = {};
+    if (!catGuests[cat][guest]) catGuests[cat][guest] = 0;
+    catGuests[cat][guest]++;
+  }
+  const catCardColors = { comedian: "#ec4899", politician: "#6366f1", media: "#14b8a6", athlete: "#f59e0b", actor: "#8b5cf6", health: "#22c55e", musician: "#ef4444", intellectual: "#06b6d4", military: "#a78bfa", tech: "#f43f5e", activist: "#fb923c", journalist: "#3b82f6", business: "#d946ef" };
+  let catHtml = "";
+  for (const [cat, guests] of Object.entries(catGuests).sort((a,b) => Object.keys(b[1]).length - Object.keys(a[1]).length)) {
+    const top5 = Object.entries(guests).sort((a,b) => b[1]-a[1]).slice(0,5);
+    if (top5.length === 0) continue;
+    const color = catCardColors[cat] || "#6366f1";
+    const capCat = cat.charAt(0).toUpperCase() + cat.slice(1);
+    catHtml += `<div style="background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:16px;">`;
+    catHtml += `<div style="font-weight:700;font-size:14px;margin-bottom:10px;color:${color}">${capCat} <span style="color:var(--muted);font-weight:400;font-size:12px">(${Object.keys(guests).length} guests)</span></div>`;
+    catHtml += `<ol style="margin:0;padding-left:20px;">`;
+    for (const [name, cnt] of top5) {
+      catHtml += `<li style="padding:3px 0;font-size:13px;"><strong>${name}</strong> <span style="color:var(--muted);font-size:11px">${cnt} ep${cnt > 1 ? "s" : ""}</span></li>`;
+    }
+    catHtml += `</ol></div>`;
+  }
+  document.getElementById("guestsByCat").innerHTML = catHtml;
 }
 </script>
 </body>
