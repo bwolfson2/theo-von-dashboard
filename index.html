@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>This Past Weekend — Theo Von Analytics</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+<style>
+  :root {
+    --bg: #0e1018; --surface: #181b28; --surface2: #1f2335; --border: #2d3148;
+    --text: #e8e8ed; --muted: #7c809a; --accent: #6366f1;
+    --accent2: #ec4899; --accent3: #14b8a6; --accent4: #f59e0b;
+    --red: #ef4444; --green: #22c55e;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+  .container { max-width: 1400px; margin: 0 auto; padding: 24px; }
+
+  /* Header */
+  .hero { text-align: center; padding: 48px 0 32px; border-bottom: 1px solid var(--border); margin-bottom: 40px; }
+  .hero h1 { font-size: 36px; font-weight: 800; background: linear-gradient(135deg, #6366f1, #ec4899, #f59e0b); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+  .hero .subtitle { color: var(--muted); font-size: 15px; margin-top: 8px; }
+  .hero .big-picture { max-width: 800px; margin: 20px auto 0; padding: 16px 24px; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; font-size: 14px; color: var(--muted); line-height: 1.7; font-style: italic; }
+
+  /* Stats */
+  .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px; margin-bottom: 40px; }
+  .stat-card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 16px 20px; text-align: center; }
+  .stat-value { font-size: 28px; font-weight: 800; }
+  .stat-label { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.8px; margin-top: 2px; }
+
+  /* Section headers */
+  .section { margin-bottom: 48px; }
+  .section-header { display: flex; align-items: center; gap: 12px; margin-bottom: 20px; padding-bottom: 12px; border-bottom: 1px solid var(--border); }
+  .section-num { width: 32px; height: 32px; border-radius: 50%; background: var(--accent); color: white; display: flex; align-items: center; justify-content: center; font-size: 14px; font-weight: 700; flex-shrink: 0; }
+  .section-title { font-size: 22px; font-weight: 700; }
+  .section-desc { color: var(--muted); font-size: 13px; }
+
+  /* Takeaway cards */
+  .takeaway-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(380px, 1fr)); gap: 16px; }
+  .takeaway-card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 20px 24px; transition: border-color 0.2s; }
+  .takeaway-card:hover { border-color: var(--accent); }
+  .takeaway-num { display: inline-flex; align-items: center; justify-content: center; width: 24px; height: 24px; border-radius: 6px; background: var(--accent); color: white; font-size: 12px; font-weight: 700; margin-bottom: 8px; }
+  .takeaway-card h3 { font-size: 15px; font-weight: 600; margin-bottom: 6px; }
+  .takeaway-card p { font-size: 13px; color: var(--muted); line-height: 1.6; }
+
+  /* Theme allocation */
+  .theme-layout { display: grid; grid-template-columns: 400px 1fr; gap: 24px; align-items: start; }
+  .theme-chart-wrap { position: relative; height: 400px; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 20px; }
+  .theme-bars { display: flex; flex-direction: column; gap: 6px; }
+  .theme-bar-row { display: flex; align-items: center; gap: 10px; padding: 8px 12px; background: var(--surface); border: 1px solid var(--border); border-radius: 8px; cursor: pointer; transition: all 0.2s; }
+  .theme-bar-row:hover, .theme-bar-row.active { border-color: var(--accent); background: var(--surface2); }
+  .theme-emoji { font-size: 18px; width: 28px; text-align: center; flex-shrink: 0; }
+  .theme-name { font-size: 13px; font-weight: 500; flex: 1; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .theme-pct { font-size: 13px; font-weight: 700; min-width: 36px; text-align: right; }
+  .theme-fill { height: 4px; border-radius: 2px; flex-shrink: 0; }
+
+  /* Theme detail panel */
+  .theme-detail { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 24px; display: none; }
+  .theme-detail.active { display: block; }
+  .theme-detail h3 { font-size: 18px; font-weight: 700; margin-bottom: 4px; }
+  .theme-detail .pct-badge { display: inline-block; padding: 2px 10px; border-radius: 999px; font-size: 12px; font-weight: 700; color: white; margin-bottom: 16px; }
+  .quote-card { background: var(--bg); border-radius: 8px; padding: 14px 18px; margin-bottom: 10px; border-left: 3px solid var(--accent); }
+  .quote-card .qt { font-size: 13px; font-style: italic; color: var(--text); line-height: 1.6; }
+  .quote-card .src { font-size: 11px; color: var(--muted); margin-top: 6px; }
+  .sponsor-section { margin-top: 16px; }
+  .sponsor-section h4 { font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; color: var(--muted); margin-bottom: 8px; }
+  .sponsor-tags { display: flex; flex-wrap: wrap; gap: 6px; }
+  .sponsor-tag { padding: 4px 10px; border-radius: 6px; font-size: 12px; font-weight: 500; }
+  .sponsor-tag.current { background: rgba(34, 197, 94, 0.15); color: #4ade80; border: 1px solid rgba(34, 197, 94, 0.3); }
+  .sponsor-tag.opportunity { background: rgba(245, 158, 11, 0.15); color: #fbbf24; border: 1px solid rgba(245, 158, 11, 0.3); }
+
+  /* Worldview */
+  .worldview-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 14px; }
+  .wv-card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 20px; transition: border-color 0.2s; }
+  .wv-card:hover { border-color: var(--accent); }
+  .wv-emoji { font-size: 28px; margin-bottom: 8px; }
+  .wv-card h3 { font-size: 15px; font-weight: 600; margin-bottom: 6px; }
+  .wv-card p { font-size: 13px; color: var(--muted); line-height: 1.5; margin-bottom: 10px; }
+  .wv-quote { font-size: 12px; font-style: italic; color: var(--text); opacity: 0.8; padding: 10px 12px; background: var(--bg); border-radius: 6px; border-left: 2px solid var(--accent); }
+  .wv-source { font-size: 11px; color: var(--muted); margin-top: 4px; }
+  .wv-badges { display: flex; gap: 6px; margin-top: 10px; }
+  .wv-badge { padding: 2px 8px; border-radius: 4px; font-size: 10px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; }
+  .wv-badge.edge-1 { background: rgba(34,197,94,0.15); color: #4ade80; }
+  .wv-badge.edge-2 { background: rgba(245,158,11,0.15); color: #fbbf24; }
+  .wv-badge.edge-3 { background: rgba(249,115,22,0.15); color: #fb923c; }
+  .wv-badge.edge-4 { background: rgba(239,68,68,0.15); color: #f87171; }
+  .wv-badge.edge-5 { background: rgba(239,68,68,0.25); color: #ef4444; }
+  .wv-badge.con-high { background: rgba(99,102,241,0.15); color: #818cf8; }
+  .wv-badge.con-growing { background: rgba(20,184,166,0.15); color: #2dd4bf; }
+  .wv-badge.con-fading { background: rgba(239,68,68,0.15); color: #f87171; }
+
+  /* Amplify */
+  .amplify-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(380px, 1fr)); gap: 14px; }
+  .amp-card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 20px; position: relative; overflow: hidden; }
+  .amp-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px; background: linear-gradient(90deg, var(--red), var(--accent4)); }
+  .amp-icon { font-size: 24px; margin-bottom: 8px; }
+  .amp-card h3 { font-size: 15px; font-weight: 600; margin-bottom: 4px; }
+  .amp-status { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 600; background: rgba(239,68,68,0.15); color: #f87171; margin-bottom: 8px; }
+  .amp-card p { font-size: 13px; color: var(--muted); line-height: 1.5; margin-bottom: 10px; }
+  .amp-action { font-size: 13px; color: var(--accent3); font-weight: 500; padding: 10px 14px; background: rgba(20,184,166,0.08); border-radius: 8px; border-left: 3px solid var(--accent3); }
+
+  /* Controversial */
+  .edge-list { display: flex; flex-direction: column; gap: 10px; }
+  .edge-item { display: flex; align-items: center; gap: 16px; padding: 14px 18px; background: var(--surface); border: 1px solid var(--border); border-radius: 10px; }
+  .edge-meter { display: flex; gap: 3px; flex-shrink: 0; }
+  .edge-dot { width: 10px; height: 10px; border-radius: 50%; background: var(--border); }
+  .edge-dot.filled { background: var(--red); }
+  .edge-topic { font-size: 14px; font-weight: 600; min-width: 280px; }
+  .edge-desc { font-size: 13px; color: var(--muted); }
+
+  /* Charts */
+  .chart-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 32px; }
+  .chart-card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 20px; }
+  .chart-card.full { grid-column: 1 / -1; }
+  .chart-title { font-size: 15px; font-weight: 600; margin-bottom: 14px; }
+  .chart-wrap { position: relative; height: 280px; }
+
+  /* Speaker bars */
+  .bar-row { display: flex; align-items: center; gap: 10px; margin-bottom: 5px; font-size: 13px; }
+  .bar-label { width: 180px; text-align: right; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; flex-shrink: 0; }
+  .bar-fill { height: 28px; border-radius: 4px; min-width: 4px; }
+  .bar-val { color: var(--muted); font-size: 12px; min-width: 180px; }
+
+  /* Episode table */
+  .episode-table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  .episode-table th { text-align: left; padding: 10px 12px; color: var(--muted); font-size: 11px; text-transform: uppercase; border-bottom: 1px solid var(--border); position: sticky; top: 0; background: var(--surface); }
+  .episode-table td { padding: 10px 12px; border-bottom: 1px solid var(--border); }
+  .episode-table tr:hover td { background: rgba(99, 102, 241, 0.05); }
+  .table-wrap { max-height: 500px; overflow-y: auto; }
+  .search-box { width: 100%; padding: 10px 14px; background: var(--bg); border: 1px solid var(--border); border-radius: 8px; color: var(--text); font-size: 14px; margin-bottom: 12px; outline: none; }
+  .search-box:focus { border-color: var(--accent); }
+
+  /* Nav tabs */
+  .nav-tabs { display: flex; gap: 4px; margin-bottom: 32px; padding: 4px; background: var(--surface); border-radius: 10px; border: 1px solid var(--border); overflow-x: auto; }
+  .nav-tab { padding: 8px 18px; border-radius: 8px; font-size: 13px; font-weight: 500; color: var(--muted); cursor: pointer; transition: all 0.2s; white-space: nowrap; border: none; background: none; }
+  .nav-tab:hover { color: var(--text); }
+  .nav-tab.active { background: var(--accent); color: white; }
+  .tab-content { display: none; }
+  .tab-content.active { display: block; }
+
+  @media (max-width: 900px) {
+    .chart-grid, .theme-layout { grid-template-columns: 1fr; }
+    .takeaway-grid, .amplify-grid, .worldview-grid { grid-template-columns: 1fr; }
+    .stats-grid { grid-template-columns: repeat(3, 1fr); }
+    .edge-item { flex-direction: column; align-items: flex-start; }
+    .edge-topic { min-width: 0; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <!-- Hero -->
+  <div class="hero">
+    <h1>This Past Weekend w/ Theo Von</h1>
+    <div class="subtitle">Podcast Intelligence Dashboard — <span id="ep-range"></span></div>
+    <div class="big-picture">
+      The show is in a strong position, and the opportunity is simply to layer back in some of the specificity and personal texture that made it special from the beginning — without changing what's already working.
+    </div>
+  </div>
+
+  <div class="stats-grid" id="stats"></div>
+
+  <!-- Navigation -->
+  <div class="nav-tabs" id="navTabs">
+    <button class="nav-tab active" data-tab="takeaways">Key Takeaways</button>
+    <button class="nav-tab" data-tab="themes">Theme Analysis</button>
+    <button class="nav-tab" data-tab="worldview">Worldview Pillars</button>
+    <button class="nav-tab" data-tab="amplify">Themes to Amplify</button>
+    <button class="nav-tab" data-tab="controversial">Controversy Map</button>
+    <button class="nav-tab" data-tab="data">Show Data</button>
+    <button class="nav-tab" data-tab="episodes">Episodes</button>
+  </div>
+
+  <!-- Tab: Takeaways -->
+  <div class="tab-content active" id="tab-takeaways">
+    <div class="section">
+      <div class="section-header">
+        <div class="section-num">1</div>
+        <div><div class="section-title">Key Takeaways for Theo</div>
+        <div class="section-desc">Strategic insights from 535 episodes and 898 hours of content</div></div>
+      </div>
+      <div class="takeaway-grid" id="takeawayGrid"></div>
+    </div>
+  </div>
+
+  <!-- Tab: Themes -->
+  <div class="tab-content" id="tab-themes">
+    <div class="section">
+      <div class="section-header">
+        <div class="section-num">2</div>
+        <div><div class="section-title">Theme Allocation</div>
+        <div class="section-desc">Top 15 themes by share of conversational real estate, with quotes & sponsor opportunities</div></div>
+      </div>
+      <div class="theme-layout">
+        <div>
+          <div class="theme-chart-wrap"><canvas id="themeDonut"></canvas></div>
+          <div class="theme-bars" id="themeBars" style="margin-top:16px;"></div>
+        </div>
+        <div id="themeDetails"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tab: Worldview -->
+  <div class="tab-content" id="tab-worldview">
+    <div class="section">
+      <div class="section-header">
+        <div class="section-num">3</div>
+        <div><div class="section-title">Theo Von's Worldview</div>
+        <div class="section-desc">Working-class Southern spiritual pragmatism — rooted in recovery, trauma, distrust of institutions, and genuine cross-partisan curiosity</div></div>
+      </div>
+      <div class="worldview-grid" id="worldviewGrid"></div>
+    </div>
+  </div>
+
+  <!-- Tab: Amplify -->
+  <div class="tab-content" id="tab-amplify">
+    <div class="section">
+      <div class="section-header">
+        <div class="section-num">4</div>
+        <div><div class="section-title">Themes to Amplify</div>
+        <div class="section-desc">Key areas that have faded — where going back to roots would strengthen the show</div></div>
+      </div>
+      <div class="amplify-grid" id="amplifyGrid"></div>
+    </div>
+  </div>
+
+  <!-- Tab: Controversial -->
+  <div class="tab-content" id="tab-controversial">
+    <div class="section">
+      <div class="section-header">
+        <div class="section-num">5</div>
+        <div><div class="section-title">Controversy & Edge Map</div>
+        <div class="section-desc">The most provocative positions and moments — and why they matter</div></div>
+      </div>
+      <div class="edge-list" id="edgeList"></div>
+    </div>
+  </div>
+
+  <!-- Tab: Data -->
+  <div class="tab-content" id="tab-data">
+    <div class="section">
+      <div class="section-header">
+        <div class="section-num">6</div>
+        <div><div class="section-title">Show Data</div>
+        <div class="section-desc">Episode frequency, duration trends, and speaker analytics from 535 episodes</div></div>
+      </div>
+      <div class="chart-grid">
+        <div class="chart-card full">
+          <div class="chart-title">Episodes per Month</div>
+          <div class="chart-wrap"><canvas id="epMonthChart"></canvas></div>
+        </div>
+        <div class="chart-card">
+          <div class="chart-title">Avg Duration by Month (minutes)</div>
+          <div class="chart-wrap"><canvas id="durChart"></canvas></div>
+        </div>
+        <div class="chart-card">
+          <div class="chart-title">Duration Distribution</div>
+          <div class="chart-wrap"><canvas id="durDistChart"></canvas></div>
+        </div>
+        <div class="chart-card">
+          <div class="chart-title">Episodes per Year</div>
+          <div class="chart-wrap"><canvas id="yearChart"></canvas></div>
+        </div>
+        <div class="chart-card">
+          <div class="chart-title">Theo's Speaking Share (% of words)</div>
+          <div class="chart-wrap"><canvas id="theoShareChart"></canvas></div>
+        </div>
+        <div class="chart-card full">
+          <div class="chart-title">Top Speakers by Total Words (excl. Theo)</div>
+          <div id="speakerBars" style="max-height:400px;overflow-y:auto;"></div>
+        </div>
+        <div class="chart-card full">
+          <div class="chart-title">Most Frequent Guests (by speaker diarization)</div>
+          <div id="guestBars" style="max-height:400px;overflow-y:auto;"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tab: Episodes -->
+  <div class="tab-content" id="tab-episodes">
+    <div class="section">
+      <div class="section-header">
+        <div class="section-num">7</div>
+        <div><div class="section-title">All Episodes</div>
+        <div class="section-desc">Searchable episode database with speaker attribution</div></div>
+      </div>
+      <div class="chart-card full">
+        <input type="text" class="search-box" id="search" placeholder="Search episodes by title or guest...">
+        <div class="table-wrap">
+          <table class="episode-table">
+            <thead><tr><th>#</th><th>Title</th><th>Date</th><th>Duration</th><th>Top Speaker</th></tr></thead>
+            <tbody id="epBody"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+// Tab navigation
+document.querySelectorAll('.nav-tab').forEach(tab => {
+  tab.addEventListener('click', () => {
+    document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
+    document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
+    tab.classList.add('active');
+    document.getElementById('tab-' + tab.dataset.tab).classList.add('active');
+  });
+});
+
+Promise.all([
+  fetch("data/dashboard.json").then(r => r.json()),
+  fetch("data/analysis.json").then(r => r.json())
+]).then(([D, A]) => render(D, A));
+
+function render(D, A) {
+  // Header
+  document.getElementById("ep-range").textContent = `${D.show.firstEpisode} to ${D.show.latestEpisode} \u00b7 ${D.show.totalEpisodes} episodes \u00b7 ${D.show.totalHours} hours`;
+
+  // Stats
+  const stats = [
+    { v: D.show.totalEpisodes, l: "Episodes", c: "#6366f1" },
+    { v: D.show.totalHours + "h", l: "Content", c: "#ec4899" },
+    { v: D.show.avgDurationMin + "m", l: "Avg Duration", c: "#14b8a6" },
+    { v: D.show.avgDaysBetween + "d", l: "Avg Gap", c: "#f59e0b" },
+    { v: A.themes.length, l: "Core Themes", c: "#8b5cf6" },
+    { v: A.worldview.length, l: "Worldview Pillars", c: "#22c55e" },
+    { v: Math.round(D.topSpeakers[0]?.words/1e6*10)/10 + "M", l: "Theo's Words", c: "#ef4444" },
+    { v: D.topSpeakers.filter(s => !s.name.includes("Theo") && !s.name.includes("Ad/")).length, l: "Unique Guests", c: "#06b6d4" },
+  ];
+  document.getElementById("stats").innerHTML = stats.map(s =>
+    `<div class="stat-card"><div class="stat-value" style="color:${s.c}">${s.v}</div><div class="stat-label">${s.l}</div></div>`
+  ).join("");
+
+  // Takeaways
+  document.getElementById("takeawayGrid").innerHTML = A.takeaways.map(t =>
+    `<div class="takeaway-card"><div class="takeaway-num">${t.id}</div><h3>${t.title}</h3><p>${t.summary}</p></div>`
+  ).join("");
+
+  // Theme donut
+  Chart.defaults.color = "#7c809a";
+  Chart.defaults.borderColor = "#252838";
+  Chart.defaults.font.family = "Inter, -apple-system, system-ui, sans-serif";
+  Chart.defaults.font.size = 11;
+
+  new Chart(document.getElementById("themeDonut"), {
+    type: "doughnut",
+    data: {
+      labels: A.themes.map(t => t.emoji + " " + t.name),
+      datasets: [{ data: A.themes.map(t => t.pct), backgroundColor: A.themes.map(t => t.color), borderWidth: 0 }]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      cutout: "55%",
+      plugins: { legend: { display: false } }
+    }
+  });
+
+  // Theme bars + detail panels
+  const detailsEl = document.getElementById("themeDetails");
+  const barsEl = document.getElementById("themeBars");
+
+  A.themes.forEach((t, i) => {
+    // Bar
+    const bar = document.createElement("div");
+    bar.className = "theme-bar-row" + (i === 0 ? " active" : "");
+    bar.innerHTML = `<span class="theme-emoji">${t.emoji}</span><span class="theme-name">${t.name}</span><div class="theme-fill" style="width:${t.pct * 3}px;background:${t.color}"></div><span class="theme-pct" style="color:${t.color}">${t.pct}%</span>`;
+    bar.onclick = () => {
+      document.querySelectorAll('.theme-bar-row').forEach(b => b.classList.remove('active'));
+      document.querySelectorAll('.theme-detail').forEach(d => d.classList.remove('active'));
+      bar.classList.add('active');
+      document.getElementById('td-' + i).classList.add('active');
+    };
+    barsEl.appendChild(bar);
+
+    // Detail panel
+    const panel = document.createElement("div");
+    panel.id = "td-" + i;
+    panel.className = "theme-detail" + (i === 0 ? " active" : "");
+    panel.innerHTML = `
+      <h3>${t.emoji} ${t.name}</h3>
+      <div class="pct-badge" style="background:${t.color}">${t.pct}% of show</div>
+      <div style="margin-bottom:16px;">
+        ${t.quotes.map(q => `<div class="quote-card"><div class="qt">"${q.text}"</div><div class="src">\u2014 ${q.ep}, ${q.ts}</div></div>`).join("")}
+      </div>
+      <div class="sponsor-section">
+        <h4>Current Sponsors</h4>
+        <div class="sponsor-tags">${t.sponsors_current.length ? t.sponsors_current.map(s => `<span class="sponsor-tag current">\u2713 ${s}</span>`).join("") : '<span style="color:var(--muted);font-size:12px;">None currently</span>'}</div>
+      </div>
+      <div class="sponsor-section" style="margin-top:12px;">
+        <h4>Sponsor Opportunities</h4>
+        <div class="sponsor-tags">${t.sponsors_opportunity.map(s => `<span class="sponsor-tag opportunity">\u2605 ${s}</span>`).join("")}</div>
+      </div>
+    `;
+    detailsEl.appendChild(panel);
+  });
+
+  // Worldview
+  const edgeLabels = ["","Low","Mild","Moderate","High","Very High"];
+  document.getElementById("worldviewGrid").innerHTML = A.worldview.map(w =>
+    `<div class="wv-card">
+      <div class="wv-emoji">${w.emoji}</div>
+      <h3>${w.pillar}</h3>
+      <p>${w.description}</p>
+      <div class="wv-quote">"${w.quote}"<div class="wv-source">\u2014 ${w.source}</div></div>
+      <div class="wv-badges">
+        <span class="wv-badge edge-${w.edginess}">Edge: ${edgeLabels[w.edginess]}</span>
+        <span class="wv-badge con-${w.consistency}">Trend: ${w.consistency}</span>
+      </div>
+    </div>`
+  ).join("");
+
+  // Amplify
+  document.getElementById("amplifyGrid").innerHTML = A.amplify.map(a =>
+    `<div class="amp-card">
+      <div class="amp-icon">${a.icon}</div>
+      <h3>${a.theme}</h3>
+      <div class="amp-status">${a.status}</div>
+      <p>${a.description}</p>
+      <div class="amp-action">${a.action}</div>
+    </div>`
+  ).join("");
+
+  // Controversial
+  document.getElementById("edgeList").innerHTML = A.controversial.map(c =>
+    `<div class="edge-item">
+      <div class="edge-meter">${[1,2,3,4,5].map(n => `<div class="edge-dot${n <= c.level ? ' filled' : ''}"></div>`).join("")}</div>
+      <div class="edge-topic">${c.topic}</div>
+      <div class="edge-desc">${c.description}</div>
+    </div>`
+  ).join("");
+
+  // === DATA CHARTS ===
+  // Episodes per month
+  new Chart(document.getElementById("epMonthChart"), {
+    type: "bar",
+    data: { labels: D.episodesByMonth.map(([m]) => m), datasets: [{ data: D.episodesByMonth.map(([,c]) => c), backgroundColor: "#6366f1", borderRadius: 3 }] },
+    options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { x: { ticks: { maxTicksLimit: 24, maxRotation: 45 } } } }
+  });
+
+  // Avg duration
+  new Chart(document.getElementById("durChart"), {
+    type: "line",
+    data: { labels: D.avgDurationByMonth.map(([m]) => m), datasets: [{ data: D.avgDurationByMonth.map(([,v]) => v), borderColor: "#14b8a6", backgroundColor: "rgba(20,184,166,0.25)", fill: true, tension: 0.3, pointRadius: 2, borderWidth: 2.5 }] },
+    options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { x: { ticks: { maxTicksLimit: 20 } } } }
+  });
+
+  // Duration distribution
+  const distColors = ["#6366f1", "#8b5cf6", "#ec4899", "#f43f5e", "#f59e0b", "#14b8a6"];
+  new Chart(document.getElementById("durDistChart"), {
+    type: "doughnut",
+    data: { labels: Object.keys(D.durationDistribution), datasets: [{ data: Object.values(D.durationDistribution), backgroundColor: distColors, borderWidth: 0 }] },
+    options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { position: "right" } } }
+  });
+
+  // Episodes per year
+  new Chart(document.getElementById("yearChart"), {
+    type: "bar",
+    data: { labels: D.episodesByYear.map(([y]) => y), datasets: [{ data: D.episodesByYear.map(([,c]) => c), backgroundColor: "#ec4899", borderRadius: 6 }] },
+    options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } } }
+  });
+
+  // Theo speaking share
+  const monthEps = {};
+  for (const ep of D.episodes) {
+    if (!ep.month || !ep.speakers) continue;
+    if (!monthEps[ep.month]) monthEps[ep.month] = { theo: 0, total: 0 };
+    for (const [spk, s] of Object.entries(ep.speakers)) {
+      monthEps[ep.month].total += s.words;
+      if (spk.includes("Theo")) monthEps[ep.month].theo += s.words;
+    }
+  }
+  const shareMonths = Object.entries(monthEps).sort((a,b) => a[0].localeCompare(b[0]));
+  new Chart(document.getElementById("theoShareChart"), {
+    type: "line",
+    data: { labels: shareMonths.map(([m]) => m), datasets: [{ data: shareMonths.map(([,v]) => v.total > 0 ? Math.round(v.theo/v.total*100) : 0), borderColor: "#f59e0b", backgroundColor: "rgba(245,158,11,0.25)", fill: true, tension: 0.3, pointRadius: 2, borderWidth: 2.5 }] },
+    options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { y: { min: 0, max: 100, ticks: { callback: v => v + "%" } }, x: { ticks: { maxTicksLimit: 20 } } } }
+  });
+
+  // Speaker bars
+  const speakers = D.topSpeakers.filter(s => !s.name.includes("Theo") && !s.name.includes("Ad/") && !s.name.includes("Promo"));
+  const maxWords = speakers[0]?.words || 1;
+  const barColors = ["#6366f1","#8b5cf6","#ec4899","#f43f5e","#f59e0b","#14b8a6"];
+  document.getElementById("speakerBars").innerHTML = speakers.slice(0, 30).map((s, i) =>
+    `<div class="bar-row"><div class="bar-label">${s.name}</div><div style="flex:1"><div class="bar-fill" style="width:${(s.words/maxWords*100).toFixed(1)}%;background:${barColors[i%6]}"></div></div><div class="bar-val">${(s.words/1000).toFixed(0)}K words \u00b7 ${s.episodes} ep${s.episodes>1?"s":""}</div></div>`
+  ).join("");
+
+  // Guest frequency bars
+  const guestSpeakers = D.topSpeakers.filter(s => !s.name.includes("Theo") && !s.name.includes("Ad/") && !s.name.includes("Promo") && !s.name.includes("Unknown") && s.episodes >= 2).sort((a,b) => b.episodes - a.episodes);
+  const maxEps = guestSpeakers[0]?.episodes || 1;
+  const gColors = ["#14b8a6","#6366f1","#ec4899","#f59e0b","#8b5cf6","#f43f5e"];
+  document.getElementById("guestBars").innerHTML = guestSpeakers.slice(0, 30).map((s, i) =>
+    `<div class="bar-row"><div class="bar-label">${s.name}</div><div style="flex:1"><div class="bar-fill" style="width:${(s.episodes/maxEps*100).toFixed(1)}%;background:${gColors[i%6]}"></div></div><div class="bar-val">${s.episodes} episodes \u00b7 ${(s.words/1000).toFixed(0)}K words</div></div>`
+  ).join("");
+
+  // Episode table
+  const tbody = document.getElementById("epBody");
+  function renderTable(filter = "") {
+    const f = filter.toLowerCase();
+    const filtered = f ? D.episodes.filter(e => e.title.toLowerCase().includes(f) || (e.guest||"").toLowerCase().includes(f)) : D.episodes;
+    tbody.innerHTML = filtered.slice(0, 200).map(ep => {
+      const topSpk = Object.entries(ep.speakers || {}).filter(([k]) => !k.includes("Theo") && !k.includes("Ad/")).sort((a,b) => b[1].words - a[1].words)[0];
+      return `<tr><td>${ep.id}</td><td><strong>${ep.title}</strong></td><td style="white-space:nowrap">${ep.published || "\u2014"}</td><td>${ep.durationMin}m</td><td>${topSpk ? topSpk[0] + " (" + (topSpk[1].words/1000).toFixed(1) + "K)" : "\u2014"}</td></tr>`;
+    }).join("");
+  }
+  renderTable();
+  document.getElementById("search").addEventListener("input", e => renderTable(e.target.value));
+}
+</script>
+</body>
+</html>

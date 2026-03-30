@@ -1,0 +1,309 @@
+{
+  "takeaways": [
+    {
+      "id": 1,
+      "title": "Your audience has grown with you",
+      "summary": "The show has evolved impressively, bringing in world-class guests across politics, health, and culture. But your earliest, most personal content — the rambling road diaries, the solo riffs, the 'regular person with an interesting life' guests — still resonates deeply.",
+      "icon": "growth"
+    },
+    {
+      "id": 2,
+      "title": "The solo voice is a distinctive asset",
+      "summary": "Nobody in podcasting does what you did on episodes like 'Different Kinds of Corn' or 'No Dirty Carrots.' That format is essentially untapped right now — a low-effort, high-reward opportunity.",
+      "icon": "mic"
+    },
+    {
+      "id": 3,
+      "title": "Louisiana is a deeper well",
+      "summary": "Your Gulf Coast roots and Covington storytelling give you something no other podcaster has. The specific people, places, and mythology connect with audiences in a way that's hard to manufacture.",
+      "icon": "map"
+    },
+    {
+      "id": 4,
+      "title": "Personal themes = untapped sponsorship",
+      "summary": "Athletic Brewing (recovery-aware), Ground News (institutional skepticism), Covenant Eyes (porn recovery), Bark/Gabb Wireless (kids & tech safety) — brands aligned with who you actually are.",
+      "icon": "dollar"
+    },
+    {
+      "id": 5,
+      "title": "Bring back fighters and athletes",
+      "summary": "Combat sports and blue-collar athletes were a real presence early on — Dustin Poirier, Urijah Faber, PBR riders. A Dustin Poirier return would feel like a homecoming.",
+      "icon": "fist"
+    },
+    {
+      "id": 6,
+      "title": "Cross-partisan approach is rare",
+      "summary": "Hosting Trump and Bernie, Tucker and Hasan — that willingness to be curious across the full spectrum is a real competitive advantage in a polarized media landscape.",
+      "icon": "balance"
+    },
+    {
+      "id": 7,
+      "title": "The core has never wavered",
+      "summary": "Recovery, trauma, faith, humor as a path to healing. Those themes run from episode one to today. That consistency gives you credibility to explore any topic and still feel like yourself.",
+      "icon": "anchor"
+    }
+  ],
+  "worldview": [
+    {
+      "pillar": "Recovery & Addiction",
+      "emoji": "🍺",
+      "description": "The spine of the entire show. Openly in 12-step recovery, advocates for AA, explores ketamine/ibogaine. Candid about pornography addiction.",
+      "quote": "recovery actually i've been in recovery so like most of the last ten years… i go to recovery meetings",
+      "source": "E526 Donald Trump (Aug 2024)",
+      "edginess": 3,
+      "consistency": "high"
+    },
+    {
+      "pillar": "Informal Spirituality",
+      "emoji": "🙏",
+      "description": "Deeply personal, non-dogmatic faith. Talks about 'God,' 'the universe,' and 'a higher power' interchangeably — AA-influenced spirituality.",
+      "quote": "i think god's right there it's just like how much do we wanna connect and i think we've gotten away from that as a society",
+      "source": "#626 Baby Me (Nov 2025)",
+      "edginess": 1,
+      "consistency": "high"
+    },
+    {
+      "pillar": "Trauma & Mental Health",
+      "emoji": "🧬",
+      "description": "Views addiction, loneliness, and behavioral problems through a trauma lens. His Gabor Maté episode is a centerpiece.",
+      "quote": "can you notice characteristics or actualities in your life today that you can directly correlate to side effects of childhood trauma",
+      "source": "E538 Dr. Gabor Maté (Oct 2024)",
+      "edginess": 2,
+      "consistency": "high"
+    },
+    {
+      "pillar": "Anti-Establishment Skepticism",
+      "emoji": "🏛️",
+      "description": "Distrusts mainstream media and institutional power from a non-ideological, gut-feel populist place. Guest list tells the real story: Trump AND Bernie, Tucker AND Hasan.",
+      "quote": "i think people decided they couldn't trust the news anymore… every time i turn it on i feel like there's some lobbyists behind it",
+      "source": "E510 Nate Halverson (Jun 2024)",
+      "edginess": 4,
+      "consistency": "growing"
+    },
+    {
+      "pillar": "Alternative Medicine & Psychedelics",
+      "emoji": "🌿",
+      "description": "Openly curious about ayahuasca, ibogaine, ketamine therapy. Connects to distrust of pharma and belief healing happens outside conventional systems.",
+      "quote": "but have you ever done like ayahuasca or like a plant medicine ceremony... it's like an emotional journey",
+      "source": "#576 Kevin Von Erich (Apr 2025)",
+      "edginess": 4,
+      "consistency": "growing"
+    },
+    {
+      "pillar": "Comedy as Truth-Telling",
+      "emoji": "🎤",
+      "description": "Sees humor as one of the few tools that can get at genuine truth and help people process pain.",
+      "quote": "all face in trauma yeah no way and humor does it the most because it's that one you're like okay",
+      "source": "E560 Antonio Brown (Feb 2025)",
+      "edginess": 2,
+      "consistency": "high"
+    },
+    {
+      "pillar": "Southern/Working-Class Identity",
+      "emoji": "🏘️",
+      "description": "Louisiana roots are a constant reference point. Connects naturally to country musicians, blue-collar figures, and Southern everyman authenticity.",
+      "quote": "I'm from Louisiana",
+      "source": "Recurring across all episodes",
+      "edginess": 2,
+      "consistency": "fading"
+    },
+    {
+      "pillar": "Anti-Exploitation / Child Protection",
+      "emoji": "🚨",
+      "description": "Devoted a full episode to Laila Mickelwait and TraffickingHub. Personal recovery from porn addiction adds weight to this stance.",
+      "quote": "i mean that's one of the biggest fires in the world it sounds like human trafficking yeah taking advantage of people's sexuality",
+      "source": "E559 Laila Mickelwait (Feb 2025)",
+      "edginess": 3,
+      "consistency": "growing"
+    }
+  ],
+  "themes": [
+    { "name": "Recovery, Addiction & Sobriety", "emoji": "🍺", "pct": 15, "color": "#ef4444",
+      "quotes": [
+        { "text": "the only things i know that have helped me with any type of addiction are 12 step recovery programs... nothing changes if nothing changes", "ep": "#629 The Pursuit", "ts": "~54:41" },
+        { "text": "i noticed an addiction and an interesting relationship with attention and admiration... i started going to a lot of meetings about that", "ep": "E379 Return Vibes", "ts": "~14:23" },
+        { "text": "the program is so great i don't give a fuck if i am [an addict]... my life has been great", "ep": "#171 Looking for Keys in My Subconscious", "ts": "~54:50" }
+      ],
+      "sponsors_current": ["BetterHelp", "Valor Recovery Coaching"],
+      "sponsors_opportunity": ["Athletic Brewing", "Whoop", "LMNT", "Monument"]
+    },
+    { "name": "Trauma & Childhood Wounds", "emoji": "🧬", "pct": 12, "color": "#8b5cf6",
+      "quotes": [
+        { "text": "i thought that if i was better if i was perfect... my father would stay alive... nobody explained to me what was going on", "ep": "E419 Gangsgiving", "ts": "~1:13:21" },
+        { "text": "my first girlfriend broke up with me and this came out of my mouth: 'you can't break up with me you're my mother'", "ep": "E495 Trauma Expert Tim Fletcher", "ts": "~2:09:54" },
+        { "text": "in my family... it felt like a business... it felt like a little bit of a pyramid scheme", "ep": "E466 Anthony Jeselnik", "ts": "~31:18" }
+      ],
+      "sponsors_current": ["BetterHelp"],
+      "sponsors_opportunity": ["Calm", "Headspace", "Audible", "Day One Journal"]
+    },
+    { "name": "Faith, Spirituality & Higher Power", "emoji": "🙏", "pct": 10, "color": "#f59e0b",
+      "quotes": [
+        { "text": "i believe in god man... believing in a higher power is scary i think it's risky... most of my life i felt like god didn't care about me", "ep": "#257 Crouching Tiger", "ts": "~42:29" },
+        { "text": "if i'm praying regularly... it keeps my relationship with my higher power warm", "ep": "#626 Baby Me", "ts": "~58:12" },
+        { "text": "god is a personal choice and for me i think i need a god... it's easier for me to expect not good things to happen", "ep": "#257 Crouching Tiger", "ts": "~40:24" }
+      ],
+      "sponsors_current": ["Upward"],
+      "sponsors_opportunity": ["Hallow", "Pray.com", "Hobby Lobby"]
+    },
+    { "name": "Comedy Craft & Stand-Up Life", "emoji": "🎤", "pct": 10, "color": "#ec4899",
+      "quotes": [
+        { "text": "a man got on stage and started making me laugh and i was like wow this is a job", "ep": "#63 Like a Virgin", "ts": "~22:12" },
+        { "text": "i don't want people to remember a joke... i want people to remember me... the jokes anybody could do", "ep": "#243 Sadie Hawkins", "ts": "~22:20" },
+        { "text": "some higher power gave me a gift to tell jokes... i don't feel like i write a lot of my jokes", "ep": "#101 San Fran Sleepwalkers", "ts": "~1:17:52" }
+      ],
+      "sponsors_current": ["Squarespace"],
+      "sponsors_opportunity": ["SeatGeek", "Masterclass", "Netflix"]
+    },
+    { "name": "Relationships, Intimacy & Dating", "emoji": "💔", "pct": 8, "color": "#f43f5e",
+      "quotes": [
+        { "text": "when pornography came along it was easy it was like oh i can have some form of intimacy but it's not [real]", "ep": "E516 Competitive Kingdom", "ts": "~52:60" },
+        { "text": "i've dealt with like a lot of connectivity disorders like relationship stuff commitment", "ep": "#644 Bryan Johnson", "ts": "~3:21" },
+        { "text": "i go to recovery meetings for intimacy and AA... it's really just intimacy disorders or connection disorders", "ep": "E562 Richard Reeves", "ts": "~1:07:59" }
+      ],
+      "sponsors_current": ["Upward", "BlueChew", "Manscaped"],
+      "sponsors_opportunity": ["Covenant Eyes", "Fortify", "Hinge"]
+    },
+    { "name": "Louisiana & Southern Roots", "emoji": "🏘️", "pct": 8, "color": "#14b8a6",
+      "quotes": [
+        { "text": "gang gang big johnny boy out of that nine eight five son... st tammany parish down there along the chafunkta river in covington louisiana", "ep": "No Dirty Carrots", "ts": "~1:08:40" },
+        { "text": "i just got back from louisiana and i ate it... i had a crab so fresh the thing climbed down my damn throat", "ep": "#247 Certain Curtain", "ts": "~7:57" },
+        { "text": "this dude will invite you over for a hot tub... next thing you know an onion goes by... and you realize you're about to be lunch boy", "ep": "E332 Christmas Friends", "ts": "~55:00" }
+      ],
+      "sponsors_current": ["Good Ranchers", "Boot Barn", "Tecovas"],
+      "sponsors_opportunity": ["Raising Cane's", "Yeti", "Traeger Grills", "Tabasco"]
+    },
+    { "name": "Masculinity & Fatherlessness", "emoji": "👨", "pct": 7, "color": "#6366f1",
+      "quotes": [
+        { "text": "it's a wild time to be a fella man... i long for connection with men... i just didn't develop a lot of relationships with men", "ep": "#12 This Past Weekend", "ts": "~11:03" },
+        { "text": "a lot of men looked at their mothers as fathers... so many guys reaching out like addicted to masturbation addicted to porn", "ep": "#100 Chris Ryan", "ts": "~53:28" },
+        { "text": "how do we start to become male role models in our community", "ep": "#584 Retired Las Vegas Police Sgt.", "ts": "~1:37:46" }
+      ],
+      "sponsors_current": ["Keeps"],
+      "sponsors_opportunity": ["Jocko Fuel", "GORUCK", "Black Rifle Coffee", "Big Brothers Big Sisters"]
+    },
+    { "name": "Institutional Distrust & Media", "emoji": "🏛️", "pct": 6, "color": "#a855f7",
+      "quotes": [
+        { "text": "every time i turn it on i feel like there's some lobbyists behind it... we have so many drug ads on our television", "ep": "E510 Nate Halverson", "ts": "~1:05:32" },
+        { "text": "the regulatory agencies have become sock puppets for the industry they're supposed to regulate", "ep": "E306 RFK Jr", "ts": "~54:25" },
+        { "text": "they'll invest in lobbyists and basically not allow a vote on this... this is the game", "ep": "#591 Ro Khanna", "ts": "~34:10" }
+      ],
+      "sponsors_current": [],
+      "sponsors_opportunity": ["Ground News", "Substack", "Perplexity AI", "Public.com"]
+    },
+    { "name": "Psychedelics & Alt Medicine", "emoji": "🌿", "pct": 5, "color": "#22c55e",
+      "quotes": [
+        { "text": "from my own experience with plant medicine, with ayahuasca, it just makes everything so much less about you and makes it more about just love", "ep": "#596 Bryan Hubbard", "ts": "~49:57" },
+        { "text": "those tier one operators... go down there and do [ibogaine] once or twice and never even feel the desire to use again", "ep": "#585 Andrew Huberman", "ts": "~2:07:05" },
+        { "text": "i weaned off [antidepressants]... started microdosing psilocybin... next thing you know i got signed up for ayahuasca", "ep": "E379 Return Vibes", "ts": "~16:07" }
+      ],
+      "sponsors_current": ["AG1"],
+      "sponsors_opportunity": ["Mud\\Wtr", "Four Sigmatic", "Mindbloom"]
+    },
+    { "name": "Loneliness & Connection", "emoji": "😞", "pct": 5, "color": "#06b6d4",
+      "quotes": [
+        { "text": "we're all have something in common... when i sit in there there's just something special... most of my life i just never felt like a part of something", "ep": "#57 TPW", "ts": "~19:55" },
+        { "text": "isolation... it feels like it's what you wanna do for yourself... that is one of the biggest traps", "ep": "E508 Joey Diaz", "ts": "~58:42" },
+        { "text": "i could never get as alone as i wanted to get... every time i think i wanna be alone [God] says hey put somebody else in your life", "ep": "E358 All Rise", "ts": "~1:08:41" }
+      ],
+      "sponsors_current": ["BetterHelp"],
+      "sponsors_opportunity": ["Meetup.com", "CrossFit", "Bumble BFF"]
+    },
+    { "name": "Food & Southern Culinary", "emoji": "🍗", "pct": 4, "color": "#fb923c",
+      "quotes": [
+        { "text": "i just got back from louisiana and i ate it... a urban gentleman selling gator bites on the side of the road out of the back of a truck", "ep": "#247 Certain Curtain", "ts": "~7:57" },
+        { "text": "this dude... will boil your sister's tits right here... you realize you're about to be lunch boy", "ep": "E332 Christmas Friends", "ts": "~55:00" },
+        { "text": "i do sushi once a month... i fuck with hot dogs bro... smash burger place... i do cucumbers and hummus", "ep": "E463 Bobby Lee", "ts": "~1:29:43" }
+      ],
+      "sponsors_current": ["Good Ranchers"],
+      "sponsors_opportunity": ["Raising Cane's", "Traeger Grills", "HelloFresh", "Tony Chachere's"]
+    },
+    { "name": "Tech, Social Media & Kids Online", "emoji": "📱", "pct": 4, "color": "#64748b",
+      "quotes": [
+        { "text": "each year of smartphone ownership before age 13 is associated with higher rates of depression, suicidal thoughts, aggression, and detachment", "ep": "#640 Chris Hemsworth", "ts": "~47:24" },
+        { "text": "cyberbullying and harassment... phones and apps mean bullying can follow kids home", "ep": "#640 Chris Hemsworth", "ts": "~48:21" },
+        { "text": "I want them to learn how to code... a lot of socialization happens online at this point", "ep": "#579 Mark Zuckerberg", "ts": "~55:31" }
+      ],
+      "sponsors_current": [],
+      "sponsors_opportunity": ["Bark", "Gabb Wireless", "Pinwheel", "Light Phone"]
+    },
+    { "name": "Military & Veterans", "emoji": "🎖️", "pct": 3, "color": "#78716c",
+      "quotes": [
+        { "text": "one of my biggest regrets is that i haven't served... it's a bravery that i don't possess", "ep": "#99 Just a Suggestion", "ts": "~5:33" },
+        { "text": "a beautiful video of a soldier returning home... people are willing to put their existence in front of their freedom", "ep": "No Dirty Carrots", "ts": "~53:10" },
+        { "text": "military family... a lot of fear not knowing what their futures are gonna be like", "ep": "#31 What is an American?", "ts": "~50:50" }
+      ],
+      "sponsors_current": ["Black Rifle Coffee"],
+      "sponsors_opportunity": ["USAA", "Grunt Style", "Wounded Warrior Project"]
+    },
+    { "name": "Self-Worth & Personal Growth", "emoji": "💪", "pct": 3, "color": "#d946ef",
+      "quotes": [
+        { "text": "i got what i thought about myself from how other people responded to me... nobody told me 'you're okay'", "ep": "#214 Cheek to Seat", "ts": "~32:40" },
+        { "text": "i've always had a tough time knowing what my feelings are... when i was growing up i didn't have a lot of feelings", "ep": "#625 Matthew McConaughey", "ts": "~25:24" },
+        { "text": "at some point admit that maybe i do wanna be my own hero", "ep": "E328 Dr. Jordan Peterson", "ts": "~30:05" }
+      ],
+      "sponsors_current": [],
+      "sponsors_opportunity": ["Masterclass", "Audible", "Five Minute Journal"]
+    },
+    { "name": "Anti-Exploitation & Child Protection", "emoji": "🚨", "pct": 3, "color": "#dc2626",
+      "quotes": [
+        { "text": "fighting against human trafficking for almost twenty years... her new book Takedown", "ep": "E559 Laila Mickelwait", "ts": "~0:21" },
+        { "text": "i'm jerking off to crime... i'm jerking off to possible sexual crime... 70% of it was non-consensual", "ep": "#611 Louis C.K.", "ts": "~2:04:20" },
+        { "text": "that's one of the biggest fires in the world... human trafficking... what type of sickness exists", "ep": "E559 Laila Mickelwait", "ts": "~56:43" }
+      ],
+      "sponsors_current": [],
+      "sponsors_opportunity": ["Covenant Eyes", "Thorn", "Net Nanny", "Fortify"]
+    }
+  ],
+  "amplify": [
+    {
+      "theme": "Solo Riffing / Rambling Monologue",
+      "status": "Nearly Extinct",
+      "icon": "🎤",
+      "description": "Episodes like 'Limited Breadsticks,' 'No Dirty Carrots,' 'Different Kinds of Corn' — Theo alone, telling absurdist stories from the road. Pure, strange, funny, unmediated. Recent years show almost zero of these.",
+      "action": "Bring back occasional solo or 'road diary' episodes. Not polished — rambling, honest, weird."
+    },
+    {
+      "theme": "Stand-Up Craft & Road Life",
+      "status": "Largely Absent",
+      "icon": "🏟️",
+      "description": "Early Theo talked about the mechanics of comedy — keeping material fresh, the loneliness of the road. His journey from small clubs to arenas is almost undocumented on the podcast.",
+      "action": "More comedian-on-comedian conversations about the craft and what changes at scale."
+    },
+    {
+      "theme": "Regular/Obscure People as Guests",
+      "status": "Rare",
+      "icon": "🧑‍🔧",
+      "description": "Early hits: 'A Carny,' 'A Jockey,' FDNY firefighter. Surrounded now by Hemsworth and Momoa. Theo's genuine curiosity about lives different from his own brought out his best.",
+      "action": "At least one 'regular person with an interesting life' guest per month — truck drivers, prison guards, pastors from small Louisiana towns."
+    },
+    {
+      "theme": "Sports / MMA / Physical Competition",
+      "status": "Almost Gone",
+      "icon": "🏆",
+      "description": "Dustin Poirier (twice!), Urijah Faber, Cory Sandhagen, PBR riders — all gone. Zero fighters or athletes in the recent lineup. Sports replaced entirely by politics and health.",
+      "action": "Bring back fighters, coaches, rodeo riders. A Dustin Poirier return episode would be gold."
+    },
+    {
+      "theme": "Deep Louisiana Storytelling",
+      "status": "Faded to Name-Drops",
+      "icon": "🌾",
+      "description": "Louisiana used to be a narrative universe — specific streets in Covington, local characters, Gulf Coast texture. Now it's just a brief mention ('I'm from Louisiana').",
+      "action": "Go back to Covington more — on the show AND in visits. More Louisiana guests: musicians, preachers, fishermen."
+    },
+    {
+      "theme": "Comedian Friend Hangouts",
+      "status": "Replaced by Celebrity Interviews",
+      "icon": "🤝",
+      "description": "Chris Distefano, Mark Normand, Bobby Lee, Nick Swardson — these weren't formal interviews but conversations between peers. The casual energy has given way to polished format.",
+      "action": "Lean back into low-stakes, no-agenda hangs. Especially up-and-coming comics who haven't made it yet."
+    }
+  ],
+  "controversial": [
+    { "topic": "The Trump Interview (E526)", "level": 5, "description": "Hosting Trump on a comedy podcast and discussing sobriety cemented 'right-adjacent' reputation, despite also hosting Bernie Sanders and Hasan Piker." },
+    { "topic": "Hosting Dr. Peter McCullough (#647)", "level": 4, "description": "McCullough is one of the most prominent COVID vaccine skeptics. Giving him a major platform is genuinely controversial." },
+    { "topic": "Pornography Addiction Confessions", "level": 3, "description": "Publicly discussing masturbation habits and porn addiction in specific terms is unusual even in the candid podcast world." },
+    { "topic": "Edgy Racial Humor & Southern Identity", "level": 3, "description": "Regularly jokes about race from his Louisiana perspective. The line between disarming self-awareness and genuine provocation is sometimes blurry." },
+    { "topic": "Cross-Partisan Platforming", "level": 3, "description": "Tucker AND Hasan, Trump AND Bernie. Refuses easy categorization — which itself attracts criticism from both sides." },
+    { "topic": "Alternative Medicine Embrace", "level": 3, "description": "Openness to ibogaine, ayahuasca, and hosting vaccine skeptics puts him in tension with mainstream medical consensus." }
+  ]
+}
