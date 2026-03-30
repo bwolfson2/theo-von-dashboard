@@ -1,0 +1,6798 @@
+{
+  "meta": {
+    "episodesAnalyzed": 535,
+    "totalChunks": 288121,
+    "avgTheoPaceWPM": 192,
+    "avgGuestPaceWPM": 197
+  },
+  "sentimentTrend": [
+    {
+      "month": "2016-12",
+      "avgSentiment": 10.92
+    },
+    {
+      "month": "2017-01",
+      "avgSentiment": 8.15
+    },
+    {
+      "month": "2017-03",
+      "avgSentiment": 8.84
+    },
+    {
+      "month": "2017-04",
+      "avgSentiment": 11.28
+    },
+    {
+      "month": "2017-05",
+      "avgSentiment": 11.51
+    },
+    {
+      "month": "2017-06",
+      "avgSentiment": 9.91
+    },
+    {
+      "month": "2017-07",
+      "avgSentiment": 7.9
+    },
+    {
+      "month": "2017-08",
+      "avgSentiment": 8.23
+    },
+    {
+      "month": "2017-09",
+      "avgSentiment": 8.63
+    },
+    {
+      "month": "2017-10",
+      "avgSentiment": 8.1
+    },
+    {
+      "month": "2017-11",
+      "avgSentiment": 7.28
+    },
+    {
+      "month": "2017-12",
+      "avgSentiment": 7.81
+    },
+    {
+      "month": "2018-01",
+      "avgSentiment": 8.39
+    },
+    {
+      "month": "2018-02",
+      "avgSentiment": 7.04
+    },
+    {
+      "month": "2018-03",
+      "avgSentiment": 9.27
+    },
+    {
+      "month": "2018-04",
+      "avgSentiment": 9.34
+    },
+    {
+      "month": "2018-05",
+      "avgSentiment": 9.38
+    },
+    {
+      "month": "2018-06",
+      "avgSentiment": 9.29
+    },
+    {
+      "month": "2018-07",
+      "avgSentiment": 8.63
+    },
+    {
+      "month": "2018-08",
+      "avgSentiment": 8.64
+    },
+    {
+      "month": "2018-10",
+      "avgSentiment": 7.07
+    },
+    {
+      "month": "2018-11",
+      "avgSentiment": 9.47
+    },
+    {
+      "month": "2018-12",
+      "avgSentiment": 5.52
+    },
+    {
+      "month": "2019-01",
+      "avgSentiment": 9.88
+    },
+    {
+      "month": "2019-02",
+      "avgSentiment": 10.73
+    },
+    {
+      "month": "2019-03",
+      "avgSentiment": 9.1
+    },
+    {
+      "month": "2019-04",
+      "avgSentiment": 11.16
+    },
+    {
+      "month": "2019-05",
+      "avgSentiment": 13.3
+    },
+    {
+      "month": "2019-06",
+      "avgSentiment": 8.48
+    },
+    {
+      "month": "2019-07",
+      "avgSentiment": 10.22
+    },
+    {
+      "month": "2019-08",
+      "avgSentiment": 8.63
+    },
+    {
+      "month": "2019-09",
+      "avgSentiment": 8.26
+    },
+    {
+      "month": "2019-10",
+      "avgSentiment": 10.59
+    },
+    {
+      "month": "2019-11",
+      "avgSentiment": 10.54
+    },
+    {
+      "month": "2019-12",
+      "avgSentiment": 11.11
+    },
+    {
+      "month": "2020-01",
+      "avgSentiment": 9.22
+    },
+    {
+      "month": "2020-02",
+      "avgSentiment": 10.37
+    },
+    {
+      "month": "2020-03",
+      "avgSentiment": 11.58
+    },
+    {
+      "month": "2020-04",
+      "avgSentiment": 8.57
+    },
+    {
+      "month": "2020-05",
+      "avgSentiment": 8.23
+    },
+    {
+      "month": "2020-06",
+      "avgSentiment": 5.79
+    },
+    {
+      "month": "2020-07",
+      "avgSentiment": 9.21
+    },
+    {
+      "month": "2020-08",
+      "avgSentiment": 11.91
+    },
+    {
+      "month": "2020-09",
+      "avgSentiment": 7.87
+    },
+    {
+      "month": "2020-10",
+      "avgSentiment": 9.09
+    },
+    {
+      "month": "2020-11",
+      "avgSentiment": 8.2
+    },
+    {
+      "month": "2020-12",
+      "avgSentiment": 11.51
+    },
+    {
+      "month": "2021-01",
+      "avgSentiment": 8.91
+    },
+    {
+      "month": "2021-02",
+      "avgSentiment": 6.74
+    },
+    {
+      "month": "2021-03",
+      "avgSentiment": 10.51
+    },
+    {
+      "month": "2021-04",
+      "avgSentiment": 9.1
+    },
+    {
+      "month": "2021-05",
+      "avgSentiment": 11.7
+    },
+    {
+      "month": "2021-06",
+      "avgSentiment": 9.64
+    },
+    {
+      "month": "2021-07",
+      "avgSentiment": 9.51
+    },
+    {
+      "month": "2021-08",
+      "avgSentiment": 8.65
+    },
+    {
+      "month": "2021-09",
+      "avgSentiment": 9.1
+    },
+    {
+      "month": "2021-10",
+      "avgSentiment": 7.51
+    },
+    {
+      "month": "2021-11",
+      "avgSentiment": 10.86
+    },
+    {
+      "month": "2021-12",
+      "avgSentiment": 5.72
+    },
+    {
+      "month": "2022-01",
+      "avgSentiment": 7.22
+    },
+    {
+      "month": "2022-02",
+      "avgSentiment": 9.52
+    },
+    {
+      "month": "2022-03",
+      "avgSentiment": 8.27
+    },
+    {
+      "month": "2022-04",
+      "avgSentiment": 8.77
+    },
+    {
+      "month": "2022-05",
+      "avgSentiment": 6.81
+    },
+    {
+      "month": "2022-06",
+      "avgSentiment": 8.8
+    },
+    {
+      "month": "2022-07",
+      "avgSentiment": 7.89
+    },
+    {
+      "month": "2022-08",
+      "avgSentiment": 7.07
+    },
+    {
+      "month": "2022-09",
+      "avgSentiment": 9.68
+    },
+    {
+      "month": "2022-10",
+      "avgSentiment": 7.77
+    },
+    {
+      "month": "2022-11",
+      "avgSentiment": 7.4
+    },
+    {
+      "month": "2022-12",
+      "avgSentiment": 6.46
+    },
+    {
+      "month": "2023-01",
+      "avgSentiment": 9.59
+    },
+    {
+      "month": "2023-02",
+      "avgSentiment": 8.36
+    },
+    {
+      "month": "2023-03",
+      "avgSentiment": 9.08
+    },
+    {
+      "month": "2023-04",
+      "avgSentiment": 10.43
+    },
+    {
+      "month": "2023-05",
+      "avgSentiment": 10.29
+    },
+    {
+      "month": "2023-06",
+      "avgSentiment": 8.77
+    },
+    {
+      "month": "2023-07",
+      "avgSentiment": 10.93
+    },
+    {
+      "month": "2023-08",
+      "avgSentiment": 5.74
+    },
+    {
+      "month": "2023-09",
+      "avgSentiment": 6.2
+    },
+    {
+      "month": "2023-10",
+      "avgSentiment": 6.9
+    },
+    {
+      "month": "2023-11",
+      "avgSentiment": 11.47
+    },
+    {
+      "month": "2023-12",
+      "avgSentiment": 11.56
+    },
+    {
+      "month": "2024-01",
+      "avgSentiment": 4.98
+    },
+    {
+      "month": "2024-02",
+      "avgSentiment": 10.09
+    },
+    {
+      "month": "2024-03",
+      "avgSentiment": 7.83
+    },
+    {
+      "month": "2024-04",
+      "avgSentiment": 7.06
+    },
+    {
+      "month": "2024-05",
+      "avgSentiment": 8.91
+    },
+    {
+      "month": "2024-06",
+      "avgSentiment": 8.49
+    },
+    {
+      "month": "2024-07",
+      "avgSentiment": 7.68
+    },
+    {
+      "month": "2024-08",
+      "avgSentiment": 8.34
+    },
+    {
+      "month": "2024-09",
+      "avgSentiment": 10.11
+    },
+    {
+      "month": "2024-10",
+      "avgSentiment": 7.35
+    },
+    {
+      "month": "2024-11",
+      "avgSentiment": 7.72
+    },
+    {
+      "month": "2024-12",
+      "avgSentiment": 9.48
+    },
+    {
+      "month": "2025-01",
+      "avgSentiment": 8.2
+    },
+    {
+      "month": "2025-02",
+      "avgSentiment": 8.83
+    },
+    {
+      "month": "2025-03",
+      "avgSentiment": 7.76
+    },
+    {
+      "month": "2025-04",
+      "avgSentiment": 11.61
+    },
+    {
+      "month": "2025-05",
+      "avgSentiment": 10.13
+    },
+    {
+      "month": "2025-06",
+      "avgSentiment": 8.25
+    },
+    {
+      "month": "2025-07",
+      "avgSentiment": 9.84
+    },
+    {
+      "month": "2025-08",
+      "avgSentiment": 9.75
+    },
+    {
+      "month": "2025-09",
+      "avgSentiment": 10.17
+    },
+    {
+      "month": "2025-10",
+      "avgSentiment": 8.89
+    },
+    {
+      "month": "2025-11",
+      "avgSentiment": 11.99
+    },
+    {
+      "month": "2025-12",
+      "avgSentiment": 8.9
+    },
+    {
+      "month": "2026-01",
+      "avgSentiment": 6.58
+    },
+    {
+      "month": "2026-02",
+      "avgSentiment": 7.29
+    },
+    {
+      "month": "2026-03",
+      "avgSentiment": 8.95
+    }
+  ],
+  "vocabTrend": [
+    {
+      "month": "2016-12",
+      "avgRichness": 14.22
+    },
+    {
+      "month": "2017-01",
+      "avgRichness": 14.92
+    },
+    {
+      "month": "2017-03",
+      "avgRichness": 14.8
+    },
+    {
+      "month": "2017-04",
+      "avgRichness": 14.32
+    },
+    {
+      "month": "2017-05",
+      "avgRichness": 14.06
+    },
+    {
+      "month": "2017-06",
+      "avgRichness": 15.11
+    },
+    {
+      "month": "2017-07",
+      "avgRichness": 14.55
+    },
+    {
+      "month": "2017-08",
+      "avgRichness": 15.05
+    },
+    {
+      "month": "2017-09",
+      "avgRichness": 15.53
+    },
+    {
+      "month": "2017-10",
+      "avgRichness": 14.95
+    },
+    {
+      "month": "2017-11",
+      "avgRichness": 14.82
+    },
+    {
+      "month": "2017-12",
+      "avgRichness": 15.02
+    },
+    {
+      "month": "2018-01",
+      "avgRichness": 15.15
+    },
+    {
+      "month": "2018-02",
+      "avgRichness": 14.91
+    },
+    {
+      "month": "2018-03",
+      "avgRichness": 16.09
+    },
+    {
+      "month": "2018-04",
+      "avgRichness": 14.51
+    },
+    {
+      "month": "2018-05",
+      "avgRichness": 15.5
+    },
+    {
+      "month": "2018-06",
+      "avgRichness": 15.45
+    },
+    {
+      "month": "2018-07",
+      "avgRichness": 15.32
+    },
+    {
+      "month": "2018-08",
+      "avgRichness": 15.46
+    },
+    {
+      "month": "2018-10",
+      "avgRichness": 15.32
+    },
+    {
+      "month": "2018-11",
+      "avgRichness": 15.12
+    },
+    {
+      "month": "2018-12",
+      "avgRichness": 15.84
+    },
+    {
+      "month": "2019-01",
+      "avgRichness": 15.44
+    },
+    {
+      "month": "2019-02",
+      "avgRichness": 15.29
+    },
+    {
+      "month": "2019-03",
+      "avgRichness": 16.86
+    },
+    {
+      "month": "2019-04",
+      "avgRichness": 16.7
+    },
+    {
+      "month": "2019-05",
+      "avgRichness": 15.33
+    },
+    {
+      "month": "2019-06",
+      "avgRichness": 15.72
+    },
+    {
+      "month": "2019-07",
+      "avgRichness": 14.9
+    },
+    {
+      "month": "2019-08",
+      "avgRichness": 15.14
+    },
+    {
+      "month": "2019-09",
+      "avgRichness": 16.1
+    },
+    {
+      "month": "2019-10",
+      "avgRichness": 15.35
+    },
+    {
+      "month": "2019-11",
+      "avgRichness": 16.11
+    },
+    {
+      "month": "2019-12",
+      "avgRichness": 15.87
+    },
+    {
+      "month": "2020-01",
+      "avgRichness": 15.97
+    },
+    {
+      "month": "2020-02",
+      "avgRichness": 15.66
+    },
+    {
+      "month": "2020-03",
+      "avgRichness": 15.5
+    },
+    {
+      "month": "2020-04",
+      "avgRichness": 15.99
+    },
+    {
+      "month": "2020-05",
+      "avgRichness": 16.12
+    },
+    {
+      "month": "2020-06",
+      "avgRichness": 14.27
+    },
+    {
+      "month": "2020-07",
+      "avgRichness": 15.75
+    },
+    {
+      "month": "2020-08",
+      "avgRichness": 15.3
+    },
+    {
+      "month": "2020-09",
+      "avgRichness": 15.3
+    },
+    {
+      "month": "2020-10",
+      "avgRichness": 15.17
+    },
+    {
+      "month": "2020-11",
+      "avgRichness": 16.09
+    },
+    {
+      "month": "2020-12",
+      "avgRichness": 15.38
+    },
+    {
+      "month": "2021-01",
+      "avgRichness": 15.52
+    },
+    {
+      "month": "2021-02",
+      "avgRichness": 15.12
+    },
+    {
+      "month": "2021-03",
+      "avgRichness": 15.88
+    },
+    {
+      "month": "2021-04",
+      "avgRichness": 16.09
+    },
+    {
+      "month": "2021-05",
+      "avgRichness": 15.72
+    },
+    {
+      "month": "2021-06",
+      "avgRichness": 15.2
+    },
+    {
+      "month": "2021-07",
+      "avgRichness": 16.42
+    },
+    {
+      "month": "2021-08",
+      "avgRichness": 16.12
+    },
+    {
+      "month": "2021-09",
+      "avgRichness": 15.3
+    },
+    {
+      "month": "2021-10",
+      "avgRichness": 16.9
+    },
+    {
+      "month": "2021-11",
+      "avgRichness": 15.77
+    },
+    {
+      "month": "2021-12",
+      "avgRichness": 16.48
+    },
+    {
+      "month": "2022-01",
+      "avgRichness": 15.28
+    },
+    {
+      "month": "2022-02",
+      "avgRichness": 14.61
+    },
+    {
+      "month": "2022-03",
+      "avgRichness": 15.64
+    },
+    {
+      "month": "2022-04",
+      "avgRichness": 16.01
+    },
+    {
+      "month": "2022-05",
+      "avgRichness": 16.09
+    },
+    {
+      "month": "2022-06",
+      "avgRichness": 15.06
+    },
+    {
+      "month": "2022-07",
+      "avgRichness": 15.22
+    },
+    {
+      "month": "2022-08",
+      "avgRichness": 17.1
+    },
+    {
+      "month": "2022-09",
+      "avgRichness": 15.68
+    },
+    {
+      "month": "2022-10",
+      "avgRichness": 16.71
+    },
+    {
+      "month": "2022-11",
+      "avgRichness": 17.62
+    },
+    {
+      "month": "2022-12",
+      "avgRichness": 15.96
+    },
+    {
+      "month": "2023-01",
+      "avgRichness": 15.42
+    },
+    {
+      "month": "2023-02",
+      "avgRichness": 15.64
+    },
+    {
+      "month": "2023-03",
+      "avgRichness": 15.22
+    },
+    {
+      "month": "2023-04",
+      "avgRichness": 16.63
+    },
+    {
+      "month": "2023-05",
+      "avgRichness": 16.61
+    },
+    {
+      "month": "2023-06",
+      "avgRichness": 16.93
+    },
+    {
+      "month": "2023-07",
+      "avgRichness": 16.43
+    },
+    {
+      "month": "2023-08",
+      "avgRichness": 16.43
+    },
+    {
+      "month": "2023-09",
+      "avgRichness": 16.72
+    },
+    {
+      "month": "2023-10",
+      "avgRichness": 15.81
+    },
+    {
+      "month": "2023-11",
+      "avgRichness": 16.32
+    },
+    {
+      "month": "2023-12",
+      "avgRichness": 15.31
+    },
+    {
+      "month": "2024-01",
+      "avgRichness": 16.2
+    },
+    {
+      "month": "2024-02",
+      "avgRichness": 16.41
+    },
+    {
+      "month": "2024-03",
+      "avgRichness": 16.79
+    },
+    {
+      "month": "2024-04",
+      "avgRichness": 15.25
+    },
+    {
+      "month": "2024-05",
+      "avgRichness": 16.04
+    },
+    {
+      "month": "2024-06",
+      "avgRichness": 16.59
+    },
+    {
+      "month": "2024-07",
+      "avgRichness": 15.72
+    },
+    {
+      "month": "2024-08",
+      "avgRichness": 15
+    },
+    {
+      "month": "2024-09",
+      "avgRichness": 16.02
+    },
+    {
+      "month": "2024-10",
+      "avgRichness": 16.23
+    },
+    {
+      "month": "2024-11",
+      "avgRichness": 16.75
+    },
+    {
+      "month": "2024-12",
+      "avgRichness": 16.02
+    },
+    {
+      "month": "2025-01",
+      "avgRichness": 17.16
+    },
+    {
+      "month": "2025-02",
+      "avgRichness": 16.36
+    },
+    {
+      "month": "2025-03",
+      "avgRichness": 16.86
+    },
+    {
+      "month": "2025-04",
+      "avgRichness": 16.12
+    },
+    {
+      "month": "2025-05",
+      "avgRichness": 16.58
+    },
+    {
+      "month": "2025-06",
+      "avgRichness": 17.17
+    },
+    {
+      "month": "2025-07",
+      "avgRichness": 16.3
+    },
+    {
+      "month": "2025-08",
+      "avgRichness": 16.47
+    },
+    {
+      "month": "2025-09",
+      "avgRichness": 16.68
+    },
+    {
+      "month": "2025-10",
+      "avgRichness": 16.28
+    },
+    {
+      "month": "2025-11",
+      "avgRichness": 16.03
+    },
+    {
+      "month": "2025-12",
+      "avgRichness": 16.64
+    },
+    {
+      "month": "2026-01",
+      "avgRichness": 17.69
+    },
+    {
+      "month": "2026-02",
+      "avgRichness": 16.76
+    },
+    {
+      "month": "2026-03",
+      "avgRichness": 16.13
+    }
+  ],
+  "paceTrend": [
+    {
+      "month": "2016-12",
+      "avgWPM": 158
+    },
+    {
+      "month": "2017-01",
+      "avgWPM": 178
+    },
+    {
+      "month": "2017-03",
+      "avgWPM": 166
+    },
+    {
+      "month": "2017-04",
+      "avgWPM": 173
+    },
+    {
+      "month": "2017-05",
+      "avgWPM": 188
+    },
+    {
+      "month": "2017-06",
+      "avgWPM": 183
+    },
+    {
+      "month": "2017-07",
+      "avgWPM": 181
+    },
+    {
+      "month": "2017-08",
+      "avgWPM": 196
+    },
+    {
+      "month": "2017-09",
+      "avgWPM": 200
+    },
+    {
+      "month": "2017-10",
+      "avgWPM": 187
+    },
+    {
+      "month": "2017-11",
+      "avgWPM": 190
+    },
+    {
+      "month": "2017-12",
+      "avgWPM": 187
+    },
+    {
+      "month": "2018-01",
+      "avgWPM": 184
+    },
+    {
+      "month": "2018-02",
+      "avgWPM": 182
+    },
+    {
+      "month": "2018-03",
+      "avgWPM": 199
+    },
+    {
+      "month": "2018-04",
+      "avgWPM": 201
+    },
+    {
+      "month": "2018-05",
+      "avgWPM": 204
+    },
+    {
+      "month": "2018-06",
+      "avgWPM": 191
+    },
+    {
+      "month": "2018-07",
+      "avgWPM": 195
+    },
+    {
+      "month": "2018-08",
+      "avgWPM": 214
+    },
+    {
+      "month": "2018-10",
+      "avgWPM": 198
+    },
+    {
+      "month": "2018-11",
+      "avgWPM": 206
+    },
+    {
+      "month": "2018-12",
+      "avgWPM": 217
+    },
+    {
+      "month": "2019-01",
+      "avgWPM": 203
+    },
+    {
+      "month": "2019-02",
+      "avgWPM": 187
+    },
+    {
+      "month": "2019-03",
+      "avgWPM": 184
+    },
+    {
+      "month": "2019-04",
+      "avgWPM": 194
+    },
+    {
+      "month": "2019-05",
+      "avgWPM": 193
+    },
+    {
+      "month": "2019-06",
+      "avgWPM": 191
+    },
+    {
+      "month": "2019-07",
+      "avgWPM": 182
+    },
+    {
+      "month": "2019-08",
+      "avgWPM": 205
+    },
+    {
+      "month": "2019-09",
+      "avgWPM": 214
+    },
+    {
+      "month": "2019-10",
+      "avgWPM": 185
+    },
+    {
+      "month": "2019-11",
+      "avgWPM": 183
+    },
+    {
+      "month": "2019-12",
+      "avgWPM": 180
+    },
+    {
+      "month": "2020-01",
+      "avgWPM": 191
+    },
+    {
+      "month": "2020-02",
+      "avgWPM": 200
+    },
+    {
+      "month": "2020-03",
+      "avgWPM": 196
+    },
+    {
+      "month": "2020-04",
+      "avgWPM": 169
+    },
+    {
+      "month": "2020-05",
+      "avgWPM": 187
+    },
+    {
+      "month": "2020-06",
+      "avgWPM": 191
+    },
+    {
+      "month": "2020-07",
+      "avgWPM": 175
+    },
+    {
+      "month": "2020-08",
+      "avgWPM": 185
+    },
+    {
+      "month": "2020-09",
+      "avgWPM": 168
+    },
+    {
+      "month": "2020-10",
+      "avgWPM": 175
+    },
+    {
+      "month": "2020-11",
+      "avgWPM": 190
+    },
+    {
+      "month": "2020-12",
+      "avgWPM": 190
+    },
+    {
+      "month": "2021-01",
+      "avgWPM": 171
+    },
+    {
+      "month": "2021-02",
+      "avgWPM": 197
+    },
+    {
+      "month": "2021-03",
+      "avgWPM": 178
+    },
+    {
+      "month": "2021-04",
+      "avgWPM": 182
+    },
+    {
+      "month": "2021-05",
+      "avgWPM": 190
+    },
+    {
+      "month": "2021-06",
+      "avgWPM": 185
+    },
+    {
+      "month": "2021-07",
+      "avgWPM": 176
+    },
+    {
+      "month": "2021-08",
+      "avgWPM": 194
+    },
+    {
+      "month": "2021-09",
+      "avgWPM": 181
+    },
+    {
+      "month": "2021-10",
+      "avgWPM": 188
+    },
+    {
+      "month": "2021-11",
+      "avgWPM": 177
+    },
+    {
+      "month": "2021-12",
+      "avgWPM": 188
+    },
+    {
+      "month": "2022-01",
+      "avgWPM": 205
+    },
+    {
+      "month": "2022-02",
+      "avgWPM": 173
+    },
+    {
+      "month": "2022-03",
+      "avgWPM": 188
+    },
+    {
+      "month": "2022-04",
+      "avgWPM": 173
+    },
+    {
+      "month": "2022-05",
+      "avgWPM": 194
+    },
+    {
+      "month": "2022-06",
+      "avgWPM": 182
+    },
+    {
+      "month": "2022-07",
+      "avgWPM": 180
+    },
+    {
+      "month": "2022-08",
+      "avgWPM": 203
+    },
+    {
+      "month": "2022-09",
+      "avgWPM": 186
+    },
+    {
+      "month": "2022-10",
+      "avgWPM": 189
+    },
+    {
+      "month": "2022-11",
+      "avgWPM": 200
+    },
+    {
+      "month": "2022-12",
+      "avgWPM": 187
+    },
+    {
+      "month": "2023-01",
+      "avgWPM": 199
+    },
+    {
+      "month": "2023-02",
+      "avgWPM": 192
+    },
+    {
+      "month": "2023-03",
+      "avgWPM": 205
+    },
+    {
+      "month": "2023-04",
+      "avgWPM": 189
+    },
+    {
+      "month": "2023-05",
+      "avgWPM": 185
+    },
+    {
+      "month": "2023-06",
+      "avgWPM": 201
+    },
+    {
+      "month": "2023-07",
+      "avgWPM": 194
+    },
+    {
+      "month": "2023-08",
+      "avgWPM": 187
+    },
+    {
+      "month": "2023-09",
+      "avgWPM": 189
+    },
+    {
+      "month": "2023-10",
+      "avgWPM": 208
+    },
+    {
+      "month": "2023-11",
+      "avgWPM": 194
+    },
+    {
+      "month": "2023-12",
+      "avgWPM": 186
+    },
+    {
+      "month": "2024-01",
+      "avgWPM": 205
+    },
+    {
+      "month": "2024-02",
+      "avgWPM": 190
+    },
+    {
+      "month": "2024-03",
+      "avgWPM": 196
+    },
+    {
+      "month": "2024-04",
+      "avgWPM": 200
+    },
+    {
+      "month": "2024-05",
+      "avgWPM": 195
+    },
+    {
+      "month": "2024-06",
+      "avgWPM": 201
+    },
+    {
+      "month": "2024-07",
+      "avgWPM": 196
+    },
+    {
+      "month": "2024-08",
+      "avgWPM": 197
+    },
+    {
+      "month": "2024-09",
+      "avgWPM": 203
+    },
+    {
+      "month": "2024-10",
+      "avgWPM": 202
+    },
+    {
+      "month": "2024-11",
+      "avgWPM": 192
+    },
+    {
+      "month": "2024-12",
+      "avgWPM": 199
+    },
+    {
+      "month": "2025-01",
+      "avgWPM": 198
+    },
+    {
+      "month": "2025-02",
+      "avgWPM": 209
+    },
+    {
+      "month": "2025-03",
+      "avgWPM": 215
+    },
+    {
+      "month": "2025-04",
+      "avgWPM": 201
+    },
+    {
+      "month": "2025-05",
+      "avgWPM": 192
+    },
+    {
+      "month": "2025-06",
+      "avgWPM": 189
+    },
+    {
+      "month": "2025-07",
+      "avgWPM": 191
+    },
+    {
+      "month": "2025-08",
+      "avgWPM": 187
+    },
+    {
+      "month": "2025-09",
+      "avgWPM": 202
+    },
+    {
+      "month": "2025-10",
+      "avgWPM": 195
+    },
+    {
+      "month": "2025-11",
+      "avgWPM": 201
+    },
+    {
+      "month": "2025-12",
+      "avgWPM": 191
+    },
+    {
+      "month": "2026-01",
+      "avgWPM": 209
+    },
+    {
+      "month": "2026-02",
+      "avgWPM": 210
+    },
+    {
+      "month": "2026-03",
+      "avgWPM": 207
+    }
+  ],
+  "guestPaceTrend": [
+    {
+      "month": "2016-12",
+      "avgWPM": 159
+    },
+    {
+      "month": "2017-01",
+      "avgWPM": 180
+    },
+    {
+      "month": "2017-03",
+      "avgWPM": 168
+    },
+    {
+      "month": "2017-04",
+      "avgWPM": 180
+    },
+    {
+      "month": "2017-05",
+      "avgWPM": 207
+    },
+    {
+      "month": "2017-06",
+      "avgWPM": 183
+    },
+    {
+      "month": "2017-07",
+      "avgWPM": 185
+    },
+    {
+      "month": "2017-08",
+      "avgWPM": 179
+    },
+    {
+      "month": "2017-09",
+      "avgWPM": 195
+    },
+    {
+      "month": "2017-10",
+      "avgWPM": 175
+    },
+    {
+      "month": "2017-11",
+      "avgWPM": 173
+    },
+    {
+      "month": "2017-12",
+      "avgWPM": 174
+    },
+    {
+      "month": "2018-01",
+      "avgWPM": 186
+    },
+    {
+      "month": "2018-02",
+      "avgWPM": 179
+    },
+    {
+      "month": "2018-03",
+      "avgWPM": 190
+    },
+    {
+      "month": "2018-04",
+      "avgWPM": 193
+    },
+    {
+      "month": "2018-05",
+      "avgWPM": 189
+    },
+    {
+      "month": "2018-06",
+      "avgWPM": 196
+    },
+    {
+      "month": "2018-07",
+      "avgWPM": 183
+    },
+    {
+      "month": "2018-08",
+      "avgWPM": 203
+    },
+    {
+      "month": "2018-10",
+      "avgWPM": 207
+    },
+    {
+      "month": "2018-11",
+      "avgWPM": 202
+    },
+    {
+      "month": "2018-12",
+      "avgWPM": 205
+    },
+    {
+      "month": "2019-01",
+      "avgWPM": 212
+    },
+    {
+      "month": "2019-02",
+      "avgWPM": 187
+    },
+    {
+      "month": "2019-03",
+      "avgWPM": 188
+    },
+    {
+      "month": "2019-04",
+      "avgWPM": 188
+    },
+    {
+      "month": "2019-05",
+      "avgWPM": 186
+    },
+    {
+      "month": "2019-06",
+      "avgWPM": 199
+    },
+    {
+      "month": "2019-07",
+      "avgWPM": 187
+    },
+    {
+      "month": "2019-08",
+      "avgWPM": 188
+    },
+    {
+      "month": "2019-09",
+      "avgWPM": 218
+    },
+    {
+      "month": "2019-10",
+      "avgWPM": 193
+    },
+    {
+      "month": "2019-11",
+      "avgWPM": 192
+    },
+    {
+      "month": "2019-12",
+      "avgWPM": 199
+    },
+    {
+      "month": "2020-01",
+      "avgWPM": 194
+    },
+    {
+      "month": "2020-02",
+      "avgWPM": 202
+    },
+    {
+      "month": "2020-03",
+      "avgWPM": 196
+    },
+    {
+      "month": "2020-04",
+      "avgWPM": 193
+    },
+    {
+      "month": "2020-05",
+      "avgWPM": 201
+    },
+    {
+      "month": "2020-06",
+      "avgWPM": 197
+    },
+    {
+      "month": "2020-07",
+      "avgWPM": 193
+    },
+    {
+      "month": "2020-08",
+      "avgWPM": 193
+    },
+    {
+      "month": "2020-09",
+      "avgWPM": 173
+    },
+    {
+      "month": "2020-10",
+      "avgWPM": 176
+    },
+    {
+      "month": "2020-11",
+      "avgWPM": 195
+    },
+    {
+      "month": "2020-12",
+      "avgWPM": 184
+    },
+    {
+      "month": "2021-01",
+      "avgWPM": 181
+    },
+    {
+      "month": "2021-02",
+      "avgWPM": 196
+    },
+    {
+      "month": "2021-03",
+      "avgWPM": 178
+    },
+    {
+      "month": "2021-04",
+      "avgWPM": 201
+    },
+    {
+      "month": "2021-05",
+      "avgWPM": 193
+    },
+    {
+      "month": "2021-06",
+      "avgWPM": 194
+    },
+    {
+      "month": "2021-07",
+      "avgWPM": 187
+    },
+    {
+      "month": "2021-08",
+      "avgWPM": 201
+    },
+    {
+      "month": "2021-09",
+      "avgWPM": 198
+    },
+    {
+      "month": "2021-10",
+      "avgWPM": 195
+    },
+    {
+      "month": "2021-11",
+      "avgWPM": 188
+    },
+    {
+      "month": "2021-12",
+      "avgWPM": 195
+    },
+    {
+      "month": "2022-01",
+      "avgWPM": 202
+    },
+    {
+      "month": "2022-02",
+      "avgWPM": 188
+    },
+    {
+      "month": "2022-03",
+      "avgWPM": 202
+    },
+    {
+      "month": "2022-04",
+      "avgWPM": 189
+    },
+    {
+      "month": "2022-05",
+      "avgWPM": 210
+    },
+    {
+      "month": "2022-06",
+      "avgWPM": 186
+    },
+    {
+      "month": "2022-07",
+      "avgWPM": 202
+    },
+    {
+      "month": "2022-08",
+      "avgWPM": 219
+    },
+    {
+      "month": "2022-09",
+      "avgWPM": 205
+    },
+    {
+      "month": "2022-10",
+      "avgWPM": 193
+    },
+    {
+      "month": "2022-11",
+      "avgWPM": 201
+    },
+    {
+      "month": "2022-12",
+      "avgWPM": 212
+    },
+    {
+      "month": "2023-01",
+      "avgWPM": 199
+    },
+    {
+      "month": "2023-02",
+      "avgWPM": 208
+    },
+    {
+      "month": "2023-03",
+      "avgWPM": 234
+    },
+    {
+      "month": "2023-04",
+      "avgWPM": 208
+    },
+    {
+      "month": "2023-05",
+      "avgWPM": 190
+    },
+    {
+      "month": "2023-06",
+      "avgWPM": 201
+    },
+    {
+      "month": "2023-07",
+      "avgWPM": 186
+    },
+    {
+      "month": "2023-08",
+      "avgWPM": 186
+    },
+    {
+      "month": "2023-09",
+      "avgWPM": 203
+    },
+    {
+      "month": "2023-10",
+      "avgWPM": 230
+    },
+    {
+      "month": "2023-11",
+      "avgWPM": 204
+    },
+    {
+      "month": "2023-12",
+      "avgWPM": 190
+    },
+    {
+      "month": "2024-01",
+      "avgWPM": 217
+    },
+    {
+      "month": "2024-02",
+      "avgWPM": 202
+    },
+    {
+      "month": "2024-03",
+      "avgWPM": 213
+    },
+    {
+      "month": "2024-04",
+      "avgWPM": 213
+    },
+    {
+      "month": "2024-05",
+      "avgWPM": 219
+    },
+    {
+      "month": "2024-06",
+      "avgWPM": 209
+    },
+    {
+      "month": "2024-07",
+      "avgWPM": 198
+    },
+    {
+      "month": "2024-08",
+      "avgWPM": 196
+    },
+    {
+      "month": "2024-09",
+      "avgWPM": 206
+    },
+    {
+      "month": "2024-10",
+      "avgWPM": 212
+    },
+    {
+      "month": "2024-11",
+      "avgWPM": 200
+    },
+    {
+      "month": "2024-12",
+      "avgWPM": 204
+    },
+    {
+      "month": "2025-01",
+      "avgWPM": 190
+    },
+    {
+      "month": "2025-02",
+      "avgWPM": 212
+    },
+    {
+      "month": "2025-03",
+      "avgWPM": 221
+    },
+    {
+      "month": "2025-04",
+      "avgWPM": 203
+    },
+    {
+      "month": "2025-10",
+      "avgWPM": 234
+    },
+    {
+      "month": "2025-11",
+      "avgWPM": 187
+    },
+    {
+      "month": "2025-12",
+      "avgWPM": 190
+    },
+    {
+      "month": "2026-01",
+      "avgWPM": 201
+    },
+    {
+      "month": "2026-02",
+      "avgWPM": 207
+    },
+    {
+      "month": "2026-03",
+      "avgWPM": 196
+    }
+  ],
+  "topNgrams": [
+    {
+      "phrase": "feel like",
+      "count": 6271
+    },
+    {
+      "phrase": "trying to",
+      "count": 5223
+    },
+    {
+      "phrase": "little bit",
+      "count": 5185
+    },
+    {
+      "phrase": "or whatever",
+      "count": 4425
+    },
+    {
+      "phrase": "thank you",
+      "count": 4061
+    },
+    {
+      "phrase": "want to",
+      "count": 3127
+    },
+    {
+      "phrase": "used to",
+      "count": 3093
+    },
+    {
+      "phrase": "i'm saying",
+      "count": 2903
+    },
+    {
+      "phrase": "able to",
+      "count": 2714
+    },
+    {
+      "phrase": "look at",
+      "count": 2643
+    },
+    {
+      "phrase": "what i'm saying",
+      "count": 2612
+    },
+    {
+      "phrase": "you feel",
+      "count": 2569
+    },
+    {
+      "phrase": "talking about",
+      "count": 2556
+    },
+    {
+      "phrase": "to see",
+      "count": 2490
+    },
+    {
+      "phrase": "and stuff",
+      "count": 2358
+    },
+    {
+      "phrase": "part of",
+      "count": 2347
+    },
+    {
+      "phrase": "you can't",
+      "count": 2244
+    },
+    {
+      "phrase": "you see",
+      "count": 2191
+    },
+    {
+      "phrase": "you ever",
+      "count": 2117
+    },
+    {
+      "phrase": "bit of",
+      "count": 2016
+    },
+    {
+      "phrase": "you want",
+      "count": 1977
+    },
+    {
+      "phrase": "the first",
+      "count": 1921
+    },
+    {
+      "phrase": "little bit of",
+      "count": 1876
+    },
+    {
+      "phrase": "the world",
+      "count": 1833
+    },
+    {
+      "phrase": "need to",
+      "count": 1730
+    },
+    {
+      "phrase": "the best",
+      "count": 1705
+    },
+    {
+      "phrase": "what else",
+      "count": 1687
+    },
+    {
+      "phrase": "wanted to",
+      "count": 1667
+    },
+    {
+      "phrase": "tell you",
+      "count": 1657
+    },
+    {
+      "phrase": "the time",
+      "count": 1640
+    },
+    {
+      "phrase": "be able",
+      "count": 1621
+    },
+    {
+      "phrase": "be able to",
+      "count": 1599
+    },
+    {
+      "phrase": "one time",
+      "count": 1574
+    },
+    {
+      "phrase": "com theo",
+      "count": 1556
+    },
+    {
+      "phrase": "couple of",
+      "count": 1496
+    },
+    {
+      "phrase": "start to",
+      "count": 1484
+    },
+    {
+      "phrase": "try to",
+      "count": 1362
+    },
+    {
+      "phrase": "felt like",
+      "count": 1351
+    },
+    {
+      "phrase": "thank you for",
+      "count": 1348
+    },
+    {
+      "phrase": "don't want",
+      "count": 1330
+    },
+    {
+      "phrase": "you feel like",
+      "count": 1330
+    },
+    {
+      "phrase": "you need",
+      "count": 1262
+    },
+    {
+      "phrase": "talk about",
+      "count": 1259
+    },
+    {
+      "phrase": "my life",
+      "count": 1198
+    },
+    {
+      "phrase": "feels like",
+      "count": 1198
+    },
+    {
+      "phrase": "almost like",
+      "count": 1187
+    },
+    {
+      "phrase": "at least",
+      "count": 1186
+    },
+    {
+      "phrase": "might be",
+      "count": 1181
+    },
+    {
+      "phrase": "i'm talking",
+      "count": 1162
+    },
+    {
+      "phrase": "it feels",
+      "count": 1160
+    },
+    {
+      "phrase": "of times",
+      "count": 1148
+    },
+    {
+      "phrase": "i'm trying",
+      "count": 1140
+    },
+    {
+      "phrase": "see that",
+      "count": 1105
+    },
+    {
+      "phrase": "time and",
+      "count": 1097
+    },
+    {
+      "phrase": "your life",
+      "count": 1094
+    },
+    {
+      "phrase": "see you",
+      "count": 1091
+    },
+    {
+      "phrase": "that's good",
+      "count": 1076
+    },
+    {
+      "phrase": "lot of times",
+      "count": 1063
+    },
+    {
+      "phrase": "i'm trying to",
+      "count": 1057
+    },
+    {
+      "phrase": "of stuff",
+      "count": 1046
+    },
+    {
+      "phrase": "type of",
+      "count": 1037
+    },
+    {
+      "phrase": "hard to",
+      "count": 1035
+    },
+    {
+      "phrase": "you look",
+      "count": 1019
+    },
+    {
+      "phrase": "do you feel",
+      "count": 1011
+    },
+    {
+      "phrase": "to take",
+      "count": 1011
+    },
+    {
+      "phrase": "it's almost",
+      "count": 1011
+    },
+    {
+      "phrase": "the end",
+      "count": 999
+    },
+    {
+      "phrase": "i'll be",
+      "count": 988
+    },
+    {
+      "phrase": "that shit",
+      "count": 976
+    },
+    {
+      "phrase": "code theo",
+      "count": 967
+    },
+    {
+      "phrase": "thinking about",
+      "count": 963
+    },
+    {
+      "phrase": "stuff like",
+      "count": 953
+    },
+    {
+      "phrase": "sort of",
+      "count": 943
+    },
+    {
+      "phrase": "it's hard",
+      "count": 941
+    },
+    {
+      "phrase": "inside of",
+      "count": 940
+    },
+    {
+      "phrase": "you start",
+      "count": 935
+    },
+    {
+      "phrase": "have any",
+      "count": 908
+    },
+    {
+      "phrase": "can't even",
+      "count": 899
+    },
+    {
+      "phrase": "growing up",
+      "count": 863
+    },
+    {
+      "phrase": "you might",
+      "count": 856
+    },
+    {
+      "phrase": "it doesn't",
+      "count": 856
+    },
+    {
+      "phrase": "like damn",
+      "count": 853
+    },
+    {
+      "phrase": "the whole",
+      "count": 843
+    },
+    {
+      "phrase": "that's crazy",
+      "count": 843
+    },
+    {
+      "phrase": "to feel",
+      "count": 822
+    },
+    {
+      "phrase": "look like",
+      "count": 818
+    },
+    {
+      "phrase": "thanks for",
+      "count": 814
+    },
+    {
+      "phrase": "your first",
+      "count": 809
+    },
+    {
+      "phrase": "looks like",
+      "count": 809
+    },
+    {
+      "phrase": "it feels like",
+      "count": 806
+    },
+    {
+      "phrase": "sometimes you",
+      "count": 805
+    },
+    {
+      "phrase": "like hey",
+      "count": 805
+    },
+    {
+      "phrase": "and look",
+      "count": 801
+    },
+    {
+      "phrase": "put it",
+      "count": 800
+    },
+    {
+      "phrase": "listen to",
+      "count": 797
+    },
+    {
+      "phrase": "seems like",
+      "count": 793
+    },
+    {
+      "phrase": "it's interesting",
+      "count": 791
+    },
+    {
+      "phrase": "all the time",
+      "count": 791
+    },
+    {
+      "phrase": "oh wow",
+      "count": 791
+    },
+    {
+      "phrase": "see what",
+      "count": 789
+    }
+  ],
+  "topWords": [
+    {
+      "word": "little",
+      "count": 14183
+    },
+    {
+      "word": "time",
+      "count": 12921
+    },
+    {
+      "word": "feel",
+      "count": 12569
+    },
+    {
+      "word": "good",
+      "count": 11336
+    },
+    {
+      "word": "fucking",
+      "count": 10587
+    },
+    {
+      "word": "look",
+      "count": 8745
+    },
+    {
+      "word": "want",
+      "count": 8267
+    },
+    {
+      "word": "stuff",
+      "count": 7757
+    },
+    {
+      "word": "sometimes",
+      "count": 7017
+    },
+    {
+      "word": "i'll",
+      "count": 6857
+    },
+    {
+      "word": "whatever",
+      "count": 6555
+    },
+    {
+      "word": "maybe",
+      "count": 6548
+    },
+    {
+      "word": "saying",
+      "count": 6417
+    },
+    {
+      "word": "can't",
+      "count": 6027
+    },
+    {
+      "word": "love",
+      "count": 5994
+    },
+    {
+      "word": "probably",
+      "count": 5910
+    },
+    {
+      "word": "take",
+      "count": 5897
+    },
+    {
+      "word": "remember",
+      "count": 5695
+    },
+    {
+      "word": "always",
+      "count": 5680
+    },
+    {
+      "word": "trying",
+      "count": 5663
+    },
+    {
+      "word": "damn",
+      "count": 5559
+    },
+    {
+      "word": "first",
+      "count": 5500
+    },
+    {
+      "word": "real",
+      "count": 5450
+    },
+    {
+      "word": "shit",
+      "count": 5450
+    },
+    {
+      "word": "life",
+      "count": 5089
+    },
+    {
+      "word": "ever",
+      "count": 5015
+    },
+    {
+      "word": "never",
+      "count": 4998
+    },
+    {
+      "word": "different",
+      "count": 4697
+    },
+    {
+      "word": "need",
+      "count": 4620
+    },
+    {
+      "word": "thank",
+      "count": 4590
+    },
+    {
+      "word": "getting",
+      "count": 4362
+    },
+    {
+      "word": "baby",
+      "count": 4342
+    },
+    {
+      "word": "crazy",
+      "count": 4342
+    },
+    {
+      "word": "start",
+      "count": 4322
+    },
+    {
+      "word": "great",
+      "count": 4288
+    },
+    {
+      "word": "show",
+      "count": 4246
+    },
+    {
+      "word": "around",
+      "count": 4137
+    },
+    {
+      "word": "talking",
+      "count": 4091
+    },
+    {
+      "word": "call",
+      "count": 3919
+    },
+    {
+      "word": "tell",
+      "count": 3918
+    },
+    {
+      "word": "almost",
+      "count": 3781
+    },
+    {
+      "word": "nice",
+      "count": 3690
+    },
+    {
+      "word": "thought",
+      "count": 3661
+    },
+    {
+      "word": "years",
+      "count": 3615
+    },
+    {
+      "word": "else",
+      "count": 3593
+    },
+    {
+      "word": "part",
+      "count": 3572
+    },
+    {
+      "word": "used",
+      "count": 3525
+    },
+    {
+      "word": "couple",
+      "count": 3516
+    },
+    {
+      "word": "might",
+      "count": 3473
+    },
+    {
+      "word": "place",
+      "count": 3473
+    }
+  ],
+  "topicEvolution": {
+    "2016": {
+      "recovery": 4,
+      "politics": 14,
+      "mental-health": 0,
+      "faith": 13,
+      "comedy": 17,
+      "health": 8,
+      "relationships": 45,
+      "psychedelics": 0,
+      "southern-life": 23,
+      "media": 25,
+      "masculinity": 7,
+      "conspiracy": 6
+    },
+    "2017": {
+      "recovery": 189,
+      "politics": 67,
+      "mental-health": 61,
+      "faith": 106,
+      "comedy": 252,
+      "health": 160,
+      "relationships": 896,
+      "psychedelics": 13,
+      "southern-life": 181,
+      "media": 426,
+      "masculinity": 107,
+      "conspiracy": 74
+    },
+    "2018": {
+      "recovery": 371,
+      "politics": 186,
+      "mental-health": 221,
+      "faith": 247,
+      "comedy": 1065,
+      "health": 546,
+      "relationships": 2028,
+      "psychedelics": 62,
+      "southern-life": 468,
+      "media": 1114,
+      "masculinity": 290,
+      "conspiracy": 345
+    },
+    "2019": {
+      "recovery": 363,
+      "politics": 114,
+      "mental-health": 192,
+      "faith": 327,
+      "comedy": 1417,
+      "health": 627,
+      "relationships": 1834,
+      "psychedelics": 75,
+      "southern-life": 307,
+      "media": 1210,
+      "masculinity": 307,
+      "conspiracy": 360
+    },
+    "2020": {
+      "recovery": 514,
+      "politics": 454,
+      "mental-health": 243,
+      "faith": 378,
+      "comedy": 1375,
+      "health": 695,
+      "relationships": 2134,
+      "psychedelics": 83,
+      "southern-life": 536,
+      "media": 1318,
+      "masculinity": 198,
+      "conspiracy": 389
+    },
+    "2021": {
+      "recovery": 517,
+      "politics": 261,
+      "mental-health": 313,
+      "faith": 339,
+      "comedy": 1259,
+      "health": 709,
+      "relationships": 2086,
+      "psychedelics": 184,
+      "southern-life": 466,
+      "media": 1275,
+      "masculinity": 298,
+      "conspiracy": 420
+    },
+    "2022": {
+      "recovery": 491,
+      "politics": 196,
+      "mental-health": 363,
+      "faith": 466,
+      "comedy": 1117,
+      "health": 616,
+      "relationships": 2269,
+      "psychedelics": 146,
+      "southern-life": 448,
+      "media": 1079,
+      "masculinity": 276,
+      "conspiracy": 309
+    },
+    "2023": {
+      "recovery": 575,
+      "politics": 582,
+      "mental-health": 314,
+      "faith": 592,
+      "comedy": 1606,
+      "health": 566,
+      "relationships": 2977,
+      "psychedelics": 132,
+      "southern-life": 656,
+      "media": 1275,
+      "masculinity": 387,
+      "conspiracy": 609
+    },
+    "2024": {
+      "recovery": 999,
+      "politics": 1104,
+      "mental-health": 730,
+      "faith": 650,
+      "comedy": 1871,
+      "health": 981,
+      "relationships": 3839,
+      "psychedelics": 206,
+      "southern-life": 957,
+      "media": 1750,
+      "masculinity": 467,
+      "conspiracy": 834
+    },
+    "2025": {
+      "recovery": 854,
+      "politics": 1608,
+      "mental-health": 600,
+      "faith": 691,
+      "comedy": 1875,
+      "health": 834,
+      "relationships": 3656,
+      "psychedelics": 299,
+      "southern-life": 1055,
+      "media": 1681,
+      "masculinity": 597,
+      "conspiracy": 1261
+    },
+    "2026": {
+      "recovery": 186,
+      "politics": 543,
+      "mental-health": 100,
+      "faith": 99,
+      "comedy": 345,
+      "health": 434,
+      "relationships": 722,
+      "psychedelics": 61,
+      "southern-life": 212,
+      "media": 404,
+      "masculinity": 76,
+      "conspiracy": 350
+    }
+  },
+  "episodeMetrics": [
+    {
+      "id": "20848",
+      "published": "2016-12-19",
+      "sentiment": 14.94,
+      "vocabRichness": 14.13,
+      "theoPace": 149,
+      "guestPace": 166
+    },
+    {
+      "id": "20847",
+      "published": "2016-12-26",
+      "sentiment": 6.89,
+      "vocabRichness": 14.3,
+      "theoPace": 166,
+      "guestPace": 151
+    },
+    {
+      "id": "20846",
+      "published": "2017-01-16",
+      "sentiment": 7.93,
+      "vocabRichness": 15.01,
+      "theoPace": 167,
+      "guestPace": 179
+    },
+    {
+      "id": "20845",
+      "published": "2017-01-23",
+      "sentiment": 8.36,
+      "vocabRichness": 14.83,
+      "theoPace": 188,
+      "guestPace": 181
+    },
+    {
+      "id": "20844",
+      "published": "2017-03-06",
+      "sentiment": 6.52,
+      "vocabRichness": 14.53,
+      "theoPace": 168,
+      "guestPace": 163
+    },
+    {
+      "id": "20843",
+      "published": "2017-03-20",
+      "sentiment": 11.39,
+      "vocabRichness": 14.67,
+      "theoPace": 170,
+      "guestPace": 162
+    },
+    {
+      "id": "20842",
+      "published": "2017-03-27",
+      "sentiment": 8.62,
+      "vocabRichness": 15.19,
+      "theoPace": 161,
+      "guestPace": 178
+    },
+    {
+      "id": "20841",
+      "published": "2017-04-10",
+      "sentiment": 7.11,
+      "vocabRichness": 14.66,
+      "theoPace": 173,
+      "guestPace": 177
+    },
+    {
+      "id": "20840",
+      "published": "2017-04-17",
+      "sentiment": 14.32,
+      "vocabRichness": 14.21,
+      "theoPace": 170,
+      "guestPace": 181
+    },
+    {
+      "id": "20839",
+      "published": "2017-04-24",
+      "sentiment": 12.42,
+      "vocabRichness": 14.09,
+      "theoPace": 175,
+      "guestPace": 181
+    },
+    {
+      "id": "20838",
+      "published": "2017-05-15",
+      "sentiment": 11.51,
+      "vocabRichness": 14.06,
+      "theoPace": 188,
+      "guestPace": 207
+    },
+    {
+      "id": "20837",
+      "published": "2017-06-05",
+      "sentiment": 9.91,
+      "vocabRichness": 15.11,
+      "theoPace": 183,
+      "guestPace": 183
+    },
+    {
+      "id": "20836",
+      "published": "2017-07-07",
+      "sentiment": 6.27,
+      "vocabRichness": 14.57,
+      "theoPace": 174,
+      "guestPace": 188
+    },
+    {
+      "id": "20835",
+      "published": "2017-07-17",
+      "sentiment": 9.54,
+      "vocabRichness": 14.52,
+      "theoPace": 188,
+      "guestPace": 182
+    },
+    {
+      "id": "20834",
+      "published": "2017-08-21",
+      "sentiment": 6.16,
+      "vocabRichness": 14.8,
+      "theoPace": 189,
+      "guestPace": 171
+    },
+    {
+      "id": "20833",
+      "published": "2017-08-28",
+      "sentiment": 10.29,
+      "vocabRichness": 15.29,
+      "theoPace": 203,
+      "guestPace": 186
+    },
+    {
+      "id": "20832",
+      "published": "2017-09-25",
+      "sentiment": 8.63,
+      "vocabRichness": 15.53,
+      "theoPace": 200,
+      "guestPace": 195
+    },
+    {
+      "id": "20831",
+      "published": "2017-10-02",
+      "sentiment": 6.62,
+      "vocabRichness": 16.14,
+      "theoPace": 178,
+      "guestPace": 183
+    },
+    {
+      "id": "20830",
+      "published": "2017-10-16",
+      "sentiment": 6.21,
+      "vocabRichness": 15.12,
+      "theoPace": 190,
+      "guestPace": 175
+    },
+    {
+      "id": "20829",
+      "published": "2017-10-23",
+      "sentiment": 6.92,
+      "vocabRichness": 15.07,
+      "theoPace": 196,
+      "guestPace": 162
+    },
+    {
+      "id": "20828",
+      "published": "2017-10-27",
+      "sentiment": 12.65,
+      "vocabRichness": 13.45,
+      "theoPace": 185,
+      "guestPace": 179
+    },
+    {
+      "id": "20827",
+      "published": "2017-11-06",
+      "sentiment": 6.87,
+      "vocabRichness": 14.98,
+      "theoPace": 187,
+      "guestPace": 190
+    },
+    {
+      "id": "20826",
+      "published": "2017-11-13",
+      "sentiment": 9.3,
+      "vocabRichness": 14.64,
+      "theoPace": 196,
+      "guestPace": 172
+    },
+    {
+      "id": "20825",
+      "published": "2017-11-16",
+      "sentiment": 5.35,
+      "vocabRichness": 14.52,
+      "theoPace": 192,
+      "guestPace": 177
+    },
+    {
+      "id": "20824",
+      "published": "2017-11-27",
+      "sentiment": 9.76,
+      "vocabRichness": 15.39,
+      "theoPace": 182,
+      "guestPace": 157
+    },
+    {
+      "id": "20823",
+      "published": "2017-11-30",
+      "sentiment": 5.14,
+      "vocabRichness": 14.58,
+      "theoPace": 191,
+      "guestPace": 169
+    },
+    {
+      "id": "20822",
+      "published": "2017-12-04",
+      "sentiment": 6.17,
+      "vocabRichness": 16.14,
+      "theoPace": 178,
+      "guestPace": 179
+    },
+    {
+      "id": "20821",
+      "published": "2017-12-11",
+      "sentiment": 8.11,
+      "vocabRichness": 15.81,
+      "theoPace": 179,
+      "guestPace": 162
+    },
+    {
+      "id": "20820",
+      "published": "2017-12-21",
+      "sentiment": 7.96,
+      "vocabRichness": 14.95,
+      "theoPace": 195,
+      "guestPace": 176
+    },
+    {
+      "id": "20819",
+      "published": "2017-12-25",
+      "sentiment": 9.01,
+      "vocabRichness": 13.19,
+      "theoPace": 197,
+      "guestPace": 177
+    },
+    {
+      "id": "20818",
+      "published": "2018-01-01",
+      "sentiment": 6.7,
+      "vocabRichness": 16.02,
+      "theoPace": 179,
+      "guestPace": 198
+    },
+    {
+      "id": "20817",
+      "published": "2018-01-04",
+      "sentiment": 6.56,
+      "vocabRichness": 14.93,
+      "theoPace": 188,
+      "guestPace": 177
+    },
+    {
+      "id": "20816",
+      "published": "2018-01-11",
+      "sentiment": 10.19,
+      "vocabRichness": 15.22,
+      "theoPace": 183,
+      "guestPace": 209
+    },
+    {
+      "id": "20815",
+      "published": "2018-01-15",
+      "sentiment": 13.24,
+      "vocabRichness": 14.5,
+      "theoPace": 193,
+      "guestPace": 172
+    },
+    {
+      "id": "20814",
+      "published": "2018-01-18",
+      "sentiment": 8.39,
+      "vocabRichness": 14.81,
+      "theoPace": 175,
+      "guestPace": 183
+    },
+    {
+      "id": "20813",
+      "published": "2018-01-22",
+      "sentiment": 7.3,
+      "vocabRichness": 15.52,
+      "theoPace": 189,
+      "guestPace": 174
+    },
+    {
+      "id": "20812",
+      "published": "2018-01-29",
+      "sentiment": 6.37,
+      "vocabRichness": 15.04,
+      "theoPace": 182,
+      "guestPace": 190
+    },
+    {
+      "id": "20811",
+      "published": "2018-02-01",
+      "sentiment": 6.92,
+      "vocabRichness": 13.96,
+      "theoPace": 172,
+      "guestPace": 186
+    },
+    {
+      "id": "20810",
+      "published": "2018-02-05",
+      "sentiment": 9.59,
+      "vocabRichness": 14.66,
+      "theoPace": 190,
+      "guestPace": 176
+    },
+    {
+      "id": "20809",
+      "published": "2018-02-19",
+      "sentiment": 4.6,
+      "vocabRichness": 16.1,
+      "theoPace": 185,
+      "guestPace": 175
+    },
+    {
+      "id": "20808",
+      "published": "2018-03-05",
+      "sentiment": 9.8,
+      "vocabRichness": 15.49,
+      "theoPace": 189,
+      "guestPace": 190
+    },
+    {
+      "id": "20807",
+      "published": "2018-03-19",
+      "sentiment": 11.11,
+      "vocabRichness": 15.19,
+      "theoPace": 185,
+      "guestPace": 180
+    },
+    {
+      "id": "20806",
+      "published": "2018-03-26",
+      "sentiment": 8.63,
+      "vocabRichness": 15.42,
+      "theoPace": 193,
+      "guestPace": 170
+    },
+    {
+      "id": "20805",
+      "published": "2018-03-30",
+      "sentiment": 7.53,
+      "vocabRichness": 18.25,
+      "theoPace": 228,
+      "guestPace": 219
+    },
+    {
+      "id": "20804",
+      "published": "2018-04-02",
+      "sentiment": 10.79,
+      "vocabRichness": 14.28,
+      "theoPace": 199,
+      "guestPace": 170
+    },
+    {
+      "id": "20803",
+      "published": "2018-04-16",
+      "sentiment": 7.44,
+      "vocabRichness": 16.28,
+      "theoPace": 189,
+      "guestPace": 184
+    },
+    {
+      "id": "20802",
+      "published": "2018-04-20",
+      "sentiment": 9.1,
+      "vocabRichness": 12.65,
+      "theoPace": 228,
+      "guestPace": 227
+    },
+    {
+      "id": "20801",
+      "published": "2018-04-30",
+      "sentiment": 10.03,
+      "vocabRichness": 14.81,
+      "theoPace": 188,
+      "guestPace": 190
+    },
+    {
+      "id": "20800",
+      "published": "2018-05-07",
+      "sentiment": 7.61,
+      "vocabRichness": 16.05,
+      "theoPace": 184,
+      "guestPace": 171
+    },
+    {
+      "id": "20799",
+      "published": "2018-05-14",
+      "sentiment": 7.76,
+      "vocabRichness": 16.39,
+      "theoPace": 183,
+      "guestPace": 174
+    },
+    {
+      "id": "20798",
+      "published": "2018-05-17",
+      "sentiment": 10.8,
+      "vocabRichness": 13.74,
+      "theoPace": 231,
+      "guestPace": 216
+    },
+    {
+      "id": "20797",
+      "published": "2018-05-21",
+      "sentiment": 11.38,
+      "vocabRichness": 15.24,
+      "theoPace": 184,
+      "guestPace": 193
+    },
+    {
+      "id": "20796",
+      "published": "2018-05-24",
+      "sentiment": 10.21,
+      "vocabRichness": 15.83,
+      "theoPace": 233,
+      "guestPace": 199
+    },
+    {
+      "id": "20795",
+      "published": "2018-05-28",
+      "sentiment": 9.62,
+      "vocabRichness": 15.59,
+      "theoPace": 189,
+      "guestPace": 186
+    },
+    {
+      "id": "20794",
+      "published": "2018-05-31",
+      "sentiment": 8.25,
+      "vocabRichness": 15.65,
+      "theoPace": 221,
+      "guestPace": 181
+    },
+    {
+      "id": "20793",
+      "published": "2018-06-04",
+      "sentiment": 7.91,
+      "vocabRichness": 15.79,
+      "theoPace": 178,
+      "guestPace": 177
+    },
+    {
+      "id": "20792",
+      "published": "2018-06-07",
+      "sentiment": 11.13,
+      "vocabRichness": 15.13,
+      "theoPace": 205,
+      "guestPace": 230
+    },
+    {
+      "id": "20791",
+      "published": "2018-06-11",
+      "sentiment": 8.84,
+      "vocabRichness": 15.44,
+      "theoPace": 189,
+      "guestPace": 182
+    },
+    {
+      "id": "20790",
+      "published": "2018-07-02",
+      "sentiment": 9.7,
+      "vocabRichness": 15.03,
+      "theoPace": 189,
+      "guestPace": 165
+    },
+    {
+      "id": "20789",
+      "published": "2018-07-12",
+      "sentiment": 9.23,
+      "vocabRichness": 16.97,
+      "theoPace": 216,
+      "guestPace": 182
+    },
+    {
+      "id": "20788",
+      "published": "2018-07-16",
+      "sentiment": 3.83,
+      "vocabRichness": 15.76,
+      "theoPace": 174,
+      "guestPace": 164
+    },
+    {
+      "id": "20787",
+      "published": "2018-07-19",
+      "sentiment": 9.59,
+      "vocabRichness": 14.6,
+      "theoPace": 216,
+      "guestPace": 232
+    },
+    {
+      "id": "20786",
+      "published": "2018-07-23",
+      "sentiment": 10.82,
+      "vocabRichness": 14.22,
+      "theoPace": 182,
+      "guestPace": 170
+    },
+    {
+      "id": "20785",
+      "published": "2018-08-06",
+      "sentiment": 11.79,
+      "vocabRichness": 15.6,
+      "theoPace": 188,
+      "guestPace": 175
+    },
+    {
+      "id": "20784",
+      "published": "2018-08-09",
+      "sentiment": 5.58,
+      "vocabRichness": 14.75,
+      "theoPace": 222,
+      "guestPace": 219
+    },
+    {
+      "id": "20783",
+      "published": "2018-08-23",
+      "sentiment": 8.55,
+      "vocabRichness": 16.03,
+      "theoPace": 233,
+      "guestPace": 216
+    },
+    {
+      "id": "20782",
+      "published": "2018-10-01",
+      "sentiment": 6.03,
+      "vocabRichness": 15.3,
+      "theoPace": 179,
+      "guestPace": 195
+    },
+    {
+      "id": "20781",
+      "published": "2018-10-18",
+      "sentiment": 6.09,
+      "vocabRichness": 15.02,
+      "theoPace": 230,
+      "guestPace": 226
+    },
+    {
+      "id": "20780",
+      "published": "2018-10-22",
+      "sentiment": 11.14,
+      "vocabRichness": 16.17,
+      "theoPace": 168,
+      "guestPace": 180
+    },
+    {
+      "id": "20779",
+      "published": "2018-10-25",
+      "sentiment": 0.65,
+      "vocabRichness": 13.89,
+      "theoPace": 234,
+      "guestPace": 250
+    },
+    {
+      "id": "20778",
+      "published": "2018-10-29",
+      "sentiment": 11.46,
+      "vocabRichness": 16.24,
+      "theoPace": 179,
+      "guestPace": 183
+    },
+    {
+      "id": "20777",
+      "published": "2018-11-01",
+      "sentiment": 5.34,
+      "vocabRichness": 15.37,
+      "theoPace": 226,
+      "guestPace": 204
+    },
+    {
+      "id": "20776",
+      "published": "2018-11-05",
+      "sentiment": 9.97,
+      "vocabRichness": 15.59,
+      "theoPace": 184,
+      "guestPace": 171
+    },
+    {
+      "id": "20775",
+      "published": "2018-11-08",
+      "sentiment": 9.56,
+      "vocabRichness": 16.04,
+      "theoPace": 230,
+      "guestPace": 217
+    },
+    {
+      "id": "20774",
+      "published": "2018-11-12",
+      "sentiment": 13.72,
+      "vocabRichness": 14.38,
+      "theoPace": 174,
+      "guestPace": 189
+    },
+    {
+      "id": "20773",
+      "published": "2018-11-22",
+      "sentiment": 8.74,
+      "vocabRichness": 14.22,
+      "theoPace": 217,
+      "guestPace": 231
+    },
+    {
+      "id": "20772",
+      "published": "2018-12-13",
+      "sentiment": 1.7,
+      "vocabRichness": 17.21,
+      "theoPace": 219,
+      "guestPace": 203
+    },
+    {
+      "id": "20771",
+      "published": "2018-12-20",
+      "sentiment": 9.39,
+      "vocabRichness": 16.72,
+      "theoPace": 213,
+      "guestPace": 208
+    },
+    {
+      "id": "20770",
+      "published": "2018-12-27",
+      "sentiment": 5.47,
+      "vocabRichness": 13.58,
+      "theoPace": 220,
+      "guestPace": 204
+    },
+    {
+      "id": "20769",
+      "published": "2019-01-21",
+      "sentiment": 10.49,
+      "vocabRichness": 14.7,
+      "theoPace": 177,
+      "guestPace": 168
+    },
+    {
+      "id": "20768",
+      "published": "2019-01-31",
+      "sentiment": 9.27,
+      "vocabRichness": 16.17,
+      "theoPace": 229,
+      "guestPace": 255
+    },
+    {
+      "id": "20767",
+      "published": "2019-02-04",
+      "sentiment": 9.34,
+      "vocabRichness": 14.65,
+      "theoPace": 173,
+      "guestPace": 174
+    },
+    {
+      "id": "20766",
+      "published": "2019-02-11",
+      "sentiment": 11.02,
+      "vocabRichness": 15.62,
+      "theoPace": 172,
+      "guestPace": 182
+    },
+    {
+      "id": "20765",
+      "published": "2019-02-28",
+      "sentiment": 11.83,
+      "vocabRichness": 15.59,
+      "theoPace": 215,
+      "guestPace": 206
+    },
+    {
+      "id": "20764",
+      "published": "2019-03-11",
+      "sentiment": 10.85,
+      "vocabRichness": 16.01,
+      "theoPace": 173,
+      "guestPace": 176
+    },
+    {
+      "id": "20763",
+      "published": "2019-03-22",
+      "sentiment": 5.08,
+      "vocabRichness": 19.2,
+      "theoPace": 208,
+      "guestPace": 207
+    },
+    {
+      "id": "20762",
+      "published": "2019-03-26",
+      "sentiment": 11.37,
+      "vocabRichness": 15.37,
+      "theoPace": 172,
+      "guestPace": 182
+    },
+    {
+      "id": "20761",
+      "published": "2019-04-04",
+      "sentiment": 7.82,
+      "vocabRichness": 18.07,
+      "theoPace": 218,
+      "guestPace": 192
+    },
+    {
+      "id": "20760",
+      "published": "2019-04-09",
+      "sentiment": 14.49,
+      "vocabRichness": 15.32,
+      "theoPace": 169,
+      "guestPace": 184
+    },
+    {
+      "id": "20759",
+      "published": "2019-05-06",
+      "sentiment": 11.84,
+      "vocabRichness": 14.71,
+      "theoPace": 174,
+      "guestPace": 156
+    },
+    {
+      "id": "20758",
+      "published": "2019-05-13",
+      "sentiment": 13.79,
+      "vocabRichness": 16.26,
+      "theoPace": 173,
+      "guestPace": 156
+    },
+    {
+      "id": "20757",
+      "published": "2019-05-16",
+      "sentiment": 6.13,
+      "vocabRichness": 16.6,
+      "theoPace": 225,
+      "guestPace": 221
+    },
+    {
+      "id": "20756",
+      "published": "2019-05-23",
+      "sentiment": 20.48,
+      "vocabRichness": 14.44,
+      "theoPace": 209,
+      "guestPace": 204
+    },
+    {
+      "id": "20755",
+      "published": "2019-05-27",
+      "sentiment": 15.06,
+      "vocabRichness": 15.21,
+      "theoPace": 162,
+      "guestPace": 149
+    },
+    {
+      "id": "20754",
+      "published": "2019-05-30",
+      "sentiment": 12.48,
+      "vocabRichness": 14.77,
+      "theoPace": 216,
+      "guestPace": 232
+    },
+    {
+      "id": "20753",
+      "published": "2019-06-04",
+      "sentiment": 8.07,
+      "vocabRichness": 15.64,
+      "theoPace": 164,
+      "guestPace": 180
+    },
+    {
+      "id": "20752",
+      "published": "2019-06-06",
+      "sentiment": 9.41,
+      "vocabRichness": 13.58,
+      "theoPace": 208,
+      "guestPace": 238
+    },
+    {
+      "id": "20751",
+      "published": "2019-06-10",
+      "sentiment": 9.75,
+      "vocabRichness": 16.69,
+      "theoPace": 169,
+      "guestPace": 186
+    },
+    {
+      "id": "20750",
+      "published": "2019-06-20",
+      "sentiment": 5.68,
+      "vocabRichness": 16.24,
+      "theoPace": 215,
+      "guestPace": 221
+    },
+    {
+      "id": "20749",
+      "published": "2019-06-24",
+      "sentiment": 9.24,
+      "vocabRichness": 15.57,
+      "theoPace": 171,
+      "guestPace": 134
+    },
+    {
+      "id": "20748",
+      "published": "2019-06-27",
+      "sentiment": 8.73,
+      "vocabRichness": 16.61,
+      "theoPace": 221,
+      "guestPace": 233
+    },
+    {
+      "id": "20747",
+      "published": "2019-07-08",
+      "sentiment": 9.19,
+      "vocabRichness": 15.86,
+      "theoPace": 158,
+      "guestPace": 166
+    },
+    {
+      "id": "20746",
+      "published": "2019-07-15",
+      "sentiment": 16.07,
+      "vocabRichness": 15.08,
+      "theoPace": 157,
+      "guestPace": 172
+    },
+    {
+      "id": "20745",
+      "published": "2019-07-18",
+      "sentiment": 9.92,
+      "vocabRichness": 15.57,
+      "theoPace": 213,
+      "guestPace": 196
+    },
+    {
+      "id": "20744",
+      "published": "2019-07-22",
+      "sentiment": 10.27,
+      "vocabRichness": 14.92,
+      "theoPace": 164,
+      "guestPace": 149
+    },
+    {
+      "id": "20743",
+      "published": "2019-07-25",
+      "sentiment": 3.26,
+      "vocabRichness": 14.16,
+      "theoPace": 233,
+      "guestPace": 232
+    },
+    {
+      "id": "20742",
+      "published": "2019-07-30",
+      "sentiment": 12.61,
+      "vocabRichness": 13.78,
+      "theoPace": 166,
+      "guestPace": 204
+    },
+    {
+      "id": "20741",
+      "published": "2019-08-02",
+      "sentiment": 6.13,
+      "vocabRichness": 14.94,
+      "theoPace": 245,
+      "guestPace": 234
+    },
+    {
+      "id": "20740",
+      "published": "2019-08-05",
+      "sentiment": 10.86,
+      "vocabRichness": 15.28,
+      "theoPace": 156,
+      "guestPace": 161
+    },
+    {
+      "id": "20739",
+      "published": "2019-08-08",
+      "sentiment": 7.05,
+      "vocabRichness": 15.75,
+      "theoPace": 222,
+      "guestPace": 189
+    },
+    {
+      "id": "20738",
+      "published": "2019-08-12",
+      "sentiment": 11.91,
+      "vocabRichness": 14.59,
+      "theoPace": 176,
+      "guestPace": 160
+    },
+    {
+      "id": "20737",
+      "published": "2019-08-15",
+      "sentiment": 9.85,
+      "vocabRichness": 14.66,
+      "theoPace": 219,
+      "guestPace": 195
+    },
+    {
+      "id": "20736",
+      "published": "2019-08-23",
+      "sentiment": 5.96,
+      "vocabRichness": 15.59,
+      "theoPace": 210,
+      "guestPace": 187
+    },
+    {
+      "id": "20735",
+      "published": "2019-09-03",
+      "sentiment": 8.6,
+      "vocabRichness": 15.6,
+      "theoPace": 167,
+      "guestPace": 190
+    },
+    {
+      "id": "20734",
+      "published": "2019-09-05",
+      "sentiment": 5.81,
+      "vocabRichness": 16.7,
+      "theoPace": 231,
+      "guestPace": 239
+    },
+    {
+      "id": "20733",
+      "published": "2019-09-19",
+      "sentiment": 8.12,
+      "vocabRichness": 15.86,
+      "theoPace": 228,
+      "guestPace": 223
+    },
+    {
+      "id": "20732",
+      "published": "2019-09-26",
+      "sentiment": 10.52,
+      "vocabRichness": 16.22,
+      "theoPace": 229,
+      "guestPace": 218
+    },
+    {
+      "id": "20731",
+      "published": "2019-10-01",
+      "sentiment": 11.05,
+      "vocabRichness": 15.25,
+      "theoPace": 225,
+      "guestPace": 267
+    },
+    {
+      "id": "20730",
+      "published": "2019-10-07",
+      "sentiment": 14.38,
+      "vocabRichness": 15.24,
+      "theoPace": 162,
+      "guestPace": 167
+    },
+    {
+      "id": "20729",
+      "published": "2019-10-09",
+      "sentiment": 10.53,
+      "vocabRichness": 14.79,
+      "theoPace": 206,
+      "guestPace": 212
+    },
+    {
+      "id": "20728",
+      "published": "2019-10-15",
+      "sentiment": 15.39,
+      "vocabRichness": 15.18,
+      "theoPace": 154,
+      "guestPace": 158
+    },
+    {
+      "id": "20727",
+      "published": "2019-10-21",
+      "sentiment": 10.96,
+      "vocabRichness": 15.66,
+      "theoPace": 154,
+      "guestPace": 174
+    },
+    {
+      "id": "20726",
+      "published": "2019-10-23",
+      "sentiment": 7.76,
+      "vocabRichness": 17.32,
+      "theoPace": 211,
+      "guestPace": 206
+    },
+    {
+      "id": "20725",
+      "published": "2019-10-28",
+      "sentiment": 8.64,
+      "vocabRichness": 15.18,
+      "theoPace": 154,
+      "guestPace": 179
+    },
+    {
+      "id": "20724",
+      "published": "2019-10-31",
+      "sentiment": 6,
+      "vocabRichness": 14.19,
+      "theoPace": 217,
+      "guestPace": 183
+    },
+    {
+      "id": "20723",
+      "published": "2019-11-04",
+      "sentiment": 7.12,
+      "vocabRichness": 16.83,
+      "theoPace": 161,
+      "guestPace": 195
+    },
+    {
+      "id": "20722",
+      "published": "2019-11-11",
+      "sentiment": 11.33,
+      "vocabRichness": 16.49,
+      "theoPace": 162,
+      "guestPace": 196
+    },
+    {
+      "id": "20721",
+      "published": "2019-11-14",
+      "sentiment": 11.11,
+      "vocabRichness": 15.19,
+      "theoPace": 218,
+      "guestPace": 208
+    },
+    {
+      "id": "20720",
+      "published": "2019-11-18",
+      "sentiment": 12.3,
+      "vocabRichness": 16.87,
+      "theoPace": 158,
+      "guestPace": 184
+    },
+    {
+      "id": "20719",
+      "published": "2019-11-25",
+      "sentiment": 10.86,
+      "vocabRichness": 15.17,
+      "theoPace": 217,
+      "guestPace": 176
+    },
+    {
+      "id": "20718",
+      "published": "2019-12-02",
+      "sentiment": 16.76,
+      "vocabRichness": 15.72,
+      "theoPace": 140,
+      "guestPace": 166
+    },
+    {
+      "id": "20717",
+      "published": "2019-12-09",
+      "sentiment": 10.61,
+      "vocabRichness": 16.45,
+      "theoPace": 225,
+      "guestPace": 244
+    },
+    {
+      "id": "20716",
+      "published": "2019-12-12",
+      "sentiment": 8.62,
+      "vocabRichness": 16.11,
+      "theoPace": 201,
+      "guestPace": 216
+    },
+    {
+      "id": "20715",
+      "published": "2019-12-19",
+      "sentiment": 6.46,
+      "vocabRichness": 15.14,
+      "theoPace": 214,
+      "guestPace": 225
+    },
+    {
+      "id": "20714",
+      "published": "2019-12-23",
+      "sentiment": 10.69,
+      "vocabRichness": 16.62,
+      "theoPace": 151,
+      "guestPace": 159
+    },
+    {
+      "id": "20713",
+      "published": "2019-12-30",
+      "sentiment": 13.54,
+      "vocabRichness": 15.18,
+      "theoPace": 149,
+      "guestPace": 184
+    },
+    {
+      "id": "20712",
+      "published": "2020-01-06",
+      "sentiment": 5.56,
+      "vocabRichness": 15.06,
+      "theoPace": 210,
+      "guestPace": 234
+    },
+    {
+      "id": "20711",
+      "published": "2020-01-09",
+      "sentiment": 9.45,
+      "vocabRichness": 14.94,
+      "theoPace": 212,
+      "guestPace": 188
+    },
+    {
+      "id": "20710",
+      "published": "2020-01-20",
+      "sentiment": 14.24,
+      "vocabRichness": 16.31,
+      "theoPace": 141,
+      "guestPace": 186
+    },
+    {
+      "id": "20709",
+      "published": "2020-01-23",
+      "sentiment": 7.26,
+      "vocabRichness": 16.56,
+      "theoPace": 197,
+      "guestPace": 178
+    },
+    {
+      "id": "20707",
+      "published": "2020-01-30",
+      "sentiment": 8.05,
+      "vocabRichness": 17.84,
+      "theoPace": 233,
+      "guestPace": 238
+    },
+    {
+      "id": "20708",
+      "published": "2020-01-30",
+      "sentiment": 10.73,
+      "vocabRichness": 15.09,
+      "theoPace": 150,
+      "guestPace": 137
+    },
+    {
+      "id": "20706",
+      "published": "2020-02-04",
+      "sentiment": 9.9,
+      "vocabRichness": 15.76,
+      "theoPace": 243,
+      "guestPace": 254
+    },
+    {
+      "id": "20705",
+      "published": "2020-02-07",
+      "sentiment": 8.59,
+      "vocabRichness": 15.19,
+      "theoPace": 205,
+      "guestPace": 178
+    },
+    {
+      "id": "20704",
+      "published": "2020-02-10",
+      "sentiment": 9.85,
+      "vocabRichness": 15.07,
+      "theoPace": 235,
+      "guestPace": 224
+    },
+    {
+      "id": "20703",
+      "published": "2020-02-17",
+      "sentiment": 9.45,
+      "vocabRichness": 16.53,
+      "theoPace": 154,
+      "guestPace": 175
+    },
+    {
+      "id": "20702",
+      "published": "2020-02-25",
+      "sentiment": 14.07,
+      "vocabRichness": 15.75,
+      "theoPace": 165,
+      "guestPace": 177
+    },
+    {
+      "id": "20701",
+      "published": "2020-03-03",
+      "sentiment": 19.22,
+      "vocabRichness": 15.35,
+      "theoPace": 156,
+      "guestPace": 171
+    },
+    {
+      "id": "20700",
+      "published": "2020-03-05",
+      "sentiment": 11.43,
+      "vocabRichness": 16.61,
+      "theoPace": 217,
+      "guestPace": 231
+    },
+    {
+      "id": "20699",
+      "published": "2020-03-12",
+      "sentiment": 13.51,
+      "vocabRichness": 15.43,
+      "theoPace": 217,
+      "guestPace": 206
+    },
+    {
+      "id": "20698",
+      "published": "2020-03-16",
+      "sentiment": 16.88,
+      "vocabRichness": 15.19,
+      "theoPace": 167,
+      "guestPace": 191
+    },
+    {
+      "id": "20697",
+      "published": "2020-03-19",
+      "sentiment": 8.56,
+      "vocabRichness": 15.26,
+      "theoPace": 229,
+      "guestPace": 235
+    },
+    {
+      "id": "20696",
+      "published": "2020-03-24",
+      "sentiment": 9.11,
+      "vocabRichness": 14.99,
+      "theoPace": 169,
+      "guestPace": 149
+    },
+    {
+      "id": "20695",
+      "published": "2020-03-27",
+      "sentiment": 6.98,
+      "vocabRichness": 13.76,
+      "theoPace": 217,
+      "guestPace": 203
+    },
+    {
+      "id": "20694",
+      "published": "2020-03-30",
+      "sentiment": 6.97,
+      "vocabRichness": 17.41,
+      "theoPace": 198,
+      "guestPace": 185
+    },
+    {
+      "id": "20693",
+      "published": "2020-04-06",
+      "sentiment": 10.05,
+      "vocabRichness": 16.31,
+      "theoPace": 161,
+      "guestPace": 196
+    },
+    {
+      "id": "20692",
+      "published": "2020-04-13",
+      "sentiment": 2.14,
+      "vocabRichness": 16.31,
+      "theoPace": 213,
+      "guestPace": 241
+    },
+    {
+      "id": "20691",
+      "published": "2020-04-20",
+      "sentiment": 12.47,
+      "vocabRichness": 15.87,
+      "theoPace": 147,
+      "guestPace": 174
+    },
+    {
+      "id": "20690",
+      "published": "2020-04-27",
+      "sentiment": 9.63,
+      "vocabRichness": 15.46,
+      "theoPace": 154,
+      "guestPace": 161
+    },
+    {
+      "id": "20689",
+      "published": "2020-05-07",
+      "sentiment": 11.78,
+      "vocabRichness": 16.21,
+      "theoPace": 147,
+      "guestPace": 179
+    },
+    {
+      "id": "20688",
+      "published": "2020-05-12",
+      "sentiment": 3.89,
+      "vocabRichness": 16.42,
+      "theoPace": 158,
+      "guestPace": 194
+    },
+    {
+      "id": "20687",
+      "published": "2020-05-18",
+      "sentiment": 9.81,
+      "vocabRichness": 15.91,
+      "theoPace": 231,
+      "guestPace": 247
+    },
+    {
+      "id": "20686",
+      "published": "2020-05-25",
+      "sentiment": 7.42,
+      "vocabRichness": 15.94,
+      "theoPace": 211,
+      "guestPace": 182
+    },
+    {
+      "id": "20684",
+      "published": "2020-06-08",
+      "sentiment": 1.86,
+      "vocabRichness": 14,
+      "theoPace": 143,
+      "guestPace": 144
+    },
+    {
+      "id": "20685",
+      "published": "2020-06-08",
+      "sentiment": 1.67,
+      "vocabRichness": 13.59,
+      "theoPace": 206,
+      "guestPace": 191
+    },
+    {
+      "id": "20683",
+      "published": "2020-06-16",
+      "sentiment": 5,
+      "vocabRichness": 14.32,
+      "theoPace": 223,
+      "guestPace": 225
+    },
+    {
+      "id": "20682",
+      "published": "2020-06-23",
+      "sentiment": 11.08,
+      "vocabRichness": 13.89,
+      "theoPace": 143,
+      "guestPace": 166
+    },
+    {
+      "id": "20681",
+      "published": "2020-06-30",
+      "sentiment": 9.35,
+      "vocabRichness": 15.57,
+      "theoPace": 242,
+      "guestPace": 257
+    },
+    {
+      "id": "20680",
+      "published": "2020-07-06",
+      "sentiment": 6.96,
+      "vocabRichness": 15.62,
+      "theoPace": 222,
+      "guestPace": 229
+    },
+    {
+      "id": "20679",
+      "published": "2020-07-13",
+      "sentiment": 11.8,
+      "vocabRichness": 15.5,
+      "theoPace": 147,
+      "guestPace": 176
+    },
+    {
+      "id": "20678",
+      "published": "2020-07-20",
+      "sentiment": 8.75,
+      "vocabRichness": 15.03,
+      "theoPace": 159,
+      "guestPace": 174
+    },
+    {
+      "id": "20677",
+      "published": "2020-07-24",
+      "sentiment": 4.68,
+      "vocabRichness": 17.31,
+      "theoPace": 203,
+      "guestPace": 210
+    },
+    {
+      "id": "20676",
+      "published": "2020-07-27",
+      "sentiment": 13.88,
+      "vocabRichness": 15.31,
+      "theoPace": 143,
+      "guestPace": 178
+    },
+    {
+      "id": "20675",
+      "published": "2020-08-03",
+      "sentiment": 6.5,
+      "vocabRichness": 16.38,
+      "theoPace": 216,
+      "guestPace": 240
+    },
+    {
+      "id": "20674",
+      "published": "2020-08-10",
+      "sentiment": 10.66,
+      "vocabRichness": 15.57,
+      "theoPace": 140,
+      "guestPace": 160
+    },
+    {
+      "id": "20673",
+      "published": "2020-08-20",
+      "sentiment": 10.79,
+      "vocabRichness": 15.42,
+      "theoPace": 201,
+      "guestPace": 206
+    },
+    {
+      "id": "20672",
+      "published": "2020-08-24",
+      "sentiment": 16.85,
+      "vocabRichness": 13.64,
+      "theoPace": 161,
+      "guestPace": 174
+    },
+    {
+      "id": "20671",
+      "published": "2020-08-28",
+      "sentiment": 14.73,
+      "vocabRichness": 15.5,
+      "theoPace": 205,
+      "guestPace": 186
+    },
+    {
+      "id": "20670",
+      "published": "2020-09-08",
+      "sentiment": 9.08,
+      "vocabRichness": 16,
+      "theoPace": 156,
+      "guestPace": 174
+    },
+    {
+      "id": "20669",
+      "published": "2020-09-15",
+      "sentiment": 9.11,
+      "vocabRichness": 15.07,
+      "theoPace": 158,
+      "guestPace": 187
+    },
+    {
+      "id": "20668",
+      "published": "2020-09-22",
+      "sentiment": 2.78,
+      "vocabRichness": 15.1,
+      "theoPace": 201,
+      "guestPace": 159
+    },
+    {
+      "id": "20667",
+      "published": "2020-09-29",
+      "sentiment": 10.52,
+      "vocabRichness": 15.01,
+      "theoPace": 157,
+      "guestPace": 172
+    },
+    {
+      "id": "20666",
+      "published": "2020-10-06",
+      "sentiment": 12.44,
+      "vocabRichness": 13.61,
+      "theoPace": 157,
+      "guestPace": 151
+    },
+    {
+      "id": "20665",
+      "published": "2020-10-13",
+      "sentiment": 9.27,
+      "vocabRichness": 16.07,
+      "theoPace": 152,
+      "guestPace": 177
+    },
+    {
+      "id": "20664",
+      "published": "2020-10-20",
+      "sentiment": 3.8,
+      "vocabRichness": 15.52,
+      "theoPace": 203,
+      "guestPace": 178
+    },
+    {
+      "id": "20663",
+      "published": "2020-10-24",
+      "sentiment": 9.59,
+      "vocabRichness": 15.37,
+      "theoPace": 152,
+      "guestPace": 163
+    },
+    {
+      "id": "20662",
+      "published": "2020-10-29",
+      "sentiment": 10.33,
+      "vocabRichness": 15.29,
+      "theoPace": 210,
+      "guestPace": 212
+    },
+    {
+      "id": "20661",
+      "published": "2020-11-03",
+      "sentiment": 13.73,
+      "vocabRichness": 15.16,
+      "theoPace": 156,
+      "guestPace": 176
+    },
+    {
+      "id": "20660",
+      "published": "2020-11-09",
+      "sentiment": 3.21,
+      "vocabRichness": 16.2,
+      "theoPace": 214,
+      "guestPace": 232
+    },
+    {
+      "id": "20659",
+      "published": "2020-11-12",
+      "sentiment": 2.7,
+      "vocabRichness": 19.08,
+      "theoPace": 211,
+      "guestPace": 164
+    },
+    {
+      "id": "20658",
+      "published": "2020-11-17",
+      "sentiment": 5.77,
+      "vocabRichness": 16.54,
+      "theoPace": 214,
+      "guestPace": 198
+    },
+    {
+      "id": "20657",
+      "published": "2020-11-20",
+      "sentiment": 11.94,
+      "vocabRichness": 15.43,
+      "theoPace": 148,
+      "guestPace": 173
+    },
+    {
+      "id": "20656",
+      "published": "2020-11-26",
+      "sentiment": 7.45,
+      "vocabRichness": 14.89,
+      "theoPace": 237,
+      "guestPace": 238
+    },
+    {
+      "id": "20655",
+      "published": "2020-11-30",
+      "sentiment": 12.62,
+      "vocabRichness": 15.36,
+      "theoPace": 149,
+      "guestPace": 184
+    },
+    {
+      "id": "20654",
+      "published": "2020-12-07",
+      "sentiment": 6.87,
+      "vocabRichness": 15.27,
+      "theoPace": 220,
+      "guestPace": 199
+    },
+    {
+      "id": "20653",
+      "published": "2020-12-12",
+      "sentiment": 13.96,
+      "vocabRichness": 14.94,
+      "theoPace": 159,
+      "guestPace": 142
+    },
+    {
+      "id": "20652",
+      "published": "2020-12-18",
+      "sentiment": 12.64,
+      "vocabRichness": 15.46,
+      "theoPace": 155,
+      "guestPace": 157
+    },
+    {
+      "id": "20651",
+      "published": "2020-12-23",
+      "sentiment": 12.57,
+      "vocabRichness": 15.83,
+      "theoPace": 227,
+      "guestPace": 239
+    },
+    {
+      "id": "20650",
+      "published": "2021-01-02",
+      "sentiment": 8.35,
+      "vocabRichness": 17.17,
+      "theoPace": 167,
+      "guestPace": 214
+    },
+    {
+      "id": "20649",
+      "published": "2021-01-07",
+      "sentiment": 3.06,
+      "vocabRichness": 14.3,
+      "theoPace": 218,
+      "guestPace": 241
+    },
+    {
+      "id": "20648",
+      "published": "2021-01-15",
+      "sentiment": 10.63,
+      "vocabRichness": 16.24,
+      "theoPace": 142,
+      "guestPace": 173
+    },
+    {
+      "id": "20647",
+      "published": "2021-01-22",
+      "sentiment": 14.47,
+      "vocabRichness": 14.32,
+      "theoPace": 175,
+      "guestPace": 138
+    },
+    {
+      "id": "20646",
+      "published": "2021-01-28",
+      "sentiment": 8.04,
+      "vocabRichness": 15.56,
+      "theoPace": 154,
+      "guestPace": 140
+    },
+    {
+      "id": "20645",
+      "published": "2021-02-06",
+      "sentiment": 6.75,
+      "vocabRichness": 15.8,
+      "theoPace": 213,
+      "guestPace": 179
+    },
+    {
+      "id": "20644",
+      "published": "2021-02-10",
+      "sentiment": 11.06,
+      "vocabRichness": 14.57,
+      "theoPace": 214,
+      "guestPace": 217
+    },
+    {
+      "id": "20643",
+      "published": "2021-02-12",
+      "sentiment": 6.74,
+      "vocabRichness": 13.5,
+      "theoPace": 155,
+      "guestPace": 153
+    },
+    {
+      "id": "20642",
+      "published": "2021-02-18",
+      "sentiment": 3.43,
+      "vocabRichness": 15.87,
+      "theoPace": 202,
+      "guestPace": 200
+    },
+    {
+      "id": "20641",
+      "published": "2021-02-26",
+      "sentiment": 6.88,
+      "vocabRichness": 14.11,
+      "theoPace": 195,
+      "guestPace": 221
+    },
+    {
+      "id": "20640",
+      "published": "2021-02-28",
+      "sentiment": 5.57,
+      "vocabRichness": 16.87,
+      "theoPace": 201,
+      "guestPace": 203
+    },
+    {
+      "id": "20639",
+      "published": "2021-03-02",
+      "sentiment": 12.3,
+      "vocabRichness": 16.36,
+      "theoPace": 141,
+      "guestPace": 166
+    },
+    {
+      "id": "20638",
+      "published": "2021-03-05",
+      "sentiment": 12.97,
+      "vocabRichness": 15.48,
+      "theoPace": 213,
+      "guestPace": 167
+    },
+    {
+      "id": "20637",
+      "published": "2021-03-11",
+      "sentiment": 5.49,
+      "vocabRichness": 17.46,
+      "theoPace": 177,
+      "guestPace": 163
+    },
+    {
+      "id": "20636",
+      "published": "2021-03-17",
+      "sentiment": 13.92,
+      "vocabRichness": 15.39,
+      "theoPace": 145,
+      "guestPace": 165
+    },
+    {
+      "id": "20635",
+      "published": "2021-03-24",
+      "sentiment": 5.04,
+      "vocabRichness": 15.15,
+      "theoPace": 212,
+      "guestPace": 218
+    },
+    {
+      "id": "20634",
+      "published": "2021-03-27",
+      "sentiment": 7.59,
+      "vocabRichness": 15.82,
+      "theoPace": 208,
+      "guestPace": 205
+    },
+    {
+      "id": "20633",
+      "published": "2021-03-30",
+      "sentiment": 16.27,
+      "vocabRichness": 15.5,
+      "theoPace": 150,
+      "guestPace": 161
+    },
+    {
+      "id": "20632",
+      "published": "2021-04-02",
+      "sentiment": 9.5,
+      "vocabRichness": 16.19,
+      "theoPace": 221,
+      "guestPace": 250
+    },
+    {
+      "id": "20631",
+      "published": "2021-04-09",
+      "sentiment": 7.98,
+      "vocabRichness": 16.2,
+      "theoPace": 141,
+      "guestPace": 149
+    },
+    {
+      "id": "20630",
+      "published": "2021-04-13",
+      "sentiment": 3.41,
+      "vocabRichness": 16.54,
+      "theoPace": 191,
+      "guestPace": 217
+    },
+    {
+      "id": "20629",
+      "published": "2021-04-23",
+      "sentiment": 9.92,
+      "vocabRichness": 16.07,
+      "theoPace": 200,
+      "guestPace": 203
+    },
+    {
+      "id": "20628",
+      "published": "2021-04-29",
+      "sentiment": 14.68,
+      "vocabRichness": 15.44,
+      "theoPace": 158,
+      "guestPace": 188
+    },
+    {
+      "id": "20627",
+      "published": "2021-05-05",
+      "sentiment": 12.05,
+      "vocabRichness": 16.31,
+      "theoPace": 159,
+      "guestPace": 146
+    },
+    {
+      "id": "20626",
+      "published": "2021-05-12",
+      "sentiment": 7.69,
+      "vocabRichness": 15.55,
+      "theoPace": 220,
+      "guestPace": 238
+    },
+    {
+      "id": "20625",
+      "published": "2021-05-18",
+      "sentiment": 14.78,
+      "vocabRichness": 15.48,
+      "theoPace": 220,
+      "guestPace": 245
+    },
+    {
+      "id": "20624",
+      "published": "2021-05-21",
+      "sentiment": 7.65,
+      "vocabRichness": 15.5,
+      "theoPace": 204,
+      "guestPace": 167
+    },
+    {
+      "id": "20623",
+      "published": "2021-05-26",
+      "sentiment": 16.32,
+      "vocabRichness": 15.77,
+      "theoPace": 145,
+      "guestPace": 168
+    },
+    {
+      "id": "20622",
+      "published": "2021-06-05",
+      "sentiment": 8.65,
+      "vocabRichness": 15.4,
+      "theoPace": 185,
+      "guestPace": 190
+    },
+    {
+      "id": "20621",
+      "published": "2021-06-09",
+      "sentiment": 11.48,
+      "vocabRichness": 16.62,
+      "theoPace": 155,
+      "guestPace": 179
+    },
+    {
+      "id": "20620",
+      "published": "2021-06-17",
+      "sentiment": 10.86,
+      "vocabRichness": 14.59,
+      "theoPace": 217,
+      "guestPace": 217
+    },
+    {
+      "id": "20619",
+      "published": "2021-06-23",
+      "sentiment": 8.29,
+      "vocabRichness": 13.06,
+      "theoPace": 213,
+      "guestPace": 217
+    },
+    {
+      "id": "20618",
+      "published": "2021-06-30",
+      "sentiment": 8.92,
+      "vocabRichness": 16.31,
+      "theoPace": 153,
+      "guestPace": 165
+    },
+    {
+      "id": "20617",
+      "published": "2021-07-10",
+      "sentiment": 9.02,
+      "vocabRichness": 17.09,
+      "theoPace": 198,
+      "guestPace": 214
+    },
+    {
+      "id": "20616",
+      "published": "2021-07-14",
+      "sentiment": 10.54,
+      "vocabRichness": 16.54,
+      "theoPace": 151,
+      "guestPace": 161
+    },
+    {
+      "id": "20615",
+      "published": "2021-07-21",
+      "sentiment": 5.49,
+      "vocabRichness": 15.15,
+      "theoPace": 205,
+      "guestPace": 201
+    },
+    {
+      "id": "20614",
+      "published": "2021-07-28",
+      "sentiment": 12.99,
+      "vocabRichness": 16.92,
+      "theoPace": 149,
+      "guestPace": 173
+    },
+    {
+      "id": "20613",
+      "published": "2021-08-04",
+      "sentiment": 10.46,
+      "vocabRichness": 16.9,
+      "theoPace": 158,
+      "guestPace": 171
+    },
+    {
+      "id": "20612",
+      "published": "2021-08-14",
+      "sentiment": 7.28,
+      "vocabRichness": 14.94,
+      "theoPace": 206,
+      "guestPace": 209
+    },
+    {
+      "id": "20611",
+      "published": "2021-08-20",
+      "sentiment": 7.38,
+      "vocabRichness": 16.91,
+      "theoPace": 209,
+      "guestPace": 223
+    },
+    {
+      "id": "20610",
+      "published": "2021-08-26",
+      "sentiment": 9.46,
+      "vocabRichness": 15.73,
+      "theoPace": 203,
+      "guestPace": 202
+    },
+    {
+      "id": "20609",
+      "published": "2021-09-01",
+      "sentiment": 7.48,
+      "vocabRichness": 14.92,
+      "theoPace": 147,
+      "guestPace": 172
+    },
+    {
+      "id": "20608",
+      "published": "2021-09-06",
+      "sentiment": 10.5,
+      "vocabRichness": 14.88,
+      "theoPace": 219,
+      "guestPace": 213
+    },
+    {
+      "id": "20607",
+      "published": "2021-09-08",
+      "sentiment": 9.94,
+      "vocabRichness": 15.12,
+      "theoPace": 157,
+      "guestPace": 182
+    },
+    {
+      "id": "20606",
+      "published": "2021-09-14",
+      "sentiment": 6.24,
+      "vocabRichness": 16.27,
+      "theoPace": 222,
+      "guestPace": 236
+    },
+    {
+      "id": "20605",
+      "published": "2021-09-24",
+      "sentiment": 11.33,
+      "vocabRichness": 15.33,
+      "theoPace": 159,
+      "guestPace": 187
+    },
+    {
+      "id": "20604",
+      "published": "2021-10-08",
+      "sentiment": 9.72,
+      "vocabRichness": 16.9,
+      "theoPace": 198,
+      "guestPace": 217
+    },
+    {
+      "id": "20603",
+      "published": "2021-10-14",
+      "sentiment": 4.46,
+      "vocabRichness": 15.99,
+      "theoPace": 203,
+      "guestPace": 238
+    },
+    {
+      "id": "20602",
+      "published": "2021-10-21",
+      "sentiment": 11.55,
+      "vocabRichness": 16.58,
+      "theoPace": 147,
+      "guestPace": 144
+    },
+    {
+      "id": "20601",
+      "published": "2021-10-29",
+      "sentiment": 4.31,
+      "vocabRichness": 18.11,
+      "theoPace": 204,
+      "guestPace": 179
+    },
+    {
+      "id": "20600",
+      "published": "2021-11-03",
+      "sentiment": 11.9,
+      "vocabRichness": 16.69,
+      "theoPace": 143,
+      "guestPace": 154
+    },
+    {
+      "id": "20599",
+      "published": "2021-11-11",
+      "sentiment": 8.17,
+      "vocabRichness": 13.63,
+      "theoPace": 205,
+      "guestPace": 225
+    },
+    {
+      "id": "20598",
+      "published": "2021-11-18",
+      "sentiment": 10.52,
+      "vocabRichness": 16.83,
+      "theoPace": 209,
+      "guestPace": 207
+    },
+    {
+      "id": "20597",
+      "published": "2021-11-24",
+      "sentiment": 12.84,
+      "vocabRichness": 15.93,
+      "theoPace": 149,
+      "guestPace": 164
+    },
+    {
+      "id": "20596",
+      "published": "2021-12-02",
+      "sentiment": 7.91,
+      "vocabRichness": 16.77,
+      "theoPace": 194,
+      "guestPace": 203
+    },
+    {
+      "id": "20595",
+      "published": "2021-12-09",
+      "sentiment": -0.95,
+      "vocabRichness": 17.8,
+      "theoPace": 199,
+      "guestPace": 157
+    },
+    {
+      "id": "20594",
+      "published": "2021-12-14",
+      "sentiment": 5.72,
+      "vocabRichness": 15.68,
+      "theoPace": 203,
+      "guestPace": 228
+    },
+    {
+      "id": "20593",
+      "published": "2021-12-21",
+      "sentiment": 10.68,
+      "vocabRichness": 16.39,
+      "theoPace": 138,
+      "guestPace": 174
+    },
+    {
+      "id": "20592",
+      "published": "2021-12-29",
+      "sentiment": 5.25,
+      "vocabRichness": 15.74,
+      "theoPace": 205,
+      "guestPace": 214
+    },
+    {
+      "id": "20591",
+      "published": "2022-01-06",
+      "sentiment": 5.29,
+      "vocabRichness": 16,
+      "theoPace": 207,
+      "guestPace": 191
+    },
+    {
+      "id": "20590",
+      "published": "2022-01-13",
+      "sentiment": 11.73,
+      "vocabRichness": 14.7,
+      "theoPace": 202,
+      "guestPace": 179
+    },
+    {
+      "id": "20589",
+      "published": "2022-01-19",
+      "sentiment": 7.47,
+      "vocabRichness": 16.95,
+      "theoPace": 206,
+      "guestPace": 243
+    },
+    {
+      "id": "20588",
+      "published": "2022-01-24",
+      "sentiment": 4.39,
+      "vocabRichness": 13.48,
+      "theoPace": 204,
+      "guestPace": 196
+    },
+    {
+      "id": "20587",
+      "published": "2022-02-01",
+      "sentiment": 10.34,
+      "vocabRichness": 16.09,
+      "theoPace": 205,
+      "guestPace": 248
+    },
+    {
+      "id": "20586",
+      "published": "2022-02-10",
+      "sentiment": 6.69,
+      "vocabRichness": 14.23,
+      "theoPace": 144,
+      "guestPace": 157
+    },
+    {
+      "id": "20585",
+      "published": "2022-02-16",
+      "sentiment": 10.21,
+      "vocabRichness": 15.19,
+      "theoPace": 146,
+      "guestPace": 172
+    },
+    {
+      "id": "20584",
+      "published": "2022-02-24",
+      "sentiment": 10.82,
+      "vocabRichness": 12.93,
+      "theoPace": 196,
+      "guestPace": 176
+    },
+    {
+      "id": "20583",
+      "published": "2022-03-01",
+      "sentiment": 12.36,
+      "vocabRichness": 13.73,
+      "theoPace": 162,
+      "guestPace": 184
+    },
+    {
+      "id": "20582",
+      "published": "2022-03-10",
+      "sentiment": 9.73,
+      "vocabRichness": 14.25,
+      "theoPace": 208,
+      "guestPace": 216
+    },
+    {
+      "id": "20581",
+      "published": "2022-03-17",
+      "sentiment": 10.09,
+      "vocabRichness": 16.78,
+      "theoPace": 146,
+      "guestPace": 161
+    },
+    {
+      "id": "20580",
+      "published": "2022-03-26",
+      "sentiment": 5.32,
+      "vocabRichness": 17.22,
+      "theoPace": 214,
+      "guestPace": 228
+    },
+    {
+      "id": "20579",
+      "published": "2022-03-30",
+      "sentiment": 3.86,
+      "vocabRichness": 16.22,
+      "theoPace": 208,
+      "guestPace": 221
+    },
+    {
+      "id": "20578",
+      "published": "2022-04-04",
+      "sentiment": 10.49,
+      "vocabRichness": 14.86,
+      "theoPace": 143,
+      "guestPace": 172
+    },
+    {
+      "id": "20577",
+      "published": "2022-04-12",
+      "sentiment": 5.29,
+      "vocabRichness": 17.1,
+      "theoPace": 200,
+      "guestPace": 202
+    },
+    {
+      "id": "20576",
+      "published": "2022-04-19",
+      "sentiment": 9.61,
+      "vocabRichness": 15.69,
+      "theoPace": 146,
+      "guestPace": 163
+    },
+    {
+      "id": "20575",
+      "published": "2022-04-26",
+      "sentiment": 9.67,
+      "vocabRichness": 16.4,
+      "theoPace": 203,
+      "guestPace": 219
+    },
+    {
+      "id": "20574",
+      "published": "2022-05-03",
+      "sentiment": 9.47,
+      "vocabRichness": 15.44,
+      "theoPace": 211,
+      "guestPace": 215
+    },
+    {
+      "id": "20573",
+      "published": "2022-05-10",
+      "sentiment": 3.38,
+      "vocabRichness": 16.21,
+      "theoPace": 201,
+      "guestPace": 211
+    },
+    {
+      "id": "20572",
+      "published": "2022-05-17",
+      "sentiment": 9.8,
+      "vocabRichness": 15.82,
+      "theoPace": 155,
+      "guestPace": 173
+    },
+    {
+      "id": "20571",
+      "published": "2022-05-24",
+      "sentiment": 6.32,
+      "vocabRichness": 16.75,
+      "theoPace": 205,
+      "guestPace": 215
+    },
+    {
+      "id": "20570",
+      "published": "2022-05-30",
+      "sentiment": 5.07,
+      "vocabRichness": 16.24,
+      "theoPace": 196,
+      "guestPace": 235
+    },
+    {
+      "id": "20569",
+      "published": "2022-06-08",
+      "sentiment": 11.94,
+      "vocabRichness": 15.55,
+      "theoPace": 162,
+      "guestPace": 164
+    },
+    {
+      "id": "20568",
+      "published": "2022-06-15",
+      "sentiment": 13.04,
+      "vocabRichness": 14.88,
+      "theoPace": 201,
+      "guestPace": 230
+    },
+    {
+      "id": "20567",
+      "published": "2022-06-21",
+      "sentiment": 5.46,
+      "vocabRichness": 14.84,
+      "theoPace": 160,
+      "guestPace": 169
+    },
+    {
+      "id": "20566",
+      "published": "2022-06-28",
+      "sentiment": 4.75,
+      "vocabRichness": 14.95,
+      "theoPace": 204,
+      "guestPace": 179
+    },
+    {
+      "id": "20565",
+      "published": "2022-07-12",
+      "sentiment": 5.95,
+      "vocabRichness": 15.48,
+      "theoPace": 199,
+      "guestPace": 200
+    },
+    {
+      "id": "20564",
+      "published": "2022-07-19",
+      "sentiment": 5.93,
+      "vocabRichness": 15.21,
+      "theoPace": 195,
+      "guestPace": 224
+    },
+    {
+      "id": "20563",
+      "published": "2022-07-26",
+      "sentiment": 11.8,
+      "vocabRichness": 14.96,
+      "theoPace": 146,
+      "guestPace": 181
+    },
+    {
+      "id": "20562",
+      "published": "2022-08-09",
+      "sentiment": 9.45,
+      "vocabRichness": 18.36,
+      "theoPace": 199,
+      "guestPace": 198
+    },
+    {
+      "id": "20561",
+      "published": "2022-08-16",
+      "sentiment": 4.83,
+      "vocabRichness": 17.45,
+      "theoPace": 203,
+      "guestPace": 251
+    },
+    {
+      "id": "20560",
+      "published": "2022-08-23",
+      "sentiment": 7.24,
+      "vocabRichness": 15.69,
+      "theoPace": 207,
+      "guestPace": 218
+    },
+    {
+      "id": "20559",
+      "published": "2022-08-30",
+      "sentiment": 6.74,
+      "vocabRichness": 16.9,
+      "theoPace": 201,
+      "guestPace": 210
+    },
+    {
+      "id": "20558",
+      "published": "2022-09-06",
+      "sentiment": 7.3,
+      "vocabRichness": 14.07,
+      "theoPace": 193,
+      "guestPace": 200
+    },
+    {
+      "id": "20557",
+      "published": "2022-09-13",
+      "sentiment": 11.67,
+      "vocabRichness": 16.15,
+      "theoPace": 203,
+      "guestPace": 227
+    },
+    {
+      "id": "20556",
+      "published": "2022-09-20",
+      "sentiment": 10.92,
+      "vocabRichness": 16.45,
+      "theoPace": 156,
+      "guestPace": 158
+    },
+    {
+      "id": "20555",
+      "published": "2022-09-27",
+      "sentiment": 8.81,
+      "vocabRichness": 16.05,
+      "theoPace": 191,
+      "guestPace": 234
+    },
+    {
+      "id": "20554",
+      "published": "2022-10-04",
+      "sentiment": 9.27,
+      "vocabRichness": 17.31,
+      "theoPace": 193,
+      "guestPace": 192
+    },
+    {
+      "id": "20553",
+      "published": "2022-10-11",
+      "sentiment": 6.07,
+      "vocabRichness": 14.92,
+      "theoPace": 200,
+      "guestPace": 177
+    },
+    {
+      "id": "20552",
+      "published": "2022-10-18",
+      "sentiment": 7.58,
+      "vocabRichness": 15.96,
+      "theoPace": 155,
+      "guestPace": 182
+    },
+    {
+      "id": "20551",
+      "published": "2022-10-25",
+      "sentiment": 8.17,
+      "vocabRichness": 18.64,
+      "theoPace": 207,
+      "guestPace": 222
+    },
+    {
+      "id": "20550",
+      "published": "2022-11-01",
+      "sentiment": 5.26,
+      "vocabRichness": 15.35,
+      "theoPace": 218,
+      "guestPace": 217
+    },
+    {
+      "id": "20549",
+      "published": "2022-11-08",
+      "sentiment": 4.72,
+      "vocabRichness": 18.94,
+      "theoPace": 192,
+      "guestPace": 175
+    },
+    {
+      "id": "20548",
+      "published": "2022-11-15",
+      "sentiment": 9.18,
+      "vocabRichness": 19.22,
+      "theoPace": 218,
+      "guestPace": 208
+    },
+    {
+      "id": "20547",
+      "published": "2022-11-17",
+      "sentiment": 8.38,
+      "vocabRichness": 16.57,
+      "theoPace": 209,
+      "guestPace": 226
+    },
+    {
+      "id": "20546",
+      "published": "2022-11-22",
+      "sentiment": 11.77,
+      "vocabRichness": 15.92,
+      "theoPace": 153,
+      "guestPace": 201
+    },
+    {
+      "id": "20545",
+      "published": "2022-11-29",
+      "sentiment": 5.08,
+      "vocabRichness": 19.71,
+      "theoPace": 208,
+      "guestPace": 181
+    },
+    {
+      "id": "20544",
+      "published": "2022-12-06",
+      "sentiment": 0.05,
+      "vocabRichness": 16.03,
+      "theoPace": 203,
+      "guestPace": 224
+    },
+    {
+      "id": "20543",
+      "published": "2022-12-13",
+      "sentiment": 9.13,
+      "vocabRichness": 17.06,
+      "theoPace": 209,
+      "guestPace": 225
+    },
+    {
+      "id": "20542",
+      "published": "2022-12-20",
+      "sentiment": 10.21,
+      "vocabRichness": 14.78,
+      "theoPace": 149,
+      "guestPace": 186
+    },
+    {
+      "id": "20541",
+      "published": "2023-01-03",
+      "sentiment": 12.21,
+      "vocabRichness": 16.15,
+      "theoPace": 209,
+      "guestPace": 176
+    },
+    {
+      "id": "20540",
+      "published": "2023-01-11",
+      "sentiment": 10.39,
+      "vocabRichness": 15.32,
+      "theoPace": 214,
+      "guestPace": 215
+    },
+    {
+      "id": "20539",
+      "published": "2023-01-17",
+      "sentiment": 7.2,
+      "vocabRichness": 16.08,
+      "theoPace": 212,
+      "guestPace": 228
+    },
+    {
+      "id": "20538",
+      "published": "2023-01-24",
+      "sentiment": 8.36,
+      "vocabRichness": 15.62,
+      "theoPace": 152,
+      "guestPace": 164
+    },
+    {
+      "id": "20537",
+      "published": "2023-01-31",
+      "sentiment": 9.8,
+      "vocabRichness": 13.92,
+      "theoPace": 206,
+      "guestPace": 214
+    },
+    {
+      "id": "20536",
+      "published": "2023-02-07",
+      "sentiment": 6.02,
+      "vocabRichness": 16.51,
+      "theoPace": 208,
+      "guestPace": 209
+    },
+    {
+      "id": "20535",
+      "published": "2023-02-14",
+      "sentiment": 11.14,
+      "vocabRichness": 15.25,
+      "theoPace": 203,
+      "guestPace": 205
+    },
+    {
+      "id": "20534",
+      "published": "2023-02-21",
+      "sentiment": 8.7,
+      "vocabRichness": 15.3,
+      "theoPace": 145,
+      "guestPace": 185
+    },
+    {
+      "id": "20533",
+      "published": "2023-02-28",
+      "sentiment": 7.58,
+      "vocabRichness": 15.49,
+      "theoPace": 213,
+      "guestPace": 231
+    },
+    {
+      "id": "20532",
+      "published": "2023-03-07",
+      "sentiment": 10.22,
+      "vocabRichness": 15.63,
+      "theoPace": 209,
+      "guestPace": 222
+    },
+    {
+      "id": "20531",
+      "published": "2023-03-09",
+      "sentiment": 9.22,
+      "vocabRichness": 13.41,
+      "theoPace": 208,
+      "guestPace": 248
+    },
+    {
+      "id": "20530",
+      "published": "2023-03-14",
+      "sentiment": 10.12,
+      "vocabRichness": 15.54,
+      "theoPace": 217,
+      "guestPace": 260
+    },
+    {
+      "id": "20529",
+      "published": "2023-03-21",
+      "sentiment": 7.27,
+      "vocabRichness": 15.69,
+      "theoPace": 185,
+      "guestPace": 221
+    },
+    {
+      "id": "20528",
+      "published": "2023-03-28",
+      "sentiment": 8.57,
+      "vocabRichness": 15.85,
+      "theoPace": 208,
+      "guestPace": 219
+    },
+    {
+      "id": "20527",
+      "published": "2023-04-05",
+      "sentiment": 7.32,
+      "vocabRichness": 15.47,
+      "theoPace": 154,
+      "guestPace": 175
+    },
+    {
+      "id": "20526",
+      "published": "2023-04-11",
+      "sentiment": 9.76,
+      "vocabRichness": 17.84,
+      "theoPace": 203,
+      "guestPace": 213
+    },
+    {
+      "id": "20525",
+      "published": "2023-04-18",
+      "sentiment": 9.4,
+      "vocabRichness": 15.83,
+      "theoPace": 199,
+      "guestPace": 194
+    },
+    {
+      "id": "20524",
+      "published": "2023-04-25",
+      "sentiment": 15.25,
+      "vocabRichness": 17.38,
+      "theoPace": 201,
+      "guestPace": 248
+    },
+    {
+      "id": "20523",
+      "published": "2023-05-02",
+      "sentiment": 14.02,
+      "vocabRichness": 18.79,
+      "theoPace": 191,
+      "guestPace": 187
+    },
+    {
+      "id": "20522",
+      "published": "2023-05-09",
+      "sentiment": 10.22,
+      "vocabRichness": 14.86,
+      "theoPace": 134,
+      "guestPace": 160
+    },
+    {
+      "id": "20521",
+      "published": "2023-05-16",
+      "sentiment": 9.61,
+      "vocabRichness": 18.25,
+      "theoPace": 195,
+      "guestPace": 191
+    },
+    {
+      "id": "20520",
+      "published": "2023-05-23",
+      "sentiment": 8.44,
+      "vocabRichness": 14.58,
+      "theoPace": 209,
+      "guestPace": 227
+    },
+    {
+      "id": "20519",
+      "published": "2023-05-30",
+      "sentiment": 9.15,
+      "vocabRichness": 16.57,
+      "theoPace": 194,
+      "guestPace": 183
+    },
+    {
+      "id": "20518",
+      "published": "2023-06-06",
+      "sentiment": 5.78,
+      "vocabRichness": 17.49,
+      "theoPace": 219,
+      "guestPace": 243
+    },
+    {
+      "id": "20517",
+      "published": "2023-06-14",
+      "sentiment": 10.54,
+      "vocabRichness": 16.44,
+      "theoPace": 204,
+      "guestPace": 179
+    },
+    {
+      "id": "20516",
+      "published": "2023-06-20",
+      "sentiment": 8.18,
+      "vocabRichness": 18.76,
+      "theoPace": 187,
+      "guestPace": 178
+    },
+    {
+      "id": "20515",
+      "published": "2023-06-27",
+      "sentiment": 10.57,
+      "vocabRichness": 15.04,
+      "theoPace": 195,
+      "guestPace": 203
+    },
+    {
+      "id": "20514",
+      "published": "2023-07-05",
+      "sentiment": 13.9,
+      "vocabRichness": 16.1,
+      "theoPace": 212,
+      "guestPace": 199
+    },
+    {
+      "id": "20513",
+      "published": "2023-07-11",
+      "sentiment": 12.3,
+      "vocabRichness": 15.19,
+      "theoPace": 145,
+      "guestPace": 138
+    },
+    {
+      "id": "20512",
+      "published": "2023-07-18",
+      "sentiment": 10.92,
+      "vocabRichness": 16.64,
+      "theoPace": 204,
+      "guestPace": 160
+    },
+    {
+      "id": "20511",
+      "published": "2023-07-21",
+      "sentiment": 8.94,
+      "vocabRichness": 17.51,
+      "theoPace": 200,
+      "guestPace": 212
+    },
+    {
+      "id": "20510",
+      "published": "2023-07-25",
+      "sentiment": 8.59,
+      "vocabRichness": 16.69,
+      "theoPace": 208,
+      "guestPace": 220
+    },
+    {
+      "id": "20509",
+      "published": "2023-08-01",
+      "sentiment": 6.45,
+      "vocabRichness": 12.75,
+      "theoPace": 190,
+      "guestPace": 187
+    },
+    {
+      "id": "20508",
+      "published": "2023-08-08",
+      "sentiment": 6.5,
+      "vocabRichness": 16.88,
+      "theoPace": 199,
+      "guestPace": 180
+    },
+    {
+      "id": "20507",
+      "published": "2023-08-15",
+      "sentiment": 10.01,
+      "vocabRichness": 15.13,
+      "theoPace": 148,
+      "guestPace": 175
+    },
+    {
+      "id": "20506",
+      "published": "2023-08-22",
+      "sentiment": -1.01,
+      "vocabRichness": 17.41,
+      "theoPace": 205,
+      "guestPace": 199
+    },
+    {
+      "id": "20505",
+      "published": "2023-08-29",
+      "sentiment": 6.77,
+      "vocabRichness": 19.96,
+      "theoPace": 195,
+      "guestPace": 191
+    },
+    {
+      "id": "20504",
+      "published": "2023-09-06",
+      "sentiment": 7.58,
+      "vocabRichness": 15.39,
+      "theoPace": 159,
+      "guestPace": 207
+    },
+    {
+      "id": "20503",
+      "published": "2023-09-12",
+      "sentiment": 6.65,
+      "vocabRichness": 18.51,
+      "theoPace": 190,
+      "guestPace": 185
+    },
+    {
+      "id": "20502",
+      "published": "2023-09-19",
+      "sentiment": 5.85,
+      "vocabRichness": 15.44,
+      "theoPace": 201,
+      "guestPace": 243
+    },
+    {
+      "id": "20501",
+      "published": "2023-09-25",
+      "sentiment": 4.72,
+      "vocabRichness": 17.52,
+      "theoPace": 205,
+      "guestPace": 175
+    },
+    {
+      "id": "20500",
+      "published": "2023-10-03",
+      "sentiment": 12.5,
+      "vocabRichness": 13.48,
+      "theoPace": 214,
+      "guestPace": 224
+    },
+    {
+      "id": "20499",
+      "published": "2023-10-10",
+      "sentiment": 8.62,
+      "vocabRichness": 14.9,
+      "theoPace": 205,
+      "guestPace": 262
+    },
+    {
+      "id": "20498",
+      "published": "2023-10-24",
+      "sentiment": 1.43,
+      "vocabRichness": 15.65,
+      "theoPace": 206,
+      "guestPace": 218
+    },
+    {
+      "id": "20497",
+      "published": "2023-10-31",
+      "sentiment": 5.05,
+      "vocabRichness": 19.2,
+      "theoPace": 208,
+      "guestPace": 215
+    },
+    {
+      "id": "20496",
+      "published": "2023-11-07",
+      "sentiment": 13.05,
+      "vocabRichness": 16.55,
+      "theoPace": 155,
+      "guestPace": 194
+    },
+    {
+      "id": "20495",
+      "published": "2023-11-14",
+      "sentiment": 10.8,
+      "vocabRichness": 14.93,
+      "theoPace": 212,
+      "guestPace": 205
+    },
+    {
+      "id": "20494",
+      "published": "2023-11-21",
+      "sentiment": 14.59,
+      "vocabRichness": 14.99,
+      "theoPace": 209,
+      "guestPace": 205
+    },
+    {
+      "id": "20493",
+      "published": "2023-11-28",
+      "sentiment": 7.42,
+      "vocabRichness": 18.8,
+      "theoPace": 198,
+      "guestPace": 210
+    },
+    {
+      "id": "20492",
+      "published": "2023-12-05",
+      "sentiment": 10.3,
+      "vocabRichness": 16.43,
+      "theoPace": 216,
+      "guestPace": 231
+    },
+    {
+      "id": "20491",
+      "published": "2023-12-12",
+      "sentiment": 10.5,
+      "vocabRichness": 15.38,
+      "theoPace": 202,
+      "guestPace": 209
+    },
+    {
+      "id": "20490",
+      "published": "2023-12-20",
+      "sentiment": 13.89,
+      "vocabRichness": 14.12,
+      "theoPace": 140,
+      "guestPace": 130
+    },
+    {
+      "id": "20489",
+      "published": "2024-01-02",
+      "sentiment": -0.18,
+      "vocabRichness": 14.26,
+      "theoPace": 220,
+      "guestPace": 243
+    },
+    {
+      "id": "20488",
+      "published": "2024-01-09",
+      "sentiment": 9.07,
+      "vocabRichness": 15.49,
+      "theoPace": 206,
+      "guestPace": 246
+    },
+    {
+      "id": "20487",
+      "published": "2024-01-16",
+      "sentiment": 7.21,
+      "vocabRichness": 17.32,
+      "theoPace": 199,
+      "guestPace": 202
+    },
+    {
+      "id": "20486",
+      "published": "2024-01-23",
+      "sentiment": 1.2,
+      "vocabRichness": 15.69,
+      "theoPace": 202,
+      "guestPace": 182
+    },
+    {
+      "id": "20485",
+      "published": "2024-01-30",
+      "sentiment": 7.6,
+      "vocabRichness": 18.25,
+      "theoPace": 197,
+      "guestPace": 210
+    },
+    {
+      "id": "20484",
+      "published": "2024-02-06",
+      "sentiment": 12.01,
+      "vocabRichness": 16.2,
+      "theoPace": 203,
+      "guestPace": 201
+    },
+    {
+      "id": "20483",
+      "published": "2024-02-14",
+      "sentiment": 16.12,
+      "vocabRichness": 13.8,
+      "theoPace": 142,
+      "guestPace": 165
+    },
+    {
+      "id": "20482",
+      "published": "2024-02-16",
+      "sentiment": 7.87,
+      "vocabRichness": 16.51,
+      "theoPace": 191,
+      "guestPace": 194
+    },
+    {
+      "id": "20481",
+      "published": "2024-02-21",
+      "sentiment": 7.08,
+      "vocabRichness": 18.91,
+      "theoPace": 202,
+      "guestPace": 231
+    },
+    {
+      "id": "20480",
+      "published": "2024-02-27",
+      "sentiment": 7.39,
+      "vocabRichness": 16.63,
+      "theoPace": 213,
+      "guestPace": 219
+    },
+    {
+      "id": "20479",
+      "published": "2024-03-04",
+      "sentiment": 3.06,
+      "vocabRichness": 16.92,
+      "theoPace": 187,
+      "guestPace": 200
+    },
+    {
+      "id": "20478",
+      "published": "2024-03-12",
+      "sentiment": 7.85,
+      "vocabRichness": 17.37,
+      "theoPace": 209,
+      "guestPace": 201
+    },
+    {
+      "id": "20477",
+      "published": "2024-03-14",
+      "sentiment": 6.51,
+      "vocabRichness": 15.66,
+      "theoPace": 199,
+      "guestPace": 235
+    },
+    {
+      "id": "20476",
+      "published": "2024-03-19",
+      "sentiment": 8.59,
+      "vocabRichness": 15.5,
+      "theoPace": 189,
+      "guestPace": 212
+    },
+    {
+      "id": "20475",
+      "published": "2024-03-26",
+      "sentiment": 8.52,
+      "vocabRichness": 18.37,
+      "theoPace": 188,
+      "guestPace": 201
+    },
+    {
+      "id": "20474",
+      "published": "2024-03-28",
+      "sentiment": 12.42,
+      "vocabRichness": 16.92,
+      "theoPace": 204,
+      "guestPace": 229
+    },
+    {
+      "id": "20473",
+      "published": "2024-04-02",
+      "sentiment": 7.53,
+      "vocabRichness": 15.08,
+      "theoPace": 192,
+      "guestPace": 209
+    },
+    {
+      "id": "20472",
+      "published": "2024-04-04",
+      "sentiment": 11.65,
+      "vocabRichness": 13.04,
+      "theoPace": 226,
+      "guestPace": 221
+    },
+    {
+      "id": "20471",
+      "published": "2024-04-09",
+      "sentiment": 5.54,
+      "vocabRichness": 15.44,
+      "theoPace": 190,
+      "guestPace": 238
+    },
+    {
+      "id": "20470",
+      "published": "2024-04-16",
+      "sentiment": -3.19,
+      "vocabRichness": 15.38,
+      "theoPace": 183,
+      "guestPace": 162
+    },
+    {
+      "id": "20469",
+      "published": "2024-04-18",
+      "sentiment": 6.54,
+      "vocabRichness": 14.99,
+      "theoPace": 209,
+      "guestPace": 239
+    },
+    {
+      "id": "20468",
+      "published": "2024-04-23",
+      "sentiment": 15.39,
+      "vocabRichness": 16.67,
+      "theoPace": 202,
+      "guestPace": 208
+    },
+    {
+      "id": "20467",
+      "published": "2024-04-30",
+      "sentiment": 5.97,
+      "vocabRichness": 16.18,
+      "theoPace": 198,
+      "guestPace": 211
+    },
+    {
+      "id": "20466",
+      "published": "2024-05-02",
+      "sentiment": 11.66,
+      "vocabRichness": 15.82,
+      "theoPace": 202,
+      "guestPace": 203
+    },
+    {
+      "id": "20465",
+      "published": "2024-05-07",
+      "sentiment": 9.67,
+      "vocabRichness": 17.36,
+      "theoPace": 188,
+      "guestPace": 229
+    },
+    {
+      "id": "20464",
+      "published": "2024-05-09",
+      "sentiment": 8.97,
+      "vocabRichness": 17.25,
+      "theoPace": 203,
+      "guestPace": 225
+    },
+    {
+      "id": "20463",
+      "published": "2024-05-14",
+      "sentiment": 10.89,
+      "vocabRichness": 15.47,
+      "theoPace": 202,
+      "guestPace": 244
+    },
+    {
+      "id": "20462",
+      "published": "2024-05-16",
+      "sentiment": 7.41,
+      "vocabRichness": 16.72,
+      "theoPace": 186,
+      "guestPace": 185
+    },
+    {
+      "id": "20461",
+      "published": "2024-05-20",
+      "sentiment": 4.12,
+      "vocabRichness": 17.36,
+      "theoPace": 198,
+      "guestPace": 252
+    },
+    {
+      "id": "20460",
+      "published": "2024-05-24",
+      "sentiment": 9.38,
+      "vocabRichness": 15.04,
+      "theoPace": 162,
+      "guestPace": 177
+    },
+    {
+      "id": "20459",
+      "published": "2024-05-28",
+      "sentiment": 8.86,
+      "vocabRichness": 14.77,
+      "theoPace": 204,
+      "guestPace": 237
+    },
+    {
+      "id": "20458",
+      "published": "2024-05-30",
+      "sentiment": 9.2,
+      "vocabRichness": 14.59,
+      "theoPace": 206,
+      "guestPace": 221
+    },
+    {
+      "id": "20457",
+      "published": "2024-06-04",
+      "sentiment": 7.34,
+      "vocabRichness": 16.06,
+      "theoPace": 197,
+      "guestPace": 203
+    },
+    {
+      "id": "20456",
+      "published": "2024-06-11",
+      "sentiment": 10.57,
+      "vocabRichness": 16.16,
+      "theoPace": 202,
+      "guestPace": 206
+    },
+    {
+      "id": "20455",
+      "published": "2024-06-13",
+      "sentiment": 3.87,
+      "vocabRichness": 17.06,
+      "theoPace": 189,
+      "guestPace": 211
+    },
+    {
+      "id": "20454",
+      "published": "2024-06-17",
+      "sentiment": 6.79,
+      "vocabRichness": 15.95,
+      "theoPace": 210,
+      "guestPace": 221
+    },
+    {
+      "id": "20453",
+      "published": "2024-06-25",
+      "sentiment": 14.04,
+      "vocabRichness": 15.94,
+      "theoPace": 200,
+      "guestPace": 216
+    },
+    {
+      "id": "20452",
+      "published": "2024-06-27",
+      "sentiment": 8.3,
+      "vocabRichness": 18.35,
+      "theoPace": 206,
+      "guestPace": 199
+    },
+    {
+      "id": "20451",
+      "published": "2024-07-02",
+      "sentiment": 8.66,
+      "vocabRichness": 15.34,
+      "theoPace": 200,
+      "guestPace": 184
+    },
+    {
+      "id": "20450",
+      "published": "2024-07-10",
+      "sentiment": 9.2,
+      "vocabRichness": 17.11,
+      "theoPace": 193,
+      "guestPace": 183
+    },
+    {
+      "id": "20449",
+      "published": "2024-07-11",
+      "sentiment": 10.67,
+      "vocabRichness": 14.25,
+      "theoPace": 163,
+      "guestPace": 165
+    },
+    {
+      "id": "20448",
+      "published": "2024-07-16",
+      "sentiment": 9.81,
+      "vocabRichness": 17.31,
+      "theoPace": 201,
+      "guestPace": 223
+    },
+    {
+      "id": "20447",
+      "published": "2024-07-23",
+      "sentiment": 6.37,
+      "vocabRichness": 15.33,
+      "theoPace": 192,
+      "guestPace": 226
+    },
+    {
+      "id": "20446",
+      "published": "2024-07-25",
+      "sentiment": 14.19,
+      "vocabRichness": 15.15,
+      "theoPace": 212,
+      "guestPace": 215
+    },
+    {
+      "id": "20444",
+      "published": "2024-07-30",
+      "sentiment": 0.13,
+      "vocabRichness": 15.33,
+      "theoPace": 206,
+      "guestPace": 200
+    },
+    {
+      "id": "20445",
+      "published": "2024-07-30",
+      "sentiment": 2.44,
+      "vocabRichness": 15.94,
+      "theoPace": 198,
+      "guestPace": 185
+    },
+    {
+      "id": "20443",
+      "published": "2024-08-06",
+      "sentiment": 10.27,
+      "vocabRichness": 14.85,
+      "theoPace": 207,
+      "guestPace": 155
+    },
+    {
+      "id": "20442",
+      "published": "2024-08-09",
+      "sentiment": 2.39,
+      "vocabRichness": 14.73,
+      "theoPace": 210,
+      "guestPace": 203
+    },
+    {
+      "id": "20441",
+      "published": "2024-08-13",
+      "sentiment": 5.07,
+      "vocabRichness": 15.72,
+      "theoPace": 193,
+      "guestPace": 198
+    },
+    {
+      "id": "20440",
+      "published": "2024-08-16",
+      "sentiment": 7.62,
+      "vocabRichness": 14.26,
+      "theoPace": 211,
+      "guestPace": 215
+    },
+    {
+      "id": "20439",
+      "published": "2024-08-20",
+      "sentiment": 8.19,
+      "vocabRichness": 14.7,
+      "theoPace": 206,
+      "guestPace": 200
+    },
+    {
+      "id": "20438",
+      "published": "2024-08-27",
+      "sentiment": 11.77,
+      "vocabRichness": 15.15,
+      "theoPace": 153,
+      "guestPace": 159
+    },
+    {
+      "id": "20437",
+      "published": "2024-08-29",
+      "sentiment": 13.08,
+      "vocabRichness": 15.56,
+      "theoPace": 196,
+      "guestPace": 240
+    },
+    {
+      "id": "20436",
+      "published": "2024-09-04",
+      "sentiment": 15.34,
+      "vocabRichness": 16.5,
+      "theoPace": 193,
+      "guestPace": 185
+    },
+    {
+      "id": "20435",
+      "published": "2024-09-10",
+      "sentiment": 10.06,
+      "vocabRichness": 15.39,
+      "theoPace": 197,
+      "guestPace": 195
+    },
+    {
+      "id": "20434",
+      "published": "2024-09-17",
+      "sentiment": 9.63,
+      "vocabRichness": 16.81,
+      "theoPace": 209,
+      "guestPace": 232
+    },
+    {
+      "id": "20433",
+      "published": "2024-09-19",
+      "sentiment": 7.66,
+      "vocabRichness": 16.02,
+      "theoPace": 199,
+      "guestPace": 192
+    },
+    {
+      "id": "20432",
+      "published": "2024-09-25",
+      "sentiment": 7.86,
+      "vocabRichness": 15.38,
+      "theoPace": 215,
+      "guestPace": 225
+    },
+    {
+      "id": "20431",
+      "published": "2024-10-01",
+      "sentiment": 10.64,
+      "vocabRichness": 17.06,
+      "theoPace": 202,
+      "guestPace": 204
+    },
+    {
+      "id": "20430",
+      "published": "2024-10-03",
+      "sentiment": 10.24,
+      "vocabRichness": 16.87,
+      "theoPace": 206,
+      "guestPace": 260
+    },
+    {
+      "id": "20429",
+      "published": "2024-10-07",
+      "sentiment": 5.43,
+      "vocabRichness": 17.71,
+      "theoPace": 201,
+      "guestPace": 201
+    },
+    {
+      "id": "20428",
+      "published": "2024-10-10",
+      "sentiment": 12.57,
+      "vocabRichness": 15.64,
+      "theoPace": 217,
+      "guestPace": 217
+    },
+    {
+      "id": "20427",
+      "published": "2024-10-15",
+      "sentiment": -0.31,
+      "vocabRichness": 17.39,
+      "theoPace": 190,
+      "guestPace": 160
+    },
+    {
+      "id": "20426",
+      "published": "2024-10-17",
+      "sentiment": 7.32,
+      "vocabRichness": 15.35,
+      "theoPace": 200,
+      "guestPace": 217
+    },
+    {
+      "id": "20425",
+      "published": "2024-10-21",
+      "sentiment": 6.13,
+      "vocabRichness": 16.17,
+      "theoPace": 197,
+      "guestPace": 219
+    },
+    {
+      "id": "20424",
+      "published": "2024-10-30",
+      "sentiment": 6.75,
+      "vocabRichness": 13.64,
+      "theoPace": 203,
+      "guestPace": 218
+    },
+    {
+      "id": "20423",
+      "published": "2024-11-04",
+      "sentiment": 5.9,
+      "vocabRichness": 16.82,
+      "theoPace": 174,
+      "guestPace": 158
+    },
+    {
+      "id": "20422",
+      "published": "2024-11-08",
+      "sentiment": 3.77,
+      "vocabRichness": 14.68,
+      "theoPace": 205,
+      "guestPace": 199
+    },
+    {
+      "id": "20421",
+      "published": "2024-11-11",
+      "sentiment": 7.58,
+      "vocabRichness": 16.89,
+      "theoPace": 205,
+      "guestPace": 249
+    },
+    {
+      "id": "20420",
+      "published": "2024-11-18",
+      "sentiment": 12.72,
+      "vocabRichness": 18.87,
+      "theoPace": 204,
+      "guestPace": 209
+    },
+    {
+      "id": "20419",
+      "published": "2024-11-25",
+      "sentiment": 8.46,
+      "vocabRichness": 14.87,
+      "theoPace": 162,
+      "guestPace": 179
+    },
+    {
+      "id": "20418",
+      "published": "2024-11-27",
+      "sentiment": 7.88,
+      "vocabRichness": 18.34,
+      "theoPace": 203,
+      "guestPace": 204
+    },
+    {
+      "id": "20417",
+      "published": "2024-12-03",
+      "sentiment": 5.85,
+      "vocabRichness": 14.85,
+      "theoPace": 218,
+      "guestPace": 238
+    },
+    {
+      "id": "20416",
+      "published": "2024-12-10",
+      "sentiment": 12.5,
+      "vocabRichness": 14.98,
+      "theoPace": 210,
+      "guestPace": 214
+    },
+    {
+      "id": "20415",
+      "published": "2024-12-12",
+      "sentiment": 11.58,
+      "vocabRichness": 16.97,
+      "theoPace": 198,
+      "guestPace": 150
+    },
+    {
+      "id": "20414",
+      "published": "2024-12-16",
+      "sentiment": 13.34,
+      "vocabRichness": 16.7,
+      "theoPace": 222,
+      "guestPace": 242
+    },
+    {
+      "id": "20413",
+      "published": "2024-12-23",
+      "sentiment": 9.79,
+      "vocabRichness": 16.77,
+      "theoPace": 152,
+      "guestPace": 177
+    },
+    {
+      "id": "20412",
+      "published": "2024-12-30",
+      "sentiment": 3.8,
+      "vocabRichness": 15.85,
+      "theoPace": 194,
+      "guestPace": 204
+    },
+    {
+      "id": "20411",
+      "published": "2025-01-07",
+      "sentiment": 11.44,
+      "vocabRichness": 16.35,
+      "theoPace": 214,
+      "guestPace": 217
+    },
+    {
+      "id": "20410",
+      "published": "2025-01-11",
+      "sentiment": 5.59,
+      "vocabRichness": 19.16,
+      "theoPace": 211,
+      "guestPace": 209
+    },
+    {
+      "id": "20409",
+      "published": "2025-01-16",
+      "sentiment": 2.08,
+      "vocabRichness": 17.78,
+      "theoPace": 200,
+      "guestPace": 211
+    },
+    {
+      "id": "20408",
+      "published": "2025-01-22",
+      "sentiment": 6.75,
+      "vocabRichness": 17.02,
+      "theoPace": 209,
+      "guestPace": 220
+    },
+    {
+      "id": "20407",
+      "published": "2025-01-24",
+      "sentiment": 10.06,
+      "vocabRichness": 16.11,
+      "theoPace": 169,
+      "guestPace": 154
+    },
+    {
+      "id": "20406",
+      "published": "2025-01-28",
+      "sentiment": 13.26,
+      "vocabRichness": 16.53,
+      "theoPace": 187,
+      "guestPace": 128
+    },
+    {
+      "id": "20405",
+      "published": "2025-02-03",
+      "sentiment": 0.66,
+      "vocabRichness": 16.84,
+      "theoPace": 198,
+      "guestPace": 182
+    },
+    {
+      "id": "20404",
+      "published": "2025-02-07",
+      "sentiment": 6.31,
+      "vocabRichness": 15.45,
+      "theoPace": 222,
+      "guestPace": 226
+    },
+    {
+      "id": "20403",
+      "published": "2025-02-12",
+      "sentiment": 10.9,
+      "vocabRichness": 18.83,
+      "theoPace": 206,
+      "guestPace": 235
+    },
+    {
+      "id": "20402",
+      "published": "2025-02-14",
+      "sentiment": 7.35,
+      "vocabRichness": 16.03,
+      "theoPace": 214,
+      "guestPace": 216
+    },
+    {
+      "id": "20401",
+      "published": "2025-02-18",
+      "sentiment": 10.23,
+      "vocabRichness": 15.1,
+      "theoPace": 204,
+      "guestPace": 194
+    },
+    {
+      "id": "20400",
+      "published": "2025-02-20",
+      "sentiment": 16.1,
+      "vocabRichness": 15.64,
+      "theoPace": 212,
+      "guestPace": 206
+    },
+    {
+      "id": "20399",
+      "published": "2025-02-25",
+      "sentiment": 10.23,
+      "vocabRichness": 16.63,
+      "theoPace": 209,
+      "guestPace": 227
+    },
+    {
+      "id": "20398",
+      "published": "2025-03-05",
+      "sentiment": 1.9,
+      "vocabRichness": 18.39,
+      "theoPace": 204,
+      "guestPace": 235
+    },
+    {
+      "id": "20397",
+      "published": "2025-03-07",
+      "sentiment": 2.19,
+      "vocabRichness": 18.23,
+      "theoPace": 212,
+      "guestPace": 196
+    },
+    {
+      "id": "20396",
+      "published": "2025-03-11",
+      "sentiment": 15.65,
+      "vocabRichness": 15.98,
+      "theoPace": 220,
+      "guestPace": 244
+    },
+    {
+      "id": "20395",
+      "published": "2025-03-19",
+      "sentiment": 9.84,
+      "vocabRichness": 16.21,
+      "theoPace": 217,
+      "guestPace": 219
+    },
+    {
+      "id": "20394",
+      "published": "2025-03-25",
+      "sentiment": 8.95,
+      "vocabRichness": 14.9,
+      "theoPace": 224,
+      "guestPace": 228
+    },
+    {
+      "id": "20393",
+      "published": "2025-03-27",
+      "sentiment": 8,
+      "vocabRichness": 17.45,
+      "theoPace": 210,
+      "guestPace": 203
+    },
+    {
+      "id": "20392",
+      "published": "2025-04-01",
+      "sentiment": 8.51,
+      "vocabRichness": 15,
+      "theoPace": 166,
+      "guestPace": 164
+    },
+    {
+      "id": "20391",
+      "published": "2025-04-02",
+      "sentiment": 13.86,
+      "vocabRichness": 14.27,
+      "theoPace": 214,
+      "guestPace": 223
+    },
+    {
+      "id": "20390",
+      "published": "2025-04-08",
+      "sentiment": 8.99,
+      "vocabRichness": 20.15,
+      "theoPace": 203,
+      "guestPace": 220
+    },
+    {
+      "id": "20389",
+      "published": "2025-04-16",
+      "sentiment": 10.68,
+      "vocabRichness": 14.32,
+      "theoPace": 203,
+      "guestPace": 211
+    },
+    {
+      "id": "20388",
+      "published": "2025-04-17",
+      "sentiment": 8.24,
+      "vocabRichness": 16.1,
+      "theoPace": 204,
+      "guestPace": 187
+    },
+    {
+      "id": "20387",
+      "published": "2025-04-22",
+      "sentiment": 7.56,
+      "vocabRichness": 18.57,
+      "theoPace": 208,
+      "guestPace": 179
+    },
+    {
+      "id": "20386",
+      "published": "2025-04-24",
+      "sentiment": 16.4,
+      "vocabRichness": 15.14,
+      "theoPace": 214,
+      "guestPace": 238
+    },
+    {
+      "id": "4686",
+      "published": "2025-04-28",
+      "sentiment": 18.66,
+      "vocabRichness": 15.39,
+      "theoPace": 192,
+      "guestPace": 0
+    },
+    {
+      "id": "4667",
+      "published": "2025-05-06",
+      "sentiment": 13.19,
+      "vocabRichness": 16.89,
+      "theoPace": 198,
+      "guestPace": 0
+    },
+    {
+      "id": "4644",
+      "published": "2025-05-10",
+      "sentiment": 10.34,
+      "vocabRichness": 13.56,
+      "theoPace": 154,
+      "guestPace": 0
+    },
+    {
+      "id": "3566",
+      "published": "2025-05-14",
+      "sentiment": 10.7,
+      "vocabRichness": 16.22,
+      "theoPace": 191,
+      "guestPace": 0
+    },
+    {
+      "id": "3579",
+      "published": "2025-05-20",
+      "sentiment": 13.71,
+      "vocabRichness": 16.01,
+      "theoPace": 205,
+      "guestPace": 0
+    },
+    {
+      "id": "3576",
+      "published": "2025-05-23",
+      "sentiment": 3.72,
+      "vocabRichness": 16.28,
+      "theoPace": 205,
+      "guestPace": 0
+    },
+    {
+      "id": "3588",
+      "published": "2025-05-27",
+      "sentiment": 9.11,
+      "vocabRichness": 20.53,
+      "theoPace": 200,
+      "guestPace": 0
+    },
+    {
+      "id": "3565",
+      "published": "2025-06-03",
+      "sentiment": 13.78,
+      "vocabRichness": 18.81,
+      "theoPace": 189,
+      "guestPace": 0
+    },
+    {
+      "id": "3549",
+      "published": "2025-06-05",
+      "sentiment": 13.26,
+      "vocabRichness": 16.07,
+      "theoPace": 189,
+      "guestPace": 0
+    },
+    {
+      "id": "3552",
+      "published": "2025-06-07",
+      "sentiment": 7.42,
+      "vocabRichness": 16.05,
+      "theoPace": 207,
+      "guestPace": 0
+    },
+    {
+      "id": "3574",
+      "published": "2025-06-14",
+      "sentiment": 6.77,
+      "vocabRichness": 18.68,
+      "theoPace": 196,
+      "guestPace": 0
+    },
+    {
+      "id": "3531",
+      "published": "2025-06-18",
+      "sentiment": 9.03,
+      "vocabRichness": 14.95,
+      "theoPace": 163,
+      "guestPace": 0
+    },
+    {
+      "id": "3536",
+      "published": "2025-06-20",
+      "sentiment": 3.33,
+      "vocabRichness": 17.12,
+      "theoPace": 194,
+      "guestPace": 0
+    },
+    {
+      "id": "3575",
+      "published": "2025-06-24",
+      "sentiment": 4.17,
+      "vocabRichness": 18.52,
+      "theoPace": 185,
+      "guestPace": 0
+    },
+    {
+      "id": "3348",
+      "published": "2025-07-01",
+      "sentiment": 9.59,
+      "vocabRichness": 14.98,
+      "theoPace": 195,
+      "guestPace": 0
+    },
+    {
+      "id": "3567",
+      "published": "2025-07-03",
+      "sentiment": 14.08,
+      "vocabRichness": 17.09,
+      "theoPace": 228,
+      "guestPace": 0
+    },
+    {
+      "id": "3534",
+      "published": "2025-07-08",
+      "sentiment": 7.55,
+      "vocabRichness": 18.29,
+      "theoPace": 167,
+      "guestPace": 0
+    },
+    {
+      "id": "3532",
+      "published": "2025-07-12",
+      "sentiment": -0.2,
+      "vocabRichness": 20.21,
+      "theoPace": 171,
+      "guestPace": 0
+    },
+    {
+      "id": "3541",
+      "published": "2025-07-15",
+      "sentiment": 13.18,
+      "vocabRichness": 14.59,
+      "theoPace": 199,
+      "guestPace": 0
+    },
+    {
+      "id": "3525",
+      "published": "2025-07-18",
+      "sentiment": 12.03,
+      "vocabRichness": 13.86,
+      "theoPace": 170,
+      "guestPace": 0
+    },
+    {
+      "id": "3537",
+      "published": "2025-07-23",
+      "sentiment": 12.62,
+      "vocabRichness": 15.07,
+      "theoPace": 204,
+      "guestPace": 0
+    },
+    {
+      "id": "3521",
+      "published": "2025-08-05",
+      "sentiment": 17.15,
+      "vocabRichness": 14.22,
+      "theoPace": 159,
+      "guestPace": 0
+    },
+    {
+      "id": "3547",
+      "published": "2025-08-07",
+      "sentiment": 13.52,
+      "vocabRichness": 16.94,
+      "theoPace": 200,
+      "guestPace": 0
+    },
+    {
+      "id": "3527",
+      "published": "2025-08-12",
+      "sentiment": 0.56,
+      "vocabRichness": 17.04,
+      "theoPace": 196,
+      "guestPace": 0
+    },
+    {
+      "id": "3524",
+      "published": "2025-08-16",
+      "sentiment": 1.55,
+      "vocabRichness": 16.83,
+      "theoPace": 202,
+      "guestPace": 0
+    },
+    {
+      "id": "3526",
+      "published": "2025-08-20",
+      "sentiment": 7.23,
+      "vocabRichness": 18.08,
+      "theoPace": 201,
+      "guestPace": 0
+    },
+    {
+      "id": "3515",
+      "published": "2025-08-24",
+      "sentiment": 11.79,
+      "vocabRichness": 16.19,
+      "theoPace": 161,
+      "guestPace": 0
+    },
+    {
+      "id": "3522",
+      "published": "2025-08-28",
+      "sentiment": 16.42,
+      "vocabRichness": 16.01,
+      "theoPace": 189,
+      "guestPace": 0
+    },
+    {
+      "id": "3518",
+      "published": "2025-09-03",
+      "sentiment": 9.42,
+      "vocabRichness": 14.74,
+      "theoPace": 196,
+      "guestPace": 0
+    },
+    {
+      "id": "3519",
+      "published": "2025-09-05",
+      "sentiment": 12.41,
+      "vocabRichness": 16.51,
+      "theoPace": 219,
+      "guestPace": 0
+    },
+    {
+      "id": "3516",
+      "published": "2025-09-10",
+      "sentiment": 13.59,
+      "vocabRichness": 17.17,
+      "theoPace": 213,
+      "guestPace": 0
+    },
+    {
+      "id": "3523",
+      "published": "2025-09-15",
+      "sentiment": 9.25,
+      "vocabRichness": 17.36,
+      "theoPace": 191,
+      "guestPace": 0
+    },
+    {
+      "id": "3530",
+      "published": "2025-09-19",
+      "sentiment": 7.59,
+      "vocabRichness": 16.51,
+      "theoPace": 189,
+      "guestPace": 0
+    },
+    {
+      "id": "4665",
+      "published": "2025-09-23",
+      "sentiment": 13.31,
+      "vocabRichness": 15.26,
+      "theoPace": 198,
+      "guestPace": 0
+    },
+    {
+      "id": "4694",
+      "published": "2025-09-27",
+      "sentiment": 5.62,
+      "vocabRichness": 19.22,
+      "theoPace": 210,
+      "guestPace": 0
+    },
+    {
+      "id": "4636",
+      "published": "2025-10-02",
+      "sentiment": 12.85,
+      "vocabRichness": 13.84,
+      "theoPace": 172,
+      "guestPace": 0
+    },
+    {
+      "id": "4654",
+      "published": "2025-10-07",
+      "sentiment": 5.23,
+      "vocabRichness": 20.06,
+      "theoPace": 180,
+      "guestPace": 0
+    },
+    {
+      "id": "4640",
+      "published": "2025-10-09",
+      "sentiment": 5.22,
+      "vocabRichness": 16.71,
+      "theoPace": 223,
+      "guestPace": 0
+    },
+    {
+      "id": "4705",
+      "published": "2025-10-15",
+      "sentiment": 12.93,
+      "vocabRichness": 14.95,
+      "theoPace": 204,
+      "guestPace": 0
+    },
+    {
+      "id": "4688",
+      "published": "2025-10-17",
+      "sentiment": 6.09,
+      "vocabRichness": 16.51,
+      "theoPace": 199,
+      "guestPace": 0
+    },
+    {
+      "id": "5331",
+      "published": "2025-10-22",
+      "sentiment": 6.1,
+      "vocabRichness": 16.21,
+      "theoPace": 182,
+      "guestPace": 0
+    },
+    {
+      "id": "5323",
+      "published": "2025-10-26",
+      "sentiment": 13.83,
+      "vocabRichness": 14.21,
+      "theoPace": 181,
+      "guestPace": 0
+    },
+    {
+      "id": "20385",
+      "published": "2025-10-30",
+      "sentiment": 8.86,
+      "vocabRichness": 17.72,
+      "theoPace": 215,
+      "guestPace": 234
+    },
+    {
+      "id": "20384",
+      "published": "2025-11-04",
+      "sentiment": 14.28,
+      "vocabRichness": 16.85,
+      "theoPace": 214,
+      "guestPace": 207
+    },
+    {
+      "id": "20383",
+      "published": "2025-11-11",
+      "sentiment": 6.91,
+      "vocabRichness": 14.45,
+      "theoPace": 199,
+      "guestPace": 171
+    },
+    {
+      "id": "20382",
+      "published": "2025-11-13",
+      "sentiment": 11.26,
+      "vocabRichness": 16.02,
+      "theoPace": 222,
+      "guestPace": 214
+    },
+    {
+      "id": "20381",
+      "published": "2025-11-20",
+      "sentiment": 10.01,
+      "vocabRichness": 16.6,
+      "theoPace": 210,
+      "guestPace": 199
+    },
+    {
+      "id": "20380",
+      "published": "2025-11-26",
+      "sentiment": 12.47,
+      "vocabRichness": 13.9,
+      "theoPace": 167,
+      "guestPace": 163
+    },
+    {
+      "id": "20379",
+      "published": "2025-11-28",
+      "sentiment": 17.02,
+      "vocabRichness": 18.38,
+      "theoPace": 193,
+      "guestPace": 170
+    },
+    {
+      "id": "20378",
+      "published": "2025-12-03",
+      "sentiment": 13.95,
+      "vocabRichness": 17.15,
+      "theoPace": 212,
+      "guestPace": 201
+    },
+    {
+      "id": "20377",
+      "published": "2025-12-10",
+      "sentiment": 1.58,
+      "vocabRichness": 18.82,
+      "theoPace": 213,
+      "guestPace": 210
+    },
+    {
+      "id": "20376",
+      "published": "2025-12-18",
+      "sentiment": 13.35,
+      "vocabRichness": 13.97,
+      "theoPace": 158,
+      "guestPace": 169
+    },
+    {
+      "id": "20375",
+      "published": "2025-12-23",
+      "sentiment": 8.38,
+      "vocabRichness": 17.28,
+      "theoPace": 218,
+      "guestPace": 185
+    },
+    {
+      "id": "20374",
+      "published": "2025-12-24",
+      "sentiment": 11.17,
+      "vocabRichness": 14.38,
+      "theoPace": 155,
+      "guestPace": 175
+    },
+    {
+      "id": "20373",
+      "published": "2025-12-31",
+      "sentiment": 4.96,
+      "vocabRichness": 18.22,
+      "theoPace": 187,
+      "guestPace": 198
+    },
+    {
+      "id": "20372",
+      "published": "2026-01-06",
+      "sentiment": 2.57,
+      "vocabRichness": 18.86,
+      "theoPace": 210,
+      "guestPace": 207
+    },
+    {
+      "id": "20371",
+      "published": "2026-01-12",
+      "sentiment": 7.78,
+      "vocabRichness": 18.52,
+      "theoPace": 218,
+      "guestPace": 236
+    },
+    {
+      "id": "20370",
+      "published": "2026-01-16",
+      "sentiment": 7.87,
+      "vocabRichness": 17.71,
+      "theoPace": 200,
+      "guestPace": 152
+    },
+    {
+      "id": "20369",
+      "published": "2026-01-21",
+      "sentiment": 2.59,
+      "vocabRichness": 16.83,
+      "theoPace": 205,
+      "guestPace": 186
+    },
+    {
+      "id": "20368",
+      "published": "2026-01-26",
+      "sentiment": 12.09,
+      "vocabRichness": 16.51,
+      "theoPace": 211,
+      "guestPace": 222
+    },
+    {
+      "id": "20367",
+      "published": "2026-02-04",
+      "sentiment": 9.6,
+      "vocabRichness": 16.28,
+      "theoPace": 222,
+      "guestPace": 215
+    },
+    {
+      "id": "20366",
+      "published": "2026-02-09",
+      "sentiment": 12.19,
+      "vocabRichness": 13.52,
+      "theoPace": 222,
+      "guestPace": 233
+    },
+    {
+      "id": "20365",
+      "published": "2026-02-12",
+      "sentiment": 2.05,
+      "vocabRichness": 17.68,
+      "theoPace": 196,
+      "guestPace": 165
+    },
+    {
+      "id": "20364",
+      "published": "2026-02-17",
+      "sentiment": 8.98,
+      "vocabRichness": 17.96,
+      "theoPace": 219,
+      "guestPace": 212
+    },
+    {
+      "id": "20363",
+      "published": "2026-02-20",
+      "sentiment": 4.45,
+      "vocabRichness": 17.38,
+      "theoPace": 192,
+      "guestPace": 186
+    },
+    {
+      "id": "20362",
+      "published": "2026-02-26",
+      "sentiment": 6.45,
+      "vocabRichness": 17.77,
+      "theoPace": 206,
+      "guestPace": 228
+    },
+    {
+      "id": "20361",
+      "published": "2026-03-03",
+      "sentiment": 9.58,
+      "vocabRichness": 13.3,
+      "theoPace": 220,
+      "guestPace": 210
+    },
+    {
+      "id": "20360",
+      "published": "2026-03-05",
+      "sentiment": 10.71,
+      "vocabRichness": 16.9,
+      "theoPace": 210,
+      "guestPace": 203
+    },
+    {
+      "id": "20359",
+      "published": "2026-03-11",
+      "sentiment": 11.45,
+      "vocabRichness": 16.32,
+      "theoPace": 218,
+      "guestPace": 180
+    },
+    {
+      "id": "20358",
+      "published": "2026-03-14",
+      "sentiment": 8.09,
+      "vocabRichness": 14.57,
+      "theoPace": 170,
+      "guestPace": 185
+    },
+    {
+      "id": "20357",
+      "published": "2026-03-19",
+      "sentiment": 1.23,
+      "vocabRichness": 19.92,
+      "theoPace": 192,
+      "guestPace": 164
+    },
+    {
+      "id": "20356",
+      "published": "2026-03-24",
+      "sentiment": 12.64,
+      "vocabRichness": 15.79,
+      "theoPace": 231,
+      "guestPace": 233
+    }
+  ]
+}
